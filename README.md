@@ -10,6 +10,7 @@ python app.py
 
 # What does it serve now ?
 - /index
+
 ``` json
 {
   "group": "List of groups",
@@ -18,20 +19,26 @@ python app.py
   "index": "List of commands"
 }
 ```
+
 - /group
+
 ``` json
 {
   "1": 1,
   "2": 0
 }
 ```
+
 - /group/1
+
 ``` json
 {
   "1": "1.json"
 }
 ```
+
 - /group/1/1
+
 ``` json
 {
   "id_last_word": {
