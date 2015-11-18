@@ -1,0 +1,167 @@
+/*
+Copyright (C) 2005 Sunil Mohan Adapa <sunil atc atc tcs co in>
+
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License 
+as published by the Free Software Foundation; either 
+version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+td.number	{ background-color: lightgreen;				} 
+td.NP		{ background-color: rgb(152,245,255); /*cadetblue*/	}
+td.VP		{ background-color: rgb(255,182,193); /*lightpink*/	}
+td.VGF		{ background-color: rgb(255,182,193); /*lightpink*/	}
+td.VGNF		{ background-color: rgb(255,182,193); /*lightpink*/	}
+td.VGNN		{ background-color: rgb(255,182,193); /*lightpink*/	}
+td.ADJP		{ background-color: rgb(255,236,139); /*lightgolden*/	}
+td.JJP		{ background-color: rgb(255,236,139); /*lightgolden*/	}
+td.ADVP		{ background-color: rgb(127,255,212); /*aquamarine*/	}
+td.RBP		{ background-color: rgb(127,255,212); /*aquamarine*/	}
+td.PP		{ background-color: rgb(255,218,185); /*peach*/		}
+td.SBAR		{ background-color: rgb(198,226,255); /*slategray*/	}
+td.PRT		{ background-color: rgb(135,206,235); /*skyblue*/	}
+td.CC		{ background-color: rgb(192,255,193); /*darkseagreen  Added by S.Maha Laxmi(27-12-11) for stanford parser*/	}
+td.CONJP        { background-color: rgb(192,255,193); /*darkseagreen*/  }
+td.CCP        { background-color: rgb(192,255,193); /*darkseagreen*/  }
+td.INTJ		{ background-color: rgb(255,240,245); /*lavender*/	}
+td.UCP		{ background-color: rgb(173,216,230); /*lightblue*/	}
+td.LST		{ background-color: rgb(240,255,240); /*honeydew*/	}
+td.REP		{ background-color: rgb(192,192,192); /*Light gray*/	}
+/* REP: previous phrase is repeated; to distinguish the two phrases, second one is marked with Light gray*/
+
+td.number
+{
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left: solid 4px black;
+}
+
+td
+{
+  border-left: 0px;
+  border-top: 0px;
+  line-height: 1.4em; /* TODO: Ugly way of doing this */
+  white-space: nowrap;
+
+  /* dynamic */
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+body
+{
+  font-family: "sans";
+  font-size: smaller;
+}
+
+table
+{
+  float: left;
+  margin-bottom: 10px;
+/*  text-align: center;*/
+}
+
+input.suggestion
+{
+  border: solid 1px black;
+  width: 100%;
+}
+
+input.submit_button,
+div.submit_button_block
+{
+  width: 0px;
+  height: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+form.suggestion
+{
+  margin: 0px;
+  display: inline;
+}
+
+#help {
+  float: right;
+  margin-right: 2em;
+}
+
+#navigation {
+  position: fixed;
+  background: white;
+  border-top: ridge;
+  bottom: 0;
+  width: 100%;
+}
+div.bottom {
+  clear: both;
+  height: 3em;
+}
+div.float_clear {
+  clear: both;
+}
+
+
+#translation
+{
+  float: right;
+  margin-right: 2em;
+}
+
+#english_order
+{
+  float: right;
+  margin-right: 2em;
+}
+
+#hindi_order
+{
+  float: right;
+  margin-right: 2em;
+}
+/*TOOLTIP CSS starts from here*/
+.tooltip {
+			border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			cursor: help; text-decoration: none;
+			position: relative;width:auto;
+		}
+
+.tooltip span {
+                        margin-left: -999em;background: #FFDAB9;
+                        position: absolute;outline: none;left: 1em; top: 2em; z-index: 99;
+                }
+.tooltip:hover span {
+                        display: block;width: ; padding: 5px;border: 1px solid #FF3334;
+
+                        border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+                        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);border-color: black;
+                        font-family: Calibri, Tahoma, Geneva, sans-serif;
+                        position: absolute; left: 1em; top: 2em; z-index: 99;
+                        margin-left: 0; /*width: 550px;*/
+                }
+
+.tooltip noun        { color: blue;  }
+.tooltip verb        { color: red;   }
+.tooltip adverb      { color: green; }
+.tooltip adjective   { color: brown;}
+.tooltip preposition { color: purple;}
+.tooltip conjunction { color: DarkSlateBlue;}
+.tooltip determiner  { color: maroon; }
+.tooltip pronoun     { color: SaddleBrown; }
+.tooltip interjection {color: DarkSlateGray;}
+.tooltip wh-adverb   {color:  FireBrick;}
+
+/*TOOLTIP CSS ends here*/

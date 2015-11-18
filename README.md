@@ -16,7 +16,9 @@ python app.py
   "group": "List of groups",
   "group/<number>": "List of files in that group",
   "group/<number>/<file_number>": "Serve the file indexed by file_number",
+  "group/<number>/<file_number>/html": "Serve the file indexed by file_number in html",
   "index": "List of commands"
+
 }
 ```
 
@@ -69,3 +71,6 @@ python app.py
   }
 }
 ```
+
+- /group/1/1/html
+  + serves html for that sentence
