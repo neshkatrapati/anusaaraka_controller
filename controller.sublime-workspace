@@ -1,0 +1,2379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"render",
+				"render_template	import"
+			],
+			[
+				"ini",
+				"init_x"
+			],
+			[
+				"left",
+				"left_tree"
+			],
+			[
+				"right",
+				"right_tree"
+			],
+			[
+				"set",
+				"set_self"
+			],
+			[
+				"ar",
+				"area_of_a_circle"
+			],
+			[
+				"sy",
+				"symbols	statement"
+			],
+			[
+				"eval",
+				"evaluate	function"
+			],
+			[
+				"elem",
+				"elements"
+			],
+			[
+				"hist",
+				"hist_file"
+			],
+			[
+				"send",
+				"send_from_directory	(function)"
+			],
+			[
+				"file",
+				"file_name	param"
+			],
+			[
+				"el",
+				"elements	statement"
+			],
+			[
+				"li",
+				"list	class"
+			],
+			[
+				"ST",
+				"STREE	class"
+			],
+			[
+				"con",
+				"continue	keyword"
+			],
+			[
+				"str",
+				"string_except	statement"
+			],
+			[
+				"c",
+				"children	statement"
+			],
+			[
+				"qu",
+				"quoteBef	statement"
+			],
+			[
+				"q",
+				"quoteBef	statement"
+			],
+			[
+				"is",
+				"is_method	(function)"
+			],
+			[
+				"me",
+				"methods	(param)"
+			],
+			[
+				"nex",
+				"next_element	statement"
+			],
+			[
+				"st",
+				"stdin	function"
+			],
+			[
+				"def",
+				"default	function"
+			],
+			[
+				"de",
+				"defsym	function"
+			],
+			[
+				"op",
+				"operator	function"
+			],
+			[
+				"ex",
+				"expr	param"
+			],
+			[
+				"eva",
+				"evaluate	function"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"bu",
+				"bufstack	statement"
+			],
+			[
+				"BR",
+				"BRACE_CLOSE	statement"
+			],
+			[
+				"cur",
+				"current_clen	statement"
+			],
+			[
+				"temp",
+				"temp_file"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"machine",
+				"machineIds"
+			],
+			[
+				"machi",
+				"machineIds"
+			],
+			[
+				"mach",
+				"machineIds"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"comme",
+				"comments"
+			],
+			[
+				"mac",
+				"machine_id"
+			],
+			[
+				"compl",
+				"complete_correct	(statement)"
+			],
+			[
+				"comple",
+				"complete_total	statement"
+			],
+			[
+				"partial",
+				"partial_incorrect	statement"
+			],
+			[
+				"gold_",
+				"gold_splits	forstmt"
+			],
+			[
+				"parti",
+				"partial_total	statement"
+			],
+			[
+				"j_voca",
+				"j_vocab_get_index_10"
+			],
+			[
+				"j_vocab_",
+				"j_vocab_num_words"
+			],
+			[
+				"j_vo",
+				"j_vocab_index"
+			],
+			[
+				"j_vocab",
+				"j_vocab_index"
+			],
+			[
+				"j_v",
+				"j_vocab_iter"
+			],
+			[
+				"j_",
+				"j_vocab_iter"
+			],
+			[
+				"j_voc",
+				"j_vocab_string"
+			],
+			[
+				"Voca",
+				"VocabIndex"
+			],
+			[
+				"voca",
+				"vocabf"
+			],
+			[
+				"KEN",
+				"KENLM_MAX_ORDER"
+			],
+			[
+				"exce",
+				"exception_roots	statement"
+			],
+			[
+				"pos",
+				"pos_assert	statement"
+			],
+			[
+				"g",
+				"groups	function"
+			],
+			[
+				"gr",
+				"groups	statement"
+			],
+			[
+				"vibhak",
+				"vibhakti_matcher	statement"
+			],
+			[
+				"vibha",
+				"vibhakti"
+			],
+			[
+				"feature",
+				"features_to_be_copied	forflow"
+			],
+			[
+				"vib",
+				"vibhakti_pointer"
+			],
+			[
+				"sub",
+				"substitute_named_entity	function"
+			],
+			[
+				"key",
+				"key_sequence	statement"
+			],
+			[
+				"outp",
+				"output_ssf_stream	statement"
+			],
+			[
+				"out",
+				"output_ssf_file	param"
+			],
+			[
+				"functi",
+				"functionwords_file	param"
+			],
+			[
+				"target_f",
+				"target_features_file	param"
+			],
+			[
+				"__",
+				"__attributes	statement"
+			],
+			[
+				"agr",
+				"agreement_feature"
+			],
+			[
+				"agre",
+				"vc-1-wx-agreement_distribution"
+			],
+			[
+				"ssf",
+				"ssf_to_sentence	function"
+			],
+			[
+				"defau",
+				"default_feature	function"
+			],
+			[
+				"agree",
+				"agreement_distribution	function"
+			],
+			[
+				"function",
+				"function_words"
+			],
+			[
+				"infini",
+				"infinitive_to_root	function"
+			],
+			[
+				"hepta",
+				"heptagramCPD	statement"
+			],
+			[
+				"hexagr",
+				"hexagramCPD	statement"
+			],
+			[
+				"penta",
+				"pentagramCPD	statement"
+			],
+			[
+				"tetra",
+				"tetragramCPD	statement"
+			],
+			[
+				"trigramC",
+				"trigramCPD	statement"
+			],
+			[
+				"bigram",
+				"bigramCPD	statement"
+			],
+			[
+				"tem",
+				"template_bank_backward	statement"
+			],
+			[
+				"bigramC",
+				"bigramCPD"
+			],
+			[
+				"repr",
+				"representative_sentences"
+			],
+			[
+				"templ",
+				"template_bank_backward	statement"
+			],
+			[
+				"dump",
+				"dump_file	statement"
+			],
+			[
+				"repre",
+				"representative_sentences	statement"
+			],
+			[
+				"templa",
+				"template_bank_forward	statement"
+			],
+			[
+				"senten",
+				"sentences	statement"
+			],
+			[
+				"chunk",
+				"chunk_head	statement"
+			],
+			[
+				"outpu",
+				"output_doc	statement"
+			],
+			[
+				"nom",
+				"nominal	forflow"
+			],
+			[
+				"nomina",
+				"nominal_tags	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "from gensim.models.word2vec import Word2Vec\n\n",
+			"file": "/run/user/1000/gvfs/sftp:host=10.2.8.104,user=ganesh_k/home/ganesh_k/mw_internal_composibility/check_composibility.py",
+			"file_size": 44,
+			"file_write_time": 130930066100000000,
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/some_notes/gift_giving.md",
+			"settings":
+			{
+				"buffer_size": 2502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/research/tools/word2vec/word2vec.c",
+			"settings":
+			{
+				"buffer_size": 26184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/stupid_examples/testdb.txt",
+			"settings":
+			{
+				"buffer_size": 2756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/stupid_examples/Argile/autorgn_shlib.argn",
+			"settings":
+			{
+				"buffer_size": 1919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.py",
+			"settings":
+			{
+				"buffer_size": 3210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/1.source",
+			"settings":
+			{
+				"buffer_size": 26551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "1.1\nਗੁਰਬਖ਼ਸ਼ ਸਿੰਘ ਪ੍ਰੀਤ ਲੜੀ ਦੀ ਕਹਾਣੀ ‘ਮੁਬੀਨਾ ਕਿ ਸੁਕੀਨਾ’ ਵੰਡ ਦਾ ਦਰਦ ਬਿਆਨਦੀ,\nਮਨੁੱਖੀ ਕਦਰਾਂ-ਕੀਮਤਾਂ ਨਾਲ ਜੁੜੀਆਂ ਤੰਦਾਂ ਦੀਆਂ ਗੰਢਾਂ ਖੋਲ੍ਹਦੀ ਹੈ।\n<hr/>\n1.2\nਇਹ ਉਹ ਗੰਢਾਂ ਸਨ ਜਿਹੜੀਆਂ ਵੰਡ ਦੀ ਝੁੱਲੀ ਹਨ੍ਹੇਰੀ ਨੇ ਪਾ ਦਿੱਤੀਆਂ ਸਨ।\n<hr/>\n1.3\nਮਾਨਵ-ਵਿਗਿਆਨੀ ਅਜੇ ਤੱਕ ਖੋਜਾਂ ਕਰ ਰਹੇ ਨੇ ਕਿ ਅਜਿਹੇ ਵੇਲਿਆਂ ‘ਤੇ ਮਨੁੱਖ ਵਿਚੋਂ ਮਨੁੱਖਤਾ ਉਡ-ਪੁੱਡ ਕਿਉਂ ਜਾਂਦੀ ਹੈ?\n<hr/>\n1.4\nਵੰਡ ਦੇ ਦਰਦ ਬਾਰੇ ਵੱਖ-ਵੱਖ ਜ਼ੁਬਾਨਾਂ ਵਿਚ ਬਹੁਤ ਸਾਰੀਆਂ ਰਚਨਾਵਾਂ ਦੀ ਸਿਰਜਣਾ ਹੋਈ ਹੈ।\n<hr/>\n1.5\nਹਰ ਰਚਨਾ ਵਿਚ ਮਨੁੱਖਤਾ ਨੂੰ ਪਹਿਲ ਦਿੱਤੀ ਮਿਲਦੀ ਹੈ, ਪਰ ਹਾਲਾਤ ਦੀ ਸਿਤਮਜ਼ਰੀਫੀ ਇਹ\nਹੈ ਕਿ ਇੰਨੇ ਸਮਿਆਂ ਤੋਂ ਮਨੁੱਖ ਦੇ ਦਿਲਾਂ ਵਿਚ ਪਲ ਰਹੀ ਨਫਰਤ ਘਟਣ ਦੀ ਥਾਂ ਵਧ ਰਹੀ\nਜਾਪਦੀ ਹੈ।\n<hr/>\n1.6\nਕਹਾਣੀ ਦਾ ਅੰਤ ਇਸ ਨਫਰਤ ਨੂੰ ਕੱਟ ਸੁੱਟਣ ਦਾ ਕੋਈ ਸੁੱਖ ਸੁਨੇਹਾ ਹੀ ਤਾਂ ਹੈ।\n<hr/>\n1.7\n-ਸੰਪਾਦਕਗੁਰਬਖ਼ਸ਼ ਸਿੰਘਪਿੰਡ ਦੇ ਇਕੋ ਇਕ ਪੱਕੇ ਘਰ ਦੇ ਪਛਵਾੜਿਓਂ ਮਰਦ ਤੇ ਤੀਵੀਂ ਚੋਰਾਂ ਵਾਂਗ ਅੱਗਾ ਪਿੱਛਾ ਘੋਖਦੇ ਨਿਕਲੇ।\n<hr/>\n1.8\nਸਾਹਮਣੇ ਸੂਰਜ ਲਹਿ ਰਿਹਾ ਸੀ, ਸਿੱਧੀਆਂ ਕਿਰਨਾਂ ਉਨ੍ਹਾਂ ਦੇ ਮੂੰਹ ਉਤੇ ਪਈਆਂ।\n<hr/>\n1.9\nਮਰਦ ਦਾ ਜੁੱਸਾ ਜਵਾਨ ਤੇ ਤਕੜਾ, ਤੀਵੀਂ ਦੀ ਨੁਹਾਰ ਸੁਹਣੀ ਤੇ ਪਤਲੀ ਪਰ ਦੋਹਾਂ ਦੇ ਹਵਾਸ ਉੱਡੇ ਹੋਏ।\n<hr/>\n1.10\nਪਲ ਦਾ ਪਲ ਪਰਲੇ ਸਿਰਿਓਂ ਆਉਂਦੀਆਂ ‘ਵਾਜ਼ਾਂ ਸੁਣਨ ਲਈ ਖਲੋ ਕੇ, ਉਹ ਥੋੜ੍ਹੀ ਦੂਰ ਸਰ ਸਰ ਕਰਦੇ ਕਮਾਦ ਦੇ ਖੇਤ ਵਿਚ ਜਾ ਵੜੇ।\n<hr/>\n1.11\nਇਸ ਖੇਤ ਦੇ ਇਕ ਪਾਸੇ ਬੰਨੇ ਉਤੇ ਲਸੂੜੇ ਦਾ ਦਰਖ਼ਤ ਸੀ।\n<hr/>\n1.12\nਇਹ ਜ਼ੈਲਦਾਰ ਹਾਸ਼ਮ ਅਲੀ ਦਾ ਪੁੱਤਰ ਕਾਸਮ ਤੇ ਉਹਦੀ ਨੂੰਹ ਜ਼ੀਨਤ ਸਨ।\n<hr/>\n1.13\nਜ਼ੈਲਦਾਰ ਹਾਸ਼ਮ, ਉਹਦਾ ਕਬੀਲਾ ਤੇ ਪਿੰਡ ਦੇ ਬਹੁਤ ਸਾਰੇ ਲੋਕ ਦੋ ਘੰਟੇ ਨਹੀਂ ਹੋਏ ਕਿ ਪਿੰਡ ਖਾਲੀ ਕਰ ਗਏ ਸਨ।\n<hr/>\n1.14\nਅੱਜ ਤੱਕ ਜ਼ੈਲਦਾਰ ਬੜੇ ਹੌਂਸਲੇ ਵਿਚ ਰਿਹਾ ਸੀ।\n<hr/>\n1.15\nਅਵਾੜੇ ਬੜੇ ਉਡਦੇ ਸਨ, ਕਿ ਉਸ ਪਿੰਡ ਜਥਾ ਪੈ ਗਿਆ, ਇਸ ਪਿੰਡ ਪੈਣਾ ਏ।\n<hr/>\n1.16\nਕੋਈ ਘੋੜੀ ਵਾਲਾ ਉਸ ਖੂਹ ‘ਤੇ ਆਖ ਗਿਆ ਸੀ ਕਿ ਲੁਹਾਰਾਂ ਦੀ ਕੋਟਲੀ ਸਾਰੀ ਸੜ ਗਈ ਏ।\n<hr/>\n1.17\nਜ਼ੈਲਦਾਰ ਕਹਿੰਦਾ, “ਸਭ ਅਵਾੜੇ ਨੇ-ਖਾਤਰ ਜਮ੍ਹਾਂ ਰੱਖੋ।\n<hr/>\n1.18\nਨਵੇਂ ਨਗਰ ਦਾ ਵੱਡਾ ਸਰਦਾਰ ਮੇਰਾ ਦੋਸਤ ਆਪਣੇ ਬੱਚੇ ਸਾਡੇ ਪਿੰਡ ਸੁਆਣ ਨੂੰ ਤਿਆਰ ਏ।\n<hr/>\n1.19\n”ਪਰ ਅੱਜ ਸਵੇਰੇ ਜਦੋਂ ਜ਼ੈਲਦਾਰ ਸਰਦਾਰ ਕੋਲੋਂ ਤਸੱਲੀ ਲੈਣ ਗਿਆ ਤਾਂ ਸਰਦਾਰ ਕੁਝ\nਫਿਰਕਰਮੰਦ ਦਿੱਸਿਆ, ਤੇ ਉਹਦੇ ਕੋਲ ਬੈਠੇ ਨੂੰ ਕੁਝ ਸਿੱਖ ਉਠ ਕੇ ਪਰ੍ਹਾਂ ਲੈ ਗਏ ਤੇ\nਜ਼ੈਲਦਾਰ ਦੇ ਕੰਨੀਂ ਮਾੜੀ ਜਿਹੀ ਭਿਣਖ ਪੈ ਗਈ, “ਸਰਦਾਰ ਜੀ- ਧੋਖਾ ਨਾ ਖਾਣਾ-ਭਸੀਨੋਂ\nਆਇਆ ਨੇ ਜਥਾ ਬਣਾ ਲਿਆ ਜੇ-ਤੇ ਉਹ ਕਿਸੇ ਦੀ ਨਹੀਂ ਜੇ ਸੁਣਦੇ।\n<hr/>\n1.20\n”ਪਿੰਡ ਮੁੜ ਕੇ ਜ਼ੈਲਦਾਰ ਨੇ ਵੱਡੀ ਮਸੀਤ ਵਿਚ ਮੀਟਿੰਗ ਕੀਤੀ ਤੇ ਪਿੰਡ ਖਾਲੀ ਕਰ ਦੇਣ ਦਾ ਫ਼ੈਸਲਾ ਹੋ ਗਿਆ।\n<hr/>\n1.21\nਸਾਰੇ ਪਿੰਡ ਵਿਚ ਚੀਕ-ਚਿਹਾੜਾ ਮੱਚ ਗਿਆ।\n<hr/>\n1.22\nਰੋਂਦਿਆਂ ਧੋਂਦਿਆਂ ਨੇ ਗੰਢਾਂ-ਬੁਚਕੀਆਂ ਬੱਧੀਆਂ, ਸਿੱਖ ਬੱਚਿਆਂ ਨਾਲ ਖੇਡਦੇ ਮੁਸਲਮਾਨ ਬੱਚਿਆਂ ਨੂੰ ਧੌਲ ਧੱਫੇ ਮਾਰ ਘਰੀਂ ਆਂਦਾ।\n<hr/>\n1.23\nਕਿਹਰੂ ਨੇ ਸਰਾਜ਼ ਦੀ ਬਾਂਹ ਫੜ ਲਈ, “ਨਹੀਂ ਤਾਈ, ਇਹਨੂੰ ਮੈਂ ਨਹੀਂ ਜਾਣ ਦੇਣਾ!” ਸਰਾਜ਼\n ਦੀ ਮਾਂ ਨੇ ਇਹ ਆਂਹਦਿਆਂ ਕਿ “ਸਾਡਾ ਦਾਣਾ ਪਾਣੀ ਹੁਣ ਇਥੋਂ ਮੁੱਕ ਗਿਆ ਏ,” ਪੁੱਤਰ ਨੂੰ\n ਅੱਗੇ ਲਾ ਲਿਆ।\n<hr/>\n1.24\nਆਹ ਸੁੱਟ, ਅਹੁ ਫੜ, ਇਹਦੀ ਕਿਸੇ ਹਮਸਾਏ ਨੂੰ ਸਪੁਰਦੀ ਕਰ, ਬੂਹੇ ਜੰਦੇ ਮਾਰ, ਡੰਗਰਾਂ\nਦੀਆਂ ਪਿੱਠਾਂ ਉਤੇ ਜੁੱਲੇ ਪ੍ਰਾਣੇ ਸੁੱਟ, ਲੋਕ ਆਪਣੇ ਘਰਾਂ ‘ਚੋਂ ਨਿਕਲ ਕੇ ਗਲੀਆਂ ਵਿਚ\nਇਕੱਠੇ ਹੋ ਗਏ।\n<hr/>\n1.25\nਪਿੰਡ ਦੀ ਰੂਹ ਆਪਣਾ ਕਾਲਬ ਛੱਡ ਰਹੀ ਸੀ।\n<hr/>\n1.26\nਆਪਣੀਆਂ ਕੰਧਾਂ ਵੱਲ ਵੇਖ ਵੇਖ ਬੁੱਢੇ ਲੋਕ ਢਾਹਾਂ ਮਾਰ ਰਹੇ ਸਨ।\n<hr/>\n1.27\nਹਾਸ਼ਮ ਜ਼ੈਲਦਾਰ ਦੀਆਂ ਅੱਖਾਂ ਵੀ ਭਰੀਆਂ ਹੋਈਆਂ ਸਨ ਤੇ ਉਹ ਆਪਣੇ ਪੁੱਤਰ ਕਾਸਮ ਨੂੰ ਪਿਛਾਂਹ ਰਹਿਣੋਂ ਵਰਜ ਰਿਹਾ ਸੀ।\n<hr/>\n1.28\n“ਤੁਸੀਂ ਬਿਲਕੁਲ ਫਿਕਰ ਨਾ ਕਰੋ”, ਕਾਸਮ ਆਂਹਦਾ ਸੀ, “ਜ਼ੀਨਤ ਕੁਝ ਬਿਮਾਰ ਤੇ ਬਹੁਤ ਘਾਬਰੀ ਹੋਈ ਏ।\n<hr/>\n1.29\nਮੁਬੀਨਾ ਨੂੰ ਚੁੱਕ ਕੇ ਉਹਦੇ ਕੋਲੋਂ ਤੁਰਿਆ ਨਹੀਂ ਜਾਣਾ।\n<hr/>\n1.30\nਨਾਲੇ ਮੈਂ ਸਾਰੀ ਖ਼ਬਰਸਾਰ ਲੈ ਕੇ ਆਵਾਂਗਾ।\n<hr/>\n1.31\nਦੂਰੋਂ ਜਥਾ ਆਉਂਦਾ ਵੇਖ ਕੇ, ਮੈਂ ਜ਼ੀਨਤ ਨੂੰ ਘੋੜੀ ਉਤੇ ਅੱਗੇ ਬਿਠਾ, ਪੱਤਣੋਂ ਪਾਰ ਹੋ ਤੁਹਾਨੂੰ ਆ ਮਿਲਾਂਗਾ।\n<hr/>\n1.32\n”ਕਈ ਹੋਰ ਜਵਾਨ ਵੀ ਪਿਛਾਂਹ ਰਹਿ ਗਏ, ਕੀ ਪਤਾ ਜਥਾ ਨਾ ਹੀ ਪਏ।\n<hr/>\n1.33\nਨਵੇਂ ਨਗਰ ਦਾ ਸਰਦਾਰ ਜਥੇ ਨੂੰ ਰੋਕ ਹੀ ਲਏ, ਤੇ ਫਿਰ ਉਹ ਸਾਰੇ ਪਿੰਡ ਨੂੰ ਮੋੜ ਲਿਆਉਣਗੇ।\n<hr/>\n1.34\nਵਤਨ ਛੁੱਟ ਰਿਹਾ ਸੀ, ਪੈਲੀਆਂ ਖੂਹ ਛੁੱਟ ਰਹੇ ਸਨ, ਮੈਦਾਨ ਛੁੱਟ ਰਹੇ ਸਨ ਜਿਨ੍ਹਾਂ ਦੀ ਮਿੱਟੀ ਵਿਚ ਆੜੀਆਂ ਨਾਲ ਛਿੱਲੇ ਮੋਢੇ ਅਭੁੱਲ ਯਾਦਾਂ ਬਣ ਗਏ ਸਨ।\n<hr/>\n1.35\nਬੇਰੀਆਂ ਛੁੱਟ ਰਹੀਆਂ ਸਨ ਜਿਨ੍ਹਾਂ ਦੇ ਬਚਪਨ ਵਿਚ ਚੋਰੀ ਖਾਧੇ ਬੇਰਾਂ ਵਰਗਾ ਮਿੱਠਾ ਫਲ ਫੇਰ ਕਦੇ ਕਿਸੇ ਨਹੀਂ ਖਾਧਾ।\n<hr/>\n1.36\nਆਪਣੇ ਖੂਹ ਕੋਲੋਂ ਲੰਘਦਿਆਂ ਇਬਰਾਹੀਮ ਦੀ ਵਹੁਟੀ ਦੀ ਹਾ ਨਿਕਲ ਗਈ, “ਹੁਣੇ ਨਵੀਆਂ ਟਿੰਡਾਂ ਪੁਆਈਆਂ ਸਨ।\n<hr/>\n1.37\nਵੀਹ ਰੁਪਈਏ ਲਾ ਕੇ ਨਵੀਂ ਕਾਂਜਣ ਚੜ੍ਹਾਈ ਸੀ।\n<hr/>\n1.38\n”ਭੌਂ ਭੌਂ ਆਪਣੀਆਂ ਜੂਹਾਂ ਨੂੰ ਤੱਕਦੇ ਲੋਕਾਂ ਦੀਆਂ ਅੱਖਾਂ ਬੰਨਿਆਂ, ਢੇਰੀਆਂ, ਵਾੜਾਂ ਨਾਲ ਅੜ ਅੜ ਰੁਕਦੀਆਂ।\n<hr/>\n1.39\nਓੜਕ ਜਾਣਿਆ ਪਿਆਰਿਆ ਸਭ ਕੁਝ ਲੋਪ ਹੋ ਗਿਆ ਤੇ ਪਰਦੇਸ ਦੀ ਛਿਣਕ ਪਰ੍ਹਾਂ ਸੁੱਟਦੀ ਹੱਦ ਉਤੇ ਸੋਗੀ ਕਾਫ਼ਲਾ ਬਹਿ ਗਿਆ।\n<hr/>\n1.40\nਓਧਰ ਨਵੇਂ ਨਗਰੋਂ ਪੈਲੀਓਂ ਪੈਲੀ ਦੌੜਦਾ ਆ ਕੇ ਕੋਈ ਖ਼ਬਰ ਦੇ ਗਿਆ ਕਿ ਭੱਠੇ ਤੱਕ ਜਥਾ ਪਹੁੰਚ ਗਿਆ ਸੀ।\n<hr/>\n1.41\nਕਾਸਮ ਆਪਣੇ ਤਵੇਲੇ ਵੱਲ ਭੱਜਾ ਗਿਆ, ਪਰ ਘੋੜੀ ਉਥੇ ਕੋਈ ਨਹੀਂ ਸੀ।\n<hr/>\n1.42\nਤੇ ਦੂਰੋਂ ਅਜੇ ਚੋਖੀ ਦੂਰੋਂ, ਤਲਵਾਰਾਂ ਲਿਸ਼ਕਦੀਆਂ ਉਹਨੂੰ ਦਿਸੀਆਂ।\n<hr/>\n1.43\n“ਜ਼ੀਨਤ, ਜ਼ੀਨਤ! ਚੁੱਕ ਮੁਬੀਨਾ ਨੂੰ, ਘੋੜੀ ਕਿਸੇ ਖੋਲ੍ਹ ਖੜ੍ਹੀ ਏ।\n<hr/>\n1.44\nਛੇਤੀ ਕਰ।\n<hr/>\n1.45\nਘਰ ਦੇ ਪਿਛਵਾੜੇ ਕਮਾਦ ਵਿਚ ਲੁਕਣ ਦੇ ਸਿਵਾ ਹੋਰ ਕੋਈ ਰਾਹ ਨਹੀਂ ਰਿਹਾ।\n<hr/>\n1.46\n”ਕਮਾਦ ਵਿਚ ਉਹ ਵੜੇ ਹੀ ਸਨ ਕਿ ਜਥਾ ਪਿੰਡ ਦੀ ਜੂਹ ਵਿਚ ਆ ਧਮਕਿਆ।\n<hr/>\n1.47\nਬੰਨੇ ਕੋਲੋਂ ਕਈ ਦੌੜਦੇ ਲੰਘਦਿਆਂ ਦੀ ‘ਵਾਜ਼ ਆਈ।\n<hr/>\n1.48\n“ਇਹ ਆਪਣੇ ਹੀ ਹੋਣਗੇ, ਪੱਤਣ ਵੱਲ ਨੱਠੇ ਜਾਂਦੇ।\n<hr/>\n1.49\n” ਕਾਸਮ ਨੇ ਆਖਿਆ।\n<hr/>\n1.50\nਇੰਨੇ ਨੂੰ ਪਿੰਡ ਵਿਚੋਂ ਐਉਂ ਸ਼ੋਰ ਆਉਣ ਲੱਗ ਪਿਆ ਜਿਉਂ ਉਥੇ ਅਸਮਾਨ ਟੁੱਟ ਪਿਆ ਸੀ।\n<hr/>\n1.51\nਸ਼ੋਰ ਉਨ੍ਹਾਂ ਦੇ ਨੇੜੇ ਤੇੜੇ ਆਉਂਦਾ ਜਾ ਰਿਹਾ ਸੀ।\n<hr/>\n1.52\nਕਮਾਦ ਵਿਚ ਬੜਾ ਹੁੱਸੜ ਲੱਗ ਰਿਹਾ ਸੀ।\n<hr/>\n1.53\nਮੁਬੀਨਾ ਭਾਵੇਂ ਅਜੇ ਜਾਗੀ ਨਹੀਂ ਸੀ, ਪਰ ਪਾਸੇ ਮਾਰਨ ਲੱਗ ਪਈ ਸੀ।\n<hr/>\n1.54\n“ਬੜੀ ਮੁਸ਼ਕਲ ਬਣੀ, ਇਹਨੇ ਰੋ ਪੈਣਾ ਏæææਤੇ ਜਥਾ ਹੁਣ ਸਾਡੇ ਘਰ ਪਹੁੰਚਿਆ ਕਿ ਪਹੁੰਚਿਆ।\n<hr/>\n1.55\n”ਦਾੜ ਦਾੜ ਕਰਦੇ ਦੋ ਘੁੜਸਵਾਰ ਬੰਨੇ ਦੇ ਲਾਗਿਉਂ ਲੰਘ ਗਏ ਜਿਵੇਂ ਉਹ ਕਿਸੇ ਨੱਠਦੇ ਦੇ ਮਗਰ ਪਏ ਸਨ।\n<hr/>\n1.56\n“ਜ਼ੀਨਤ, ਮੁਬੀਨਾ ਦੇ ਜਾਗਣ ਤੋਂ ਪਹਿਲਾਂ ਲਿਆ ਮੈਂ ਇਹਨੂੰ ਲਸੂੜੇ ਹੇਠਾਂ ਪਾ ਆਵਾਂ।\n<hr/>\n1.57\nਉਥੇ ਸੁੱਤੀ ਰਹੇਗੀ, ਤੇ ਜਦੋਂ ਜਥਾ ਮੁੜ ਗਿਆ, ਮੈਂ ਇਹਨੂੰ ਚੁੱਕ ਲਿਆਵਾਂਗਾ।\n<hr/>\n1.58\n”“ਜੀਆ ਨਹੀਂ ਮੰਨਦਾ, ਇਹ ਬੋਟ ਜਿਹਾ ਸੁੱਟ ਪਾਵਾਂ।\n<hr/>\n1.59\n”“ਛੇਤੀ ਕਰ, ਇਹਦੀ ਵੀ ਤੇ ਸਾਡੀ ਵੀ ਸੁਖ ਇਸੇ ਗੱਲ ਵਿਚ ਏ।\n<hr/>\n1.60\nਇਹ ਅੰਦਰ ਜਾਗੀ ਤੇ ਅਸੀਂ ਸਾਰੇ ਮੋਏ।\n<hr/>\n1.61\n”ਪਿੰਡ ਵਿਚ ਗੋਲੀਆਂ ਚੱਲਣ ਦੀ ਠਾਹ ਠਾਹ ਆਈ।\n<hr/>\n1.62\n“ਫੜਾ ਮੈਨੂੰ ਇਕ ਮਿੰਟ ਨਾ ਸੋਚ।\n<hr/>\n1.63\n”ਜ਼ੀਨਤ ਨੇ ਮੁਬੀਨਾ ਦਾ ਮੂੰਹ ਚੁੰਮਿਆ ਤੇ ਕਾਸਮ ਨੇ ਛੇਤੀ ਦਿੱਤੀ ਉਸ ਹੱਥੋਂ ਕੁੜੀ ਲੈ ਲਈ ਤੇ ਬਾਹਰ ਲਿਆ ਕੇ ਲਸੂੜੇ ਹੇਠਾਂ ਪਾ ਦਿੱਤੀ।\n<hr/>\n1.64\nਕਾਸਮ ਦਾ ਧਿਆਨ ਸੋਨੇ ਦੀ ਜ਼ੰਜੀਰੀ ਉਤੇ ਪਿਆ ਜਿਹੜੀ ਕਾਸਮ ਦੀ ਮਾਂ ਨੇ ਮੁਬੀਨਾ ਦੇ ਗਲ ਪਾਈ ਸੀ।\n<hr/>\n1.65\nਉਸ ਸੋਚਿਆ ਕਿ ਇਹ ਲਾਹ ਲਵੇ, ਫਿਰ ਖਿਆਲ ਕੀਤਾ ਕਿ ਜੇ ਉਹ ਛੱਡਣੀ ਪਈ ਤਾਂ ਲੱਭਣ ਵਾਲੇ\nਨੂੰ ਜ਼ੰਜੀਰ ਸਮੇਤ ਮੁਬੀਨਾ ਖੌਰੇ ਭਾਰੀ ਨਾ ਹੀ ਜਾਪੇ ਤੇ ਉਹ ਇਹਦਾ ਚੰਗਾ ਖਿਆਲ ਕਰੇ।\n<hr/>\n1.66\n“ਖੁਦਾ ਹਾਫਿਜ਼!” ਤੇ ਕਾਸਮ ਜ਼ੀਨਤ ਨੂੰ ਆ ਮਿਲਿਆ।\n<hr/>\n1.67\nਐਨ ਉਨ੍ਹਾਂ ਦੇ ਘਰ ਵਿਚੋਂ ‘ਵਾਜ਼ਾਂ ਆਉਣ ਲੱਗ ਪਈਆਂ।\n<hr/>\n1.68\n“ਮੇਰੇ ਮਗਰ ਮਗਰ ਬੂਟਾ ਬੂਟਾ ਬਚਾ ਕੇ ਖੜਾਕ ਨਾ ਹੋਣ ਦੇ, ਤੁਰੀ ਆ ਜ਼ੀਨਤ ਤੁਰੀ ਆ।\n<hr/>\n1.69\n”‘ਵਾਜ਼ਾਂ ਕੋਲੋਂ ਘਬਰਾ ਕੇ ਉਹ ਖੇਤ ਵਿਚ ਪਰਲੇ ਪਾਸੇ ਤੁਰੀ ਗਏ।\n<hr/>\n1.70\n“ਹਾਏ ਮੁਬੀਨਾ ਰੋ ਪਈ ਹੋਵੇਗੀ!” ਜ਼ੀਨਤ ਖੜ੍ਹੋ ਗਈ।\n<hr/>\n1.71\n“ਮੁਬੀਨਾ ਸੌਂਪ ਅੱਲਾਹ ਨੂੰ, ਤੁਰੀ ਆ ਖਲੋਣ ਦਾ ਵਕਤ ਨਹੀਂ।\n<hr/>\n1.72\n”ਉਹ ਬੂਟਾ ਬੂਟਾ ਉਲੰਘਦੇ ਦੂਜੇ ਸਿਰੇ ਪਹੁੰਚ ਗਏ।\n<hr/>\n1.73\nਹੁੱਸੜ ਨਾਲ ਜ਼ੀਨਤ ਦੀ ਜਾਨ ਮੂੰਹ ਆ ਰਹੀ ਸੀ।\n<hr/>\n1.74\n“ਜ਼ਰਾ ਕੁ ਤੂੰ ਇਥੇ ਸਬਰ ਕਰ, ਮੈਂ ਬੰਨੇ ਤੋਂ ਵੇਖ ਆਵਾਂ।\n<hr/>\n1.75\n”ਘੁਸਮੁਸਾ, ਹਨੇਰਾ।\n<hr/>\n1.76\nਨਾ ਜੀਆ ਨਾ ਜੁਆਤਰੂ।\n<hr/>\n1.77\nਪੰਛੀ ਆਲ੍ਹਣਿਆਂ ਵਿਚ ਮੁੜ ਰਹੇ ਸਨ।\n<hr/>\n1.78\nਜਿਸ ਪਹੇ ਤੋਂ ਤੁਰ ਕੇ ਅੱਠ ਵਰ੍ਹੇ ਰੋਜ਼ ਕਾਸਮ ਦੂਜੇ ਪਿੰਡ ਮਦਰਸੇ ਜਾਂਦਾ ਰਿਹਾ ਸੀ, ਉਹ ਅੱਜ ਉਹਨੂੰ ਮੌਤ ਦਾ ਪਹਾ ਜਾਪ ਰਿਹਾ ਸੀ।\n<hr/>\n1.79\nਜਿਸ ਖੂਹ ਉਤੇ ਜ਼ੀਨਤ ਦਾ ਡੋਲਾ ਅਜੇ ਪਿਛਲੇਰੇ ਵਰ੍ਹੇ ਉਤਰਿਆ ਸੀ, ਉਹ ਖੂਹ ਅੱਜ ਬਾਂ-ਬਾਂ ਕਰ ਰਿਹਾ ਸੀ।\n<hr/>\n1.80\nਉਤੋਂ ਬੱਦਲ ਗਰਜਿਆ।\n<hr/>\n1.81\nਮਹੀਨ ਮਹੀਨ ਜਿਹੀ ਫੁਹਾਰ ਹਵਾ ਨਾਲ ਉਡ ਕੇ ਉਹਦੇ ਬੁੱਲ੍ਹਾਂ ਉਤੇ ਪਈ।\n<hr/>\n1.82\nਉਹਨੂੰ ਪਿਆਸ ਲੱਗੀ ਦਾ ਅਹਿਸਾਸ ਹੋਇਆ।\n<hr/>\n1.83\nਮੁਬੀਨਾ ਯਾਦ ਆਈ ਕਿ ਉਹ ਰਾਤ ਸਾਰੀ ਭੁੱਖੀ ਰੋਂਦੀ ਰਹੇਗੀ।\n<hr/>\n1.84\nਜਦੋਂ ਹਨੇਰਾ ਗੂੜ੍ਹਾ ਹੋ ਗਿਆ, ਜ਼ੀਨਤ ਤੇ ਕਾਸਮ ਪੱਤਣ ਵੱਲ ਤੁਰ ਪਏ।\n<hr/>\n1.85\nਮੁਬੀਨਾ ਨੂੰ ਜਾ ਕੇ ਲੈ ਆਉਣਾ ਅਣਹੋਣਾ ਹੋ ਗਿਆ ਸੀ।\n<hr/>\n1.86\nਪੰਜ ਵਿੱਘਿਆਂ ਦੀ ਲੰਮੀ ਪੈਲੀ ਹਾਸ਼ਮ ਨੇ ਗੁਣਿਆਂ ਵਿਚ ਤੇਲ ਚੋ ਚੋ ਕੇ ਬੀਜੀ ਸੀ।\n<hr/>\n1.87\nਪੱਤਣ ਉਤੇ ਬੜੀ ਭੀੜ ਸੀ।\n<hr/>\n1.88\nਬੇੜੀ ਇਕ ਸੀ ਤੇ ਉਹਦੇ ਦੋ ਮਲਾਹ ਭਾਵੇਂ ਸਨ ਮੁਸਲਮਾਨ, ਪਰ ਪਾਰ ਕਰਾਈ ਵੀਹ ਰੁਪਈਆਂ ਤੋਂ ਪੈਸਾ ਘੱਟ ਨਹੀਂ ਸਨ ਮੰਨਦੇ।\n<hr/>\n1.89\nਤ੍ਰੀਮਤਾਂ ਟੂੰਬਾਂ ਲਾਹ ਲਾਹ ਫੜਾਂਦੀਆਂ ਸਨ।\n<hr/>\n1.90\nਦੋ ਬੇਸਾਥ ਮੁਟਿਆਰਾਂ ਤਰਲੇ ਕਰ ਕਰ ਹਾਰ ਗਈਆਂ ਸਨ।\n<hr/>\n1.91\nਜ਼ੀਨਤ ਨੇ ਦੋ ਚੂੜੀਆਂ ਬੁੱਕੋਂ ਲਾਹ ਕੇ ਕਾਸਮ ਦੇ ਹੱਥ ਫੜਾਈਆਂ।\n<hr/>\n1.92\nਕਾਸਮ ਨੇ ਬਾਕੀ ਦੋ ਵੀ ਲੁਹਾ ਕੇ ਜੇਬ ਪਾ ਲਈਆਂ ਤੇ ਮਲਾਹਾਂ ਨੂੰ ਜ਼ਰਾ ਤਮਕ ਵਿਚ ਆ ਕੇ ਆਖਿਆ, “ਓ ਮੀਆਂ, ਕੁਝ ਤੇ ਖ਼ੌਫ ਖਾਓ।\n<hr/>\n1.93\nਤੁਹਾਨੂੰ ਚੰਗਾ ਲੱਗੇਗਾ ਜੇ ਇਹ ਜਵਾਨਾਂ ਜਹਾਨਾਂ ਦੁਸ਼ਮਣਾਂ ਦੇ ਢਏ ਚੜ੍ਹ ਜਾਣæææਨਾਲੇ ਇਹ ਦੋ ਚੂੜੀਆਂ ਸੌ ਤੋਂ ਬਿਲਕੁਲ ਘੱਟ ਨਹੀਂ।\n<hr/>\n1.94\n”ਕਾਸਮ ਦੇ ਰੁਅਬ ਹੇਠਾਂ ਮਲਾਹ ਆ ਗਏ ਤੇ ਬੇੜੀ ਭਰ ਕੇ ਪਾਰਲੇ ਕੰਢੇ ਜਾ ਲੱਗੀ।\n<hr/>\n1.95\nਉਥੋਂ ਸਰਹੱਦ ਮਸਾਂ ਸਵਾ ਮੀਲ ਸੀ, ਤੇ ਵਿਚ ਆਬਾਦੀ ਕੋਈ ਨਹੀਂ ਸੀ।\n<hr/>\n1.96\nਰਾਤ ਸਾਰੀ ਮੀਂਹ ਕਦੇ ਵਰ੍ਹਦਾ ਤੇ ਕਦੇ ਹਟਦਾ ਰਿਹਾ।\n<hr/>\n1.97\nਲਸੂੜੇ ਦੇ ਚੌੜੇ ਪੱਤਿਆਂ ਉਤੇ ਕਣੀਆਂ ਇਕੱਠੀਆਂ ਹੋ ਜਾਂਦੀਆਂ, ਹਵਾ ਆਉਂਦੀ ਤੇ ਮੁਬੀਨਾ ਦੇ ਮੂੰਹ ਉਤੇ ਡੁੱਲ੍ਹ ਪੈਂਦੀਆਂ।\n<hr/>\n1.98\nਰੋਂਦੇ ਬੁਲ੍ਹ ‘ਲਿਪ ਲਿਪ’ ਕਰਨ ਲੱਗ ਪੈਂਦੇ।\n<hr/>\n1.99\nਕਈ ਟੇਪੇ ਨਿੱਕੇ ਜਿਹੇ ਮੂੰਹ ਵਿਚ ਚਲੇ ਜਾਂਦੇ।\n<hr/>\n1.100\nਕਦੇ ਉਹ ਰੋਂਦੀ, ਕਦੀ ਪਾਣੀ ਦੇ ਟੇਪਿਆਂ ਨਾਲ ‘ਲਿਪ ਲਿਪ’ ਕਰਦੀ, ਕਦੇ ਹੰਭ ਕੇ ਸੌਂ ਜਾਂਦੀ।\n<hr/>\n1.101\nਇਸੇ ਤਰ੍ਹਾਂ ਰਾਤ ਲੰਘ ਗਈ।\n<hr/>\n1.102\nਸੂਰਜ ਦਾ ਪਹਿਲਾ ਚਾਨਣ ਜਦੋਂ ਸੁਨਹਿਰੀ ਕਿਰਨਾਂ ਉਤੇ ਚੜ੍ਹ ਕੇ ਮੁਬੀਨਾ ਦੇ ਮੂੰਹ ਤੱਕ ਪਹੁੰਚਾ ਤਾਂ ਉਹ ਲੱਤਾਂ ਬਾਹਾਂ ਮਾਰ ਰਹੀ ਸੀ।\n<hr/>\n1.103\nਉਹਦੀਆਂ ਅੱਖਾਂ ਖੁੱਲ੍ਹੀਆਂ ਤੇ ਉਹਦੇ ਫੀਰੋਜ਼ੀ ਝੱਗੇ ਉਤੇ ਸੋਨੇ ਦੀ ਜ਼ੰਜੀਰ ਲਿਸ਼ ਲਿਸ਼ ਕਰ ਰਹੀ ਸੀ।\n<hr/>\n1.104\nਰਾਤੀਂ ਜਥਾ ਮੋਟੀ ਮੋਟੀ ਚੀਜ਼ ਵਸਤ ਚੁਗ ਕੇ ਚਲਾ ਗਿਆ ਸੀ।\n<hr/>\n1.105\nਖਾਲੀ ਪਿੰਡ ਦੀ ਭਿਆਨਕਤਾ ਲੁਟੇਰਿਆਂ ਲਈ ਵੀ ਜ਼ਿਆਦਾ ਸੀ।\n<hr/>\n1.106\nਦਿਨੇ ਛਾਹ ਵੇਲਾ ਖਾ ਕੇ ਉਹ ਫੇਰ ਮੁੜ ਆਏ।\n<hr/>\n1.107\nਉਜਾੜ ਮੁੜ ਵਸ ਪਈ, ਪਰ ਇਹ ਵਸੇਬਾ ਨਿਰਾਲਾ ਸੀ।\n<hr/>\n1.108\nਸੰਦੂਕ ਟੁੱਟ ਰਹੇ ਸਨ, ਜੰਦਰੇ ਭੱਜ ਰਹੇ ਸਨ, ਪੋਲੀਆਂ ਥਾਂਵਾਂ ਫੋਲ ਹੋ ਰਹੀਆਂ ਸਨ।\n<hr/>\n1.109\nਜ਼ੀਨਤ ਹੋਰਾਂ ਦੇ ਪੱਕੇ ਘਰ ਦੀ ਕਮਾਦ ਵਾਲੇ ਪਾਸੇ ਦੀ ਬਾਰੀ ਖੁੱਲ੍ਹੀ।\n<hr/>\n1.110\nਕਿਸੇ ਨੇ ਬਾਰੀ ‘ਚੋਂ ਤੱਕਿਆ।\n<hr/>\n1.111\nਸਰ-ਸਰ ਕਰਦਾ ਕਮਾਦ, ਮੀਂਹ ਨਾਲ ਧੁਪਿਆ ਸਾਵਾ ਕਚਾਹ ਲਸੂੜਾæææਤੇ ਔਹ ਕੀ?\n<hr/>\n1.112\nਕੋਈ ਬੱਚਾ, ਨਿੱਕਾ ਜਿਹਾ, ਚਿਚਲਾਂਦਾ! ਵੇਖਣ ਵਾਲਾ ਕੋਠੇ ਤੋਂ ਛੇਤੀ ਛੇਤੀ ਉਤਰ ਲਸੂੜੇ ਕੋਲ ਅਪੜਿਆ।\n<hr/>\n1.113\nਕਿਸੇ ਨੂੰ ਆਪਣੇ ਵੱਲ ਤੱਕਦਾ ਵੇਖ ਕੇ ਮੁਬੀਨਾ ਇਕਦਮ ਚੁੱਪ ਕਰ ਗਈ।\n<hr/>\n1.114\nਉਹਦੀਆਂ ਝਿਮਣੀਆਂ ਨਾਲ ਅੱਥਰੂ ਡਲ੍ਹਕ ਰਹੇ ਸਨ ਤੇ ਝੱਗੇ ਉਤੇ ਜ਼ੰਜੀਰ ਲਿਸ਼ਕ ਰਹੀ ਸੀ।\n<hr/>\n1.115\nਵੇਖਣ ਵਾਲਾ ਬੜਾ ਖ਼ੁਸ਼ ਹੋਇਆ।\n<hr/>\n1.116\nਉਹਨੇ ਨਿਉਂ ਕੇ ਬਾਹਾਂ ਅੱਡੀਆਂ।\n<hr/>\n1.117\nਮੁਬੀਨਾ ਨੇ ਬੁੱਲ੍ਹ ਟੇਰ ਲਏ, ਜੀਕਰ ਅੱਧ ਭਰੋਸੇ ਵਿਚ।\n<hr/>\n1.118\nਆਦਮੀ ਨੇ ਉਹਦੇ ਬੁੱਲ੍ਹਾਂ ਉਤੇ ਉਂਗਲਾਂ ਨਾਲ ਲਾਡ ਕੀਤਾ।\n<hr/>\n1.119\nਮੁਬੀਨਾ ਹੁਣ ਮੁਸਕਾ ਪਈ।\n<hr/>\n1.120\nਆਦਮੀ ਨੇ ਉਹਦੇ ਗਲੋਂ ਜ਼ੰਜੀਰੀ ਲਾਹ ਕੇ ਡੱਬ ਵਿਚ ਅੜੁੰਗ ਲਈ ਤੇ ਉਹਨੂੰ ਕੁੱਛੜ ਸਾਂਭ ਕੇ ਉਹ ਮੁੜ ਆਇਆ।\n<hr/>\n1.121\nਉਹਦਾ ਸਾਥੀ ਵੀ ਆਪਣੀ ਲੱਭਤ ਨਾਲ ਬੜਾ ਖੁਸ਼ ਹੋ ਰਿਹਾ ਸੀ।\n<hr/>\n1.122\nਹਾਸ਼ਮ ਦਾ ਘਰ ਆਦੀ ਸੀ।\n<hr/>\n1.123\n“ਮੈਨੂੰ ਛੁੱਟੀ ਦੇ ਦਿਓ, ਸਰਦਾਰ ਜੀæææਮੈਨੂੰ ਬੜਾ ਕੁਝ ਲੱਭ ਪਿਆ ਏ।\n<hr/>\n1.124\n”“ਕੀ ਲੱਭਾ ਈ?\n<hr/>\n1.125\n” ਤੇ ਉਹਦੇ ਕੁੱਛੜ ਮੁਬੀਨਾ ਚੁੱਕੀ ਵੇਖ ਕੇ ਦੂਜਾ ਸਾਥੀ ਬੋਲਿਆ, “ਇਹਦੇ ਨਾਲ ਤੇਰਾ ਢਿੱਡ ਥੋੜ੍ਹਾ ਭਰਨਾ ਏ।\n<hr/>\n1.126\nਮਾਰ ਲੈ ਦੋ ਹੱਥ, ਹੁਣ ਵੇਲਾ ਈ।\n<hr/>\n1.127\nਫੇਰ ਪਛਤਾਏਂਗਾ।\n<hr/>\n1.128\n”“ਨਹੀਂ ਸਰਦਾਰ ਜੀ, ਮੈਨੂੰ ਤੁਸੀਂ ਜਾਣ ਹੀ ਦਿਓ।\n<hr/>\n1.129\nਹੁਣ ਹੋਰ ਕਾਸੇ ਵਸਤ ਨੂੰ ਹੱਥ ਲਾਣ ‘ਤੇ ਰੂਹ ਨਹੀਂ ਕਰਦੀ।\n<hr/>\n1.130\nਇਹ ਖੌਰੇ ਕਦੋਂ ਦੀ ਭੁੱਖੀ ਏ।\n<hr/>\n1.131\n”“ਕੁੜੀ ਆ?\n<hr/>\n1.132\n”“ਹਾਂ ਜੀ ਕੁੜੀ ਏ।\n<hr/>\n1.133\n”“ਤਾਂ ਤੇ ਮੌਜ ਬਣ ਗਈ ਊ।\n<hr/>\n1.134\nਵੇਖ ਖਾਂ, ਕਾਸਮ ਦੀ ਹੋਣੀ ਏ।\n<hr/>\n1.135\n”“ਮੈਂ ਫੇਰ ਜਾਵਾਂ ਜੀ?\n<hr/>\n1.136\n”“ਮਰਜ਼ੀ ਤੇਰੀ, ਵੇਲਾ ਚੰਗਾ ਸਾਈ।\n<hr/>\n1.137\nਜੇ ਚੰਗੜ੍ਹ੍ਹੀ ਜੋਗੇ ਚਾਰ ਲੀੜੇ ਹੀ ਲੈ ਜਾਂਦੋ।\n<hr/>\n1.138\n”“ਚੰਗੜ੍ਹ੍ਹੀ ਮੇਰੀ ਨੂੰ ਤੁਸੀਂ ਜਾਣਦੇ ਈ ਹੋ, ਉਹ ਮੈਨੂੰ ਵੱਢ ਵੱਢ ਖਾਂਦੀ ਰਹਿੰਦੀ ਏ ਕਿ ਮੇਰੇ ਭੈੜੇ ਚਾਲਿਆਂ ਕਰ ਕੇ ਉਹਦਾ ਢਿੱਡ ਫਲਿਆ ਨਹੀਂ।\n<hr/>\n1.139\nਕੱਪੜਿਆਂ ਨਾਲੋਂ ਉਹ ਇਹਨੂੰ ਬਹੁਤਾ ਚਾਹੇਗੀ।\n<hr/>\n1.140\n”“ਜਾ ਲੈ ਜਾ ਸੂæææਤੇ ਘੋੜੀ ਸਾਡੀ ਹਵੇਲੀ ਬੰਨ੍ਹ ਦੇਈਂ।\n<hr/>\n1.141\n”ਇਹ ਚੰਗੜ੍ਹ ਮਾਨਾਂਵਾਲੇ ਦੇ ਇਕ ਅਵੈਲੀ ਜ਼ਿਮੀਂਦਾਰ ਦਾ ਸੰਗੀ ਸੀ।\n<hr/>\n1.142\nਇਹਦੀ ਮਦਦ ਨਾਲ ਜ਼ਿਮੀਂਦਾਰ ਨੇ ਕਈ ਚੋਰੀਆਂ ਕੀਤੀਆਂ ਹੋਈਆਂ ਸਨ ਤੇ ਜਦੋਂ ਚਾਰ ਦਿਨ ਹੋਏ\nਸਾਰੇ ਮੁਸਲਮਾਨ ਇਨ੍ਹਾਂ ਦੇ ਪਿੰਡੋਂ ਨਿਕਲ ਗਏ ਤਾਂ ਇਹਨੇ ਇਸ ਚੰਗੜ੍ਹ੍ਹ ਨੂੰ ਜਾਣ ਨਹੀਂ\nਸੀ ਦਿੱਤਾ, “ਕੋਈ ਤੱਕ ਕੇ ਤਾਂ ਵੇਖੇ ਤੇਰੀ ‘ਵਾ ਵੱਲ।\n<hr/>\n1.143\n”ਚੰਗੜ੍ਹੀ ਨੇ ਬੂਹਾ ਖੋਲ੍ਹਿਆ, ਪਰ ਚੰਗੜ੍ਹ ਵੱਲ ਵੇਖੇ ਬਿਨਾਂ ਹੀ ਉਹ ਭੌਂ ਪਈ।\n<hr/>\n1.144\nਕੁੰਡਾ ਅੜਾ ਕੇ ਚੰਗੜ੍ਹ ਬੋਲਿਆ, “ਪੁੱਛਦੀ ਨਹੀਂ ਮੈਂ ਲਿਆਇਆ ਕੀ ਹਾਂ!”“ਲਿਆਇਆ ਹੋਵੇਂਗਾ\n ਬੜਾ ਬੋਬਾ ਜਿਹਦੇ ਨਾਲ ਹੁਣ ਤੇਰੀ ਸਾਰੀ ਉਮਰ ਲੰਘ ਜਾਏਗੀ!” ਚੰਗੜ੍ਹੀ ਨੇ ਅਜੇ ਵੀ ਉਹਦੇ\n ਵੱਲ ਨਾ ਤੱਕਿਆ ਤੇ ਜਾ ਕੇ ਬਹਿ ਗਈ।\n<hr/>\n1.145\n“ਐਵੇਂ ਬੁੜ ਬੁੜ ਹੀ ਕਰੀ ਜਾਨੀ ਏਂ, ਵੇਖ ਤਾਂ ਸਹੀ।\n<hr/>\n1.146\n” ਤੇ ਚੰਗੜ੍ਹ ਨੇ ਮੁਬੀਨਾ ਦੇ ਮੂੰਹ ਤੋਂ ਪੱਲਾ ਹਟਾ ਕੇ ਉਹਦੇ ਸਾਹਮਣੇ ਕੀਤਾ।\n<hr/>\n1.147\n“ਹਾਏ ਮੈਂ ਮਰ ਗਈæææ!” ਚੰਗੜ੍ਹੀ ਨੇ ਦੋਵੇਂ ਹੱਥ ਮਲ ਕੇ ਆਖਿਆ, “ਇਹਦੀ ਮਾਂ ਗਰੀਬੜੀ ਨੂੰ ਕਿਸ ਤੱਤੜੇ ਮਾਰ ਮੁਕਾਇਆ ਏ?\n<hr/>\n1.148\n”“ਪਤਾ ਕੁਝ ਨਹੀਂ, ਜ਼ੈਲਦਾਰ ਦੇ ਘਰ ਪਿੱਛੇ ਲਸੂੜੇ ਹੇਠਾਂ ਪਈ ਸੀ”, ਤੇ ਡੱਬ ਵਿਚੋਂ\nਜ਼ੰਜੀਰੀ ਕੱਢ ਕੇ ਚੰਗੜ੍ਹ ਨੇ ਆਖਿਆ, “ਇਹ ਇਹਦੇ ਗਲ ਵਿਚ ਸੀ, ਵੇਖ ਕੇ ਕੋਈ ਸੜੇ ਨਾ,\nਮੈਂ ਡੱਬ ਵਿਚ ਲੁਕਾ ਲਈ।\n<hr/>\n1.149\n”ਚੰਗੜ੍ਹੀ ਨੇ ਮੁਬੀਨਾ ਨੂੰ ਕੁੱਛੜ ਲੈ ਲਿਆ।\n<hr/>\n1.150\nਮੂੰਹ ਸਿਰ ਚੁੰਮਿਆ।\n<hr/>\n1.151\nਸੌ ਸੌ ਸ਼ੁਕਰ ਮਨਾਇਆ।\n<hr/>\n1.152\nਜ਼ੰਜੀਰੀ ਉਹਨੂੰ ਭੁੱਲ ਗਈ।\n<hr/>\n1.153\n“æææਤੂੰ ਭੁੱਖੀ ਹੋਵੇਂਗੀæææਬਹੁਤ ਭੁੱਖੀæææਸਾਰੀ ਰਾਤ ਤੂੰ ਕੁਝ ਨਹੀਂ ਪੀਤਾæææਬਿੰਦ ਸਬਰ ਕਰ।\n<hr/>\n1.154\nਤੇਰੇ ਬਖ਼ਤਾਂ ਨੂੰ ਸਾਡੀ ਗਾਂ ਵੀ ਮਿਲ ਪਈ ਏ, ਕੱਲ੍ਹ ਓਸ ਛੁਹਣ ਨਹੀਂ ਸੀ ਦਿੱਤਾ।\n<hr/>\n1.155\n” ਚੰਗੜ੍ਹੀ ਨੇ ਮੁਬੀਨਾ ਨਾਲ ਆਪ ਮੁਹਾਰੇ ਗੱਲਾਂ ਕੀਤੀਆਂ ਤੇ ਫਿਰ ਚੰਗੜ੍ਹ ਨੂੰ ਆਖਿਆ, “ਤੂੰ ਇਹਨੂੰ ਫੜ੍ਹ ਜ਼ਰਾ।\n<hr/>\n1.156\n”ਚੰਗੜ੍ਹੀ ਨੇ ਟਾਕੀ ਭਿਉਂ ਕੇ ਬਾਲੜੀ ਦੇ ਮੂੰਹ ਵਿਚ ਦੁੱਧ ਚੋਇਆ, ਕੌਲ ਦਾ ਵਾਰਾ ਉਹ ਪੀ ਗਈ।\n<hr/>\n1.157\nਉਹਦਾ ਮੂੰਹ ਆਪਣੇ ਲੀੜੇ ਨਾਲ ਪੂੰਝ ਕੇ ਚੰਗੜ੍ਹੀ ਨੇ ਆਖਿਆ, “ਨਬੀ ਰਸੂਲ ਦੇ ਰਾਹ ਨਿਆਰੇ,\n ਇਹ ਮੇਰਾ ਚੰਦਰਾ ਢਿੱਡ ਕਿੱਥੋਂ ਫੁੱਟਣਾ ਸੀæææਸਦਕੇ ਜਾਵਾਂ ਤੈਥੋਂ, ਹੁਣ ਮੇਰੇ ਕੋਲ ਹੀ\n ਰਹੀਂ, ਕਿਤੇ ਹੋਰ ਨਾ ਜਾਈਂ।\n<hr/>\n1.158\n”ਕਈ ਦਿਨ ਮੁਬੀਨਾ ਦੇ ਚਾਅ ਵਿਚ ਚੰਗੜ੍ਹੀ ਤੇ ਚੰਗੜ੍ਹ ਉਡਦੇ ਫਿਰੇ।\n<hr/>\n1.159\nਨਵੀਂ ਮਿਹਰ ਦੇ ਸਾਹਮਣੇ ਪੁਰਾਣਾ ਕਹਿਰ ਭੁੱਲ ਗਿਆ।\n<hr/>\n1.160\nਚੰਗੜ੍ਹੀ ਨੇ ਚੰਗੜ੍ਹ ਨੂੰ ਮਨਾ ਲਿਆ ਕਿ ਹੁਣ ਕਦੇ ਉਹ ਚੋਰੀ ਨਹੀਂ ਕਰੇਗਾ।\n<hr/>\n1.161\n“ਦੋ ਢਿੱਡ ਵੀ ਕੋਈ ਭਾਰੂ ਨੇ।\n<hr/>\n1.162\nਇੰਨਾ ਤਾਂ ਮੈਂ ‘ਕੱਲੀ ਕਰ ਸਕਦੀ ਹਾਂ।\n<hr/>\n1.163\n”ਪਰ ਅਜੇ ਦੋ ਹਫ਼ਤੇ ਵੀ ਨਹੀਂ ਸਨ ਲੰਘੇ ਕਿ ਪਿੰਡ ਵਿਚ ਉਨ੍ਹਾਂ ਬਾਰੇ ਗੱਲਾਂ ਚੱਲਣ ਲੱਗ ਪਈਆਂ।\n<hr/>\n1.164\nਪਾਕਿਸਤਾਨੋਂ ਉਜੜ ਕੇ ਆਇਆਂ ਕਈਆਂ ਨੇ ਪਿੰਡ ਪਨਾਹ ਲਈ।\n<hr/>\n1.165\nਇਹ ਕਿਸੇ ਮੁਸਲਮਾਨ ਨੂੰ ਵੇਖਣਾ ਤੇ ਕੀ, ਉਹਦਾ ਨਾਂ ਸੁਣਨ ਨੂੰ ਤਿਆਰ ਨਹੀਂ ਸਨ।\n<hr/>\n1.166\nਇਕ ਦਿਨ ਉਨ੍ਹਾਂ ਦਾ ਸਰਦਾਰ ਘਰ ਆ ਕੇ ਕਹਿਣ ਲੱਗਾ, “ਮੌਲੂਆ, ਮੈਨੂੰ ਇਸ ਗੱਲ ਦਾ ਬੜਾ\nਹਿਰਖ ਏ, ਮੇਰੀ ਵਾਹ ਨਹੀਂ ਰਹੀ, ਤੁਹਾਡੀ ਜਾਨ ਨੂੰ ਖ਼ਤਰਾ ਵਧਦਾ ਜਾਂਦਾ ਏæææਚੰਗਾ ਕਰੋ\nਜੇ ਅੱਜੋ ਤਿਆਰ ਹੋ ਜਾਓ-ਰਾਤੋ ਰਾਤ ਨਾਲ ਜਾ ਕੇ ਰਾਣੀਆਂ ਤੋਂ ਮੈ ਤੁਹਾਨੂੰ ਹੱਦ ਟਪਾ\nਆਵਾਂਗਾ।\n<hr/>\n1.167\n”“ਜਿਸ ਤਰ੍ਹਾਂ ਤੁਸੀਂ ਆਖੋ, ਤੁਹਾਡੇ ਆਸਰੇ ਹੀ ਬਚੇ ਹੋਏ ਹਾਂ।\n<hr/>\n1.168\n”“ਗਲੋਂ ਹੀ ਪਾਣੀ ਲੰਘਦਾ ਵੇਖ ਕੇ ਮੈਂ ਇਹ ਆਖਿਆ ਹੈ-ਨਹੀਂ ਤਾਂ ਮੈਂ ਮੌਲੂ ਨੂੰ ਤੋਰ ਦਿਆਂ!”“ਸਾਡੇ ਮਾਈ-ਬਾਪ ਹੋ ਤੁਸੀਂ।\n<hr/>\n1.169\n”“ਅੱਜੋ ਹੀ ਤੁਰ ਪਵੋ-ਕੱਲ੍ਹ ਪਤਾ ਨਹੀਂ ਕੀ ਹੋ ਜਾਏ-ਅੱਧੀ ਰਾਤ ਹਨੇਰੀ ਏ-ਸੂਆ ਵੀ ਸੁੱਕਾ\n ਹੋਇਆ ਏ-ਉਹਦੇ ਵਿਚ ਤੁਰਦੇ ਕਿਸੇ ਨੂੰ ਦਿਸਾਂਗੇ ਨਹੀਂ-ਪਰ ਇਹ ਕੁੜੀ ਤੁਹਾਨੂੰ ਇਥੇ\nਛੱਡਣੀ ਪਏਗੀ।\n<hr/>\n1.170\n”ਚੰਗੜ੍ਹੀ ਨੇ ਮੁਬੀਨਾ ਨੂੰ ਹਿੱਕ ਨਾਲ ਘੁੱਟ ਲਿਆ, ਜੀਕਰ ਚੰਗੜ੍ਹੀ ਦਾ ਸਾਹ ਰੁਕ ਗਿਆ ਸੀ-ਬੋਲੀ, “ਨਾ ਸਰਦਾਰ ਜੀ-ਇਹ ਨਾ ਆਖੋ।\n<hr/>\n1.171\nਜਿਹੜੀ ਖ਼ੁਸ਼ਬੋਈ ਇਹਦੇ ਨਿੱਕੇ ਨਿੱਕੇ ਹੱਥਾਂ ਵਿਚੋਂ ਆਉਂਦੀ ਏ, ਮੇਰੀ ਜਾਨ ਵਿਚ ਰਚ ਗਈ ਏ।\n<hr/>\n1.172\n”“ਤੁਹਾਡੀ ਖਾਤਰ ਹੀ ਆਖਿਆ ਸੀ।\n<hr/>\n1.173\nਛੇ ਮੀਲ ਪੂਰਾ ਟੁਰਨਾ ਏ।\n<hr/>\n1.174\nਇਕ ਥਾਂ ਵੀ ਇਹ ਰੋ ਪਈ, ਬਾਲ ਜੁ ਹੋਈ, ਸਾਰੇ ਮਾਰੇ ਜਾਓਗੇ।\n<hr/>\n1.175\nਮੇਰੀ ਕਿਸੇ ਮੰਨਣੀਂ ਨਹੀਂ ਤੇ ਲੁਟੇਰੇ ਰਾਹ ਪਏ ਤਾੜਦੇ ਨੇ!”“ਉਹ ਜਾਣੇ! ਮਰ ਗਏ ਤਾਂ ਮਰ ਗਏ ਹੀ ਸਹੀ, ਇਹ ਮੈਥੋਂ ਛੱਡੀ ਨਹੀਂ ਜਾਣੀ।\n<hr/>\n1.176\n”“ਤੁਸੀਂ ਜਾਣੋ ਮੈਂ ਆਪਣੇ ਵੱਲੋਂ ਵਾਹ ਸਾਰੀ ਲਾ ਦਿਆਂਗਾ।\n<hr/>\n1.177\n”ਖਾਓ ਪੀਏ ਦੇ ਬਾਅਦ ਪਿੰਡ ਵਿਚ ਹੁਣ ਚੁੱਪ ਚਾਂ ਹੋ ਜਾਂਦੀ ਸੀ।\n<hr/>\n1.178\nਕੋਈ ਬਾਹਰ ਵੱਲ ਤੱਕਦਾ ਨਹੀਂ ਸੀ।\n<hr/>\n1.179\nਸਰਦਾਰ ਤੇ ਮੌਲੂ ਨੇ ਠਾਠੇ ਬੰਨ੍ਹ ਲਏ, ਡਾਂਗਾਂ ਫੜ ਲਈਆਂ।\n<hr/>\n1.180\nਚੰਗੜ੍ਹੀ ਨੇ ਮੁਬੀਨਾ ਜੋਗਾ ਦੁੱਧ ਬੋਤਲ ਵਿਚ ਪਾ ਲਿਆ।\n<hr/>\n1.181\nਸੂਏ ਸੂਏ ਤੁਰਦੇ ਗਏ।\n<hr/>\n1.182\nਰਾਣੀਆਂ ਤੋਂ ਕੁਝ ਉਰਾਂ ਮੁਬੀਨਾ ਰੋ ਪਈ।\n<hr/>\n1.183\nਉਸੇ ਵੇਲੇ ਪਰਿਓਂ ਆਉਂਦੀਆਂ ਘੋੜੀਆਂ ਦੀ ਟਾਪ ਕੰਨੀਂ ਪਈ, ਜਿਉਂ ਮੌਤ ਚੜ੍ਹੀ ਆ ਰਹੀ ਸੀ।\n<hr/>\n1.184\nਮੌਲੂ ਤੇ ਚੰਗੜ੍ਹੀ ਘਬਰਾ ਕੇ ਕੰਢੇ ਨਾਲ ਲੱਗ ਗਏ।\n<hr/>\n1.185\nਸਰਦਾਰ ਨੂੰ ਕੁਝ ਸੁੱਝਿਆ, ਉਸ ਨੇ ਝੱਟ ਮੁਬੀਨਾ ਨੂੰ ਚੰਗੜ੍ਹੀ ਕੋਲੋਂ ਫੜ ਲਿਆ ਤੇ ਇਸ਼ਾਰੇ ਨਾਲ ਅਡੋਲ ਬਹਿ ਜਾਣ ਲਈ ਆਖ ਕੇ ਉਹ ਆਪ ਸੂਏ ਉਤੇ ਚੜ੍ਹ ਗਿਆ।\n<hr/>\n1.186\nਘੋੜੀਆਂ ਵਾਲਿਆਂ ਲਲਕਾਰਿਆ।\n<hr/>\n1.187\nਠਾਠਾ ਖੋਲ੍ਹ ਕੇ ਸਰਦਾਰ ਨੇ ਆਖਿਆ, “ਕੋਈ ਓਪਰਾ ਨਹੀਂ-ਮੈਂ ਈ ਹਾਂ।\n<hr/>\n1.188\n”“ਕੌਣ-ਜੈਲ ਸਿਹੁੰ?\n<hr/>\n1.189\næææਤੇ ਆਹ ਕੀ ਚੁੱਕਿਆ ਈ?\n<hr/>\n1.190\n”“ਆਇਆ ਸਾਂ ਕਿਸੇ ਸ਼ਿਕਾਰ ਮਗਰੇ-ਸੁਣਿਆਂ ਸੀ ਇਕ ਮੋਟੀ ਸਾਮੀ ਨੱਠ ਰਹੀ ਏ।\n<hr/>\n1.191\n”“ਆਏ ਤਾਂ ਅਸੀਂ ਵੀ ਇਹੋ ਸੁਣ ਕੇ ਸਾਂ ਪਰ ਹੱਦ ਤੱਕ ਸਾਨੂੰ ਕੋਈ ਲੱਭਾ ਨਹੀਂ।\n<hr/>\n1.192\n”“ਗਏ ਜ਼ਰੂਰ ਨੇ-ਆਹ ਬੱਚਾ, ਇਹਦੇ ਰੋਣ ਤੋਂ ਡਰਦੇ ਸੁੱਟ ਗਏ ਨੇ।\n<hr/>\n1.193\n”ਘੋੜੀਆਂ ਵਾਲੇ ਪਿੰਡ ਵੱਲ ਉਡ ਗਏ।\n<hr/>\n1.194\nਸਰਦਾਰ ਨੇ ਚੰਗੜ੍ਹ ਤੇ ਚੰਗੜ੍ਹੀ ਨੂੰ ਦਿਲਾਸਾ ਦਿੱਤਾ ਤੇ ਉਹ ਰਾਜ਼ੀ ਬਾਜ਼ੀ ਹੱਦ ਟੱਪ ਗਏ।\n<hr/>\n1.195\nਦੂਜੇ ਦਿਨ ਉਹ ਲਾਹੌਰ ਪੁੱਜ ਗਏ।\n<hr/>\n1.196\nਰੁਲਦੇ-ਖੁਲਦੇ ਪਨਾਹਗੁਜ਼ੀਰ ਕੈਂਪ ਵਿਚ ਆ ਰਹੇ।\n<hr/>\n1.197\nਚੁਗਿਰਦੀਂ ਹਉਕੇ ਤੇ ਅੱਥਰੂ ਸਨ ਪਰ ਚੰਗੜ੍ਹੀ ਖ਼ੁਸ਼ ਸੀ ਕਿ ਖਤਰਾ ਟਲ ਗਿਆ।\n<hr/>\n1.198\nਕੁੜੀ ਦੇ ਮਾਪੇ ਬਚੇ ਨਹੀਂ ਹੋਣੇ-ਕਿਹੜੀ ਜਿਉਂਦੀ ਮਾਂ ਇਹੋ ਜਿਹੀ ਧੀ ਨੂੰ ਸੁੱਟ\nਜਾਏਗੀ!ਪਰ ਉਨ੍ਹਾਂ ਦੇ ਕੈਂਪ ਤੋਂ ਮਸਾਂ ਚਾਰ ਘਰ ਦੂਰ ਮੁਬੀਨਾ ਦੀ ਮਾਂ ਸ਼ੁਦੈਣ ਹੋਈ ਹੋਈ\n ਸੀ।\n<hr/>\n1.199\nਉਹਦੇ ਲਈ ਕੋਈ ਡਾਕਟਰ ਕੁਝ ਨਹੀਂ ਸੀ ਕਰ ਸਕਦਾ।\n<hr/>\n1.200\nਉਹ ਆਪਣੀ ਹਿੱਕ ਕੁੱਟਦੀ ਤੇ ਆਂਹਦੀ ਸੀ, “ਮਾਂ ਨਹੀਂ, ਮੈਂ ਡੈਣ ਹਾਂæææਮਤੇ ਰੋ\nਪਏæææਮਾਰੇ ਜਾਈਏæææਮੈਂ ਜਿਉਂਦੇ ਨੂੰ ਸੁੱਟ ਆਈæææਗਿੱਦੜ ਖਾ ਗਏ ਹੋਣਗੇ-ਘੋੜੀਆਂ ਦੇ\nਪੈਰਾਂ ਹੇਠਾਂ ਨਿੱਕੇ ਨਿੱਕੇ ਖ਼ੁਸ਼ਬੋਦਾਰ ਹੱਥ ਚਿੱਥੇ ਗਏ ਹੋਣਗੇ।\n<hr/>\n1.201\nਉਹ ਭੁੱਖੀ ਮਰ ਗਈ ਹੋਵੇਗੀææਉਹਨੂੰ ਕਿਸ ਦਫ਼ਨਾਇਆ ਹੋਣਾ ਏਂ!”ਉਹਦੇ ਕੀਰਨੇ ਕਿਸੇ ਕੋਲੋਂ ਸੁਣੇ ਨਹੀਂ ਸਨ ਜਾਂਦੇ।\n<hr/>\n1.202\nਉਹਦਾ ਭਰਾ ਸਰਕਾਰੀ ਅਫ਼ਸਰ ਸੀ।\n<hr/>\n1.203\nਉਹਨੇ ਡਿਪਟੀ ਕਮਿਸ਼ਨਰ ਕੋਲੋਂ ਫੌਜੀ ਟਰੱਕ ਦਾ ਪਰਮਿਟ ਲਿਆ, ਉਹ ਆਪੀਂ ਹਿੰਦੁਸਤਾਨ ਜ਼ੀਨਤ ਦੇ ਸਹੁਰੇ ਪਿੰਡ ਗਿਆ।\n<hr/>\n1.204\nਉਥੋਂ ਇੰਨਾ ਪਤਾ ਲੱਗਾ ਕਿ ਮੌਲੂ ਚੰਗੜ੍ਹ ਮੁਬੀਨਾ ਨੂੰ ਮਾਨਾਂਵਾਲੇ ਲੈ ਗਿਆ ਸੀ।\n<hr/>\n1.205\nਮਾਨਾਂਵਾਲਿਓਂ ਇਹ ਸੂਹ ਮਿਲੀ ਕਿ ਉਹ ਸ਼ੇਖੂਪੁਰੇ ਆਪਣੇ ਸਾਂਢੂ ਸਾਦਕ ਕੋਲ ਜਾਣ ਲਈ ਆਖਦਾ ਸੀ।\n<hr/>\n1.206\nਲਾਹੌਰ ਮੁੜ ਕੇ ਉਨ੍ਹਾਂ ਸ਼ੇਖੂਪੁਰੇ ਜਾਣ ਦੀ ਸਲਾਹ ਬਣਾਈ।\n<hr/>\n1.207\nਜ਼ੀਨਤ ਨੇ ਸ਼ੁਦੈਣਾਂ ਵਾਂਗ ਜ਼ਿੱਦ ਕੀਤੀ ਕਿ ਉਹ ਵੀ ਨਾਲ ਜਾਏਗੀ।\n<hr/>\n1.208\nਸਮਝਾਇਆਂ ਉਹ ਸਮਝੇ ਨਾ।\n<hr/>\n1.209\nਓੜਕ ਉਹਨੂੰ ਨਾਲ ਹੀ ਖੜਿਆ ਗਿਆ।\n<hr/>\n1.210\nਮੌਲੂ ਠੀਕ ਸ਼ੇਖੂਪੁਰੇ ਹੀ ਸਾਦਕ ਕੋਲ ਗਿਆ ਸੀ।\n<hr/>\n1.211\nਪਤਾ ਮਿਲ ਗਿਆ ਪਰ ਨਾ ਚੰਗੜ੍ਹੀ ਤੇ ਨਾ ਮੁਬੀਨਾ ਉਹਦੇ ਘਰ ਵਿਚੋਂ ਲੱਭੀਆਂ।\n<hr/>\n1.212\nਕਹਿੰਦਾ ਸੀ ਉਹ ਕਿਤੇ ਵਾਂਢੇ ਗਈਆਂ ਹੋਈਆਂ ਸਨ।\n<hr/>\n1.213\nਮੌਲੂ ਨੂੰ ਥਾਣੇ ਫੜ ਲਿਆਏ।\n<hr/>\n1.214\nਉਹ ਇਹੀ ਦੱਸੇ ਕਿ ਕੁੜੀ ਉਸ ਲਿਆਂਦੀ ਜ਼ਰੂਰ ਸੀ, ਪਰ ਦੁੱਧ ਖੁਣੋਂ ਭੁੱਖੀ ਉਹ\nਹਿੰਦੁਸਤਾਨੋਂ ਆਉਂਦਿਆਂ ਰਾਹ ਵਿਚ ਮਰ ਗਈ ਸੀ ਤੇ ਉਹ ਜਿੰਨੀ ਕੁ ਕਬਰ ਛੇਤੀ ਵਿਚ ਪੁੱਟ\nਸਕੇ, ਪੁੱਟ ਕੇ ਉਹਨੂੰ ਦੱਬ ਆਏ ਸਨ।\n<hr/>\n1.215\nਨਾ ਮਾਰ ਤੇ ਨਾ ਲਾਲਚ ਚੰਗੜ੍ਹ ਨੂੰ ਕੁਝ ਬਕਾ ਸਕੇ।\n<hr/>\n1.216\nਦੂਜੇ ਦਿਨ ਪੁਲਿਸ ਚੰਗੜ੍ਹੀ ਨੂੰ ਵੀ ਫੜ ਲਿਆਈ।\n<hr/>\n1.217\nਚੰਗੜ੍ਹੀ ਦੇ ਮੂੰਹ ਉਤੇ ਕੋਈ ਘਬਰਾਹਟ ਨਹੀਂ ਸੀ।\n<hr/>\n1.218\nਉਹਨੇ ਲਫ਼ਜ਼-ਬ-ਲਫ਼ਜ਼ ਆਪਣੇ ਚੰਗੜ੍ਹ ਦੀ ਕਹਾਣੀ ਦੁਹਰਾ ਦਿੱਤੀ।\n<hr/>\n1.219\nਚੰਗੜ੍ਹ ਦੀ ਕਹਾਣੀ ਸੁਣ ਕੇ ਜ਼ੀਨਤ ਦਾ ਦਿਲ ਟੁੱਟ ਗਿਆ ਸੀ।\n<hr/>\n1.220\nਚੰਗੜ੍ਹੀ ਨੇ ਭਾਵੇਂ ਗੱਲ ਉਹੋ ਹੀ ਆਖੀ, ਪਰ ਉਹਦਾ ਮੂੰਹ ਵੇਖ ਕੇ ਜ਼ੀਨਤ ਬਿਲਕੁਲ ਨਿਰਾਸ਼\n ਨਾ ਹੋਈ ਤੇ ਉਹਨੇ ਆਖਿਆ ਕਿ ਉਹ ਚੰਗੜ੍ਹੀ ਨੂੰ ਇਕੱਲਿਆਂ ਪੁੱਛਣਾ ਚਾਹੇਗੀ।\n<hr/>\n1.221\nਇਕੱਲੇ ਕਮਰੇ ਵਿਚ ਚੰਗੜ੍ਹੀ ਨੇ ਜਦੋਂ ਜ਼ੀਨਤ ਦੇ ਨਕਸ਼ ਨੇੜਿਓਂ ਤੱਕੇ ਤਾਂ ਉਹਦੇ ਜੀਅ\nਵਿਚ ਕੁਝ ਹੋਇਆ ਤੇ ਉਹਨੂੰ ਉਹ ਘੜੀ ਵੀ ਯਾਦ ਆ ਗਈ ਜਦੋਂ ਮਾਨਾਂਵਾਲੇ ਸਰਦਾਰ ਨੇ ਕੁੜੀ\nਛੱਡ ਜਾਣ ਲਈ ਆਖਿਆ ਸੀ।\n<hr/>\n1.222\n‘ਖੌਰੇ ਉਹਦੇ ਨਿੱਕੇ ਨਿੱਕੇ ਹੱਥਾਂ ਦੀ ਖ਼ੁਸ਼ਬੋਈ ਇਹਦੀ ਜਾਨ ਵਿਚ ਵੀ ਰਚੀ ਹੋਵੇ।\n<hr/>\n1.223\n’ ਚੰਗੜ੍ਹੀ ਨੇ ਸੋਚਿਆ, ਪਰ ਆਪਣੀ ਕਮਜ਼ੋਰੀ ਉਤੇ ਝੱਟ ਕਾਬੂ ਪਾ ਕੇ ਉਹ ਜ਼ੀਨਤ ਦੇ ਸਵਾਲਾਂ ਦੇ ਝੂਠੇ ਜਵਾਬ ਦਿੰਦੀ ਗਈ।\n<hr/>\n1.224\n“ਤੂੰ ਸੱਚ ਆਖਨੀ ਏਂ-ਉਹਨੂੰ ਤੂੰ ਆਪਣੀ ਹੱਥੀਂ ਦਫ਼ਨਾਇਆ ਸੀ?\n<hr/>\n1.225\n”“ਹਾਂ ਬੀਬੀ, ਮੈਂ ਇਨ੍ਹਾਂ ਭੈੜੇ ਹੱਥਾਂ ਨਾਲ ਉਹਦੇ ਉਤੇ ਮਿੱਟੀ ਪਾਈ ਸੀ।\n<hr/>\n1.226\n”“ਉਹਦੇ ਗਲ ਇਕ ਜ਼ੰਜੀਰ ਸੀ?\n<hr/>\n1.227\n” ਜ਼ੀਨਤ ਨੇ ਕੰਬਦੀ ਆਵਾਜ਼ ਵਿਚ ਪੁੱਛਿਆ।\n<hr/>\n1.228\nਚੰਗੜ੍ਹੀ ਨੇ ਬੋਝੇ ‘ਚੋਂ ਕੱਢ ਕੇ ਜ਼ੰਜੀਰੀ ਉਹਨੂੰ ਫੜਾ ਦਿੱਤੀ, “ਇਹ ਤੁਹਾਡੀ ਅਮਾਨਤ ਬੀਬੀ।\n<hr/>\n1.229\n”ਜ਼ੰਜੀਰੀ ਵੇਖ ਕੇ ਜ਼ੀਨਤ ਦੀਆਂ ਡਾਡਾਂ ਨਿਕਲ ਗਈਆਂ।\n<hr/>\n1.230\nਸਾਰੇ ਅੰਦਰ ਆ ਗਏ।\n<hr/>\n1.231\nਜ਼ੰਜੀਰੀ ਜ਼ੀਨਤ ਦੇ ਬੁੱਲ੍ਹਾਂ ਨਾਲ ਲੱਗੀ ਹੋਈ ਸੀ ਤੇ ਉਹ ਬੇਹੋਸ਼ ਡਿੱਗੀ ਪਈ ਸੀ।\n<hr/>\n1.232\nਹੁਣ ਥਾਣੇਦਾਰ ਨੂੰ ਵੀ ਯਕੀਨ ਹੋ ਗਿਆ ਕਿ ਚੰਗੜ੍ਹ ਸੱਚੇ ਸਨ।\n<hr/>\n1.233\nਸੋਨੇ ਦੀ ਜ਼ੰਜੀਰੀ ਨਾਲੋਂ ਤਾਂ ਪੰਜਾਂ ਮਹੀਨਿਆਂ ਦੀ ਕੁੜੀ ਉਨ੍ਹਾਂ ਨੂੰ ਮਹਿੰਗੀ ਨਹੀਂ ਸੀ ਜਾਪਣੀ।\n<hr/>\n1.234\nਦੋਹਾਂ ਨੂੰ ਛੱਡ ਦਿੱਤਾ ਗਿਆ ਪਰ ਉਹ ਉਥੇ ਹੀ ਖਲੋਤੇ ਰਹੇ।\n<hr/>\n1.235\nਹੋਰ ਸਾਰੇ ਜ਼ੀਨਤ ਨੂੰ ਹੋਸ਼ ਲਿਆਉਣ ਵਿਚ ਰੁੱਝੇ ਹੋਏ ਸਨ।\n<hr/>\n1.236\nਡਾਕਟਰ ਵੀ ਆ ਪਹੁੰਚਾ।\n<hr/>\n1.237\nਉਹਨੂੰ ਕਹਾਣੀ ਸੁਣਾਈ ਗਈ।\n<hr/>\n1.238\nਚੰਗੜ੍ਹੀ ਦਾ ਜ਼ਿਕਰ ਆਉਂਦਿਆਂ ਉਸ ਚੰਗੜ੍ਹੀ ਨੂੰ ਵੇਖਣਾ ਚਾਹਿਆ, ਪਰ ਸ਼ਾਇਦ ਆਪਣੇ ਆਪ ਨੂੰ ਹਰ ਕਿਸੇ ਦੇ ਰਾਹ ਵਿਚ ਵੇਖ ਕੇ ਚੰਗੜ੍ਹ ਤੇ ਚੰਗੜ੍ਹੀ ਚਲੇ ਗਏ ਸਨ।\n<hr/>\n1.239\nਡਾਕਟਰ ਨੇ ਵੇਖਿਆ ਭਾਲਿਆ।\n<hr/>\n1.240\nਸਾਹ ਠੀਕ ਸੀ, ਨਬਜ਼ ਠੀਕ ਸੀ।\n<hr/>\n1.241\n“ਦੰਦਲ ਦਾ ਕੋਈ ਫਿਕਰ ਨਹੀਂ, ਇਸੇ ਤਰ੍ਹਾਂ ਕੁਝ ਚਿਰ ਇਹਨੂੰ ਪਿਆ ਰਹਿਣ ਦਿਓ-ਸ਼ਾਇਦ ਆਪ ਮੁਹਾਰੀ ਇਹ ਕੁਝ ਬੋਲੇ।\n<hr/>\n1.242\nਉਹਦੇ ਵਿਚੋਂ ਇਲਾਜ ਦਾ ਇਸ਼ਾਰਾ ਮਿਲ ਸਕਦਾ ਹੈ।\n<hr/>\n1.243\n”ਵੀਹ ਮਿੰਟ ਉਹ ਉਸੇ ਤਰ੍ਹਾਂ ਪਈ ਰਹੀ, ਨਾ ਬੇਹੋਸ਼ੀ ਵਿਚੋਂ ਉਸ ਕੁਝ ਬੋਲਿਆ ਹੀ।\n<hr/>\n1.244\nਹੁਣ ਡਾਕਟਰ ਸਲਾਹ ਕਰ ਰਿਹਾ ਸੀ ਕਿ ਕੁਝ ਸੁੰਘਾ ਕੇ ਉਹਨੂੰ ਹੋਸ਼ ਵਿਚ ਲਿਆਵੇ ਕਿ ਇਕ\nਪਾਸਿਓਂ ਅਡੋਲ ਅੰਦਰ ਆ ਕੇ ਚੰਗੜ੍ਹੀ ਨੇ ਇਕ ਬੱਚਾ ਜ਼ੀਨਤ ਦੀ ਛਾਤੀ ਉਤੇ ਲਿਟਾ ਦਿੱਤਾ।\n<hr/>\n1.245\nਕਾਸਮ ਦੇ ਮੂੰਹੋਂ ਚੀਕ ਵਾਂਗ ਨਿਕਲਿਆ, “ਮੁਬੀਨਾæææ!”ਸਾਰੇ ਪਾਸੇ ਸੰਨਾਟਾ ਛਾ ਗਿਆ।\n<hr/>\n1.246\nਮੁਬੀਨਾ ਨੂੰ ਲੱਕੋਂ ਅਜੇ ਚੰਗੜ੍ਹੀ ਨੇ ਫੜਿਆ ਹੋਇਆ ਸੀ ਤੇ ਉਹਦੇ ਦੋਵੇਂ ਹੱਥ ਜ਼ੀਨਤ ਦੀਆਂ ਗੱਲ੍ਹਾਂ ਉਤੇ ਰੱਖ ਦਿੱਤੇ ਸਨ।\n<hr/>\n1.247\nਡਾਕਟਰ ਨੇ ਮੁਬੀਨਾ ਨੂੰ ਜ਼ੀਨਤ ਦੀ ਛਾਤੀ ਉਤੇ ਭਾਰ ਸਮਝ ਕੇ ਚੁੱਕ ਲੈਣਾ ਚਾਹਿਆ।\n<hr/>\n1.248\n“ਨਹੀਂ-ਮੈਂ ਬਹੁਤਾ ਭਾਰ ਆਪਣੇ ਹੱਥਾਂ ‘ਚ ਰੱਖਿਆ ਹੋਇਆ ਏ,” ਚੰਗੜ੍ਹੀ ਨੇ ਆਖਿਆ, “ਇਹਦੇ\nਹੱਥਾਂ ਦੀ ਖੁਸ਼ਬੋਈ ਉਹਦੇ ਨੱਕ ਵਿਚ ਚੜ੍ਹ ਲੈਣ ਦਿਓ-ਜ਼ੰਜੀਰੀ ਵਿਚੋਂ ਇਹਦੇ ਗਲ ਦੀ\nਖ਼ੁਸ਼ਬੋਈ ਸੁੰਘ ਕੇ ਉਹ ਇਸ ਤਰ੍ਹਾਂ ਹੋਈ ਏ।\n<hr/>\n1.249\n”ਸੱਚੀ ਮੁੱਚੀ ਜ਼ੀਨਤ ਨੇ ਅੱਖਾਂ ਖੋਲ੍ਹ ਲਈਆਂ-ਤੇ ਆਪਣੇ ਉਤੇ ਕੁਝ ਪਿਆਰਾ ਜਿਹਾ ਮਹਿਸੂਸ ਕਰ ਕੇ ਉਹ ਨੀਮ ਹੋਸ਼ੀ ਵਿਚ ਬੋਲੀ, “ਕੌਣ-ਕੌਣ?\n<hr/>\n1.250\nਇਹ ਕਿਦ੍ਹੀ ਖ਼ੁਸ਼ਬੋ, ਇਹ ਕਿਦ੍ਹੇ ਹੱਥæææ!”“ਤੇਰੀ ਮੁਬੀਨਾ।\n<hr/>\n1.251\n” ਕਾਸਮ ਬੋਲਿਆ।\n<hr/>\n1.252\n“ਨਹੀਂ, ਇਹ ਮੇਰੀ ਸਕੀਨਾ।\n<hr/>\n1.253\n” ਚੰਗੜ੍ਹੀ ਨੇ ਆਖਿਆ।\n<hr/>\n1.254\nਜ਼ੀਨਤ ਨੇ ਮੁਬੀਨਾ ਦਾ ਮੂੰਹ ਵਾਰ ਵਾਰ ਚੁੰਮਿਆ।\n<hr/>\n1.255\nਮੁਬੀਨਾ ਰੋ ਪਈ।\n<hr/>\n1.256\nਚੰਗੜ੍ਹੀ ਨੇ ਬਾਲੜੀ ਨੂੰ ਲੈ ਕੇ ਵਰਚਾਇਆ ਤੇ ਜ਼ੀਨਤ ਨੂੰ ਮੁੜ ਦੇ ਕੇ ਆਖਿਆ, “ਤੂੰ ਆਪੇ\nਮੂੰਹੋਂ ਕਹਿ ਕੇ ਦੇæææਬੀਬੀ ਇਹ ਤੇਰੀ ਮੁਬੀਨਾ ਏ ਕਿ ਮੇਰੀ ਸਕੀਨਾæææਤੂੰ ਜੰਮੀ ਸੀ ਪਰ\nਮੈਂ ਬਚਾਈ ਏ।\n<hr/>\n1.257\nਮੈਂ ਇਹਦਾ ਨਾਂ ਸਕੀਨਾ ਰੱਖਿਆ ਏ।\n<hr/>\n1.258\nਜੇ ਇਹ ਤੇਰੀ ਮੁਬੀਨਾ ਏ ਤਾਂ ਮੈਂ ਇਹਦੀ ਮਾਸੀ ਬਣਾਂਗੀ-ਤੇ ਜੇ ਇਹ ਮੇਰੀ ਸਕੀਨਾ ਏ ਤਾਂ\nਤੂੰ ਮਾਸੀ ਬਣ ਜਾਈਂ-ਮੈਂ ਇਹਨੂੰ ਦਿਨ ਰਾਤ ਇਕ ਕਰ ਕੇ, ਜਿਸ ਤਰ੍ਹਾਂ ਆਖੇਂਗੀ, ਪਾਲਾਂਗੀ;\n ਜਿੱਥੇ ਆਖੇਂਗੀ, ਵਿਆਹਵਾਂਗੀæææਜੋ ਤੂੰ ਆਖੇਂਗੀ, ਮੈਂ ਮੰਨਾਂਗੀ।\n<hr/>\n1.259\n”ਜ਼ੀਨਤ ਨੂੰ ਚੰਗੜ੍ਹੀ ਕੋਈ ਫ਼ਰਿਸ਼ਤਾ ਦਿਸ ਰਹੀ ਸੀ।\n<hr/>\n1.260\nਮੁਬੀਨਾ ਉਤੇ ਉਹਦਾ ਹੱਕ ਉਹਨੂੰ ਆਪਣੇ ਨਾਲੋਂ ਵੀ ਬਹੁਤਾ ਜਾਪ ਰਿਹਾ ਸੀ।\n<hr/>\n1.261\nਉਹਨੇ ਮੁਬੀਨਾ ਦਾ ਮੂੰਹ ਚੁੰਮ ਕੇ ਹੱਥ ਵਧਾ ਕੇ ਮੁਬੀਨਾ ਚੰਗੜ੍ਹੀ ਦੀ ਝੋਲੀ ਪਾ ਦਿੱਤੀ\nਤੇ ਆਖਿਆ, “ਇਹ ਤੇਰੀ ਹੀ ਸਕੀਨਾ ਰਹੇਗੀ-ਤੂੰ ਮਾਂ ਤੇ ਮੈਂ ਇਹਦੀ ਮਾਸੀ ਬਣਾਂਗੀæææਪਰ ਇਕ\n ਗੱਲ ਤੂੰ ਵੀ ਮੇਰੀ ਮੰਨ ਲੈ।\n<hr/>\n1.262\n”ਚੰਗੜ੍ਹੀ ਨੂੰ ਉਹ ਕਮਰਾ ਆਪਣੇ ਲਈ ਛੋਟਾ ਭਾਸ ਰਿਹਾ ਸੀ।\n<hr/>\n1.263\nਉਹ ਹੁਣ ਸਕੀਨਾ ਦੀ ਮਾਂ ਸੀæææਸਰਕਾਰੀ ਅਹੁਦੇਦਾਰਾਂ, ਕੁੜੀ ਦੇ ਮਾਮੇ ਤੇ ਪਿਓ ਦੇ ਸਾਹਮਣੇ ਉਹਦੀ ਮਾਂ ਸੀ।\n<hr/>\n1.264\n“ਹਾਂ-ਮੇਰੀ ਬੀਬੀ ਭੈਣ, ਤੇਰੇ ਮੂੰਹੋਂ ਨਿਕਲੀ ਗੱਲ ਮੈਂ ਕਦੇ ਭੁੰਜੇ ਨਾ ਪਾਵਾਂਗੀ।\n<hr/>\n1.265\nਤੂੰ ਕਰ ਹੁਕਮ, ਮੈਂ ਬੰਦੀ ਤੇਰੀ!” ਚੰਗੜ੍ਹੀ ਨੇ ਆਪਣੀ ਸਾਰੀ ਜ਼ਿੰਦਗੀ ਵਿਚ ਕਦੇ ਆਪਣੇ ਆਪ ਨੂੰ ਏਡਾ ਕੋਮਲ, ਏਡਾ ਚੰਗਾ ਤੇ ਅਮੀਰ ਮਹਿਸੂਸ ਨਹੀਂ ਸੀ ਕੀਤਾ।\n<hr/>\n1.266\n“ਉਹ ਇਹ ਕਿ ਸਕੀਨਾ ਤੇ ਇਹਦੇ ਮਾਂ ਪਿਓ ਹੁਣ ਤੋਂ ਮੇਰੇ ਘਰ ਵਿਚ ਰਹਿਣਗੇ!” ਜ਼ੀਨਤ ਨੇ ਬਾਹਾਂ ਚੰਗੜ੍ਹੀ ਵੱਲ ਵਧਾ ਕੇ ਆਖਿਆ।\n<hr/>\n1.267\nਚੰਗੜ੍ਹੀ ਨੇ ਇਹ ਬਾਹਾਂ ਗਲ ਵਿਚ ਪਾ ਲਈਆਂ।\n<hr/>\n1.268\nਮਿਲੀਆਂ ਬਾਹਾਂ ਤੇ ਰਲੇ ਅੱਥਰੂਆਂ ਵਿਚ ਮਾਂ-ਮਾਸੀ ਜਿੰਨਾ ਵੇਰਵਾ ਵੀ ਮੁਸ਼ਕਲ ਹੋ ਗਿਆ।\n<hr/>\n",
+			"file": "/run/user/1000/gvfs/2.source",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 20249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/2.source",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMarkdown Preview\n----------------\n\n  Changes in Markdown Preview\n  ===========================\n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * Multimarkdown specific settings have been removed.  Multimarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for Github.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *Github Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changlog file for both developpers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nMarkdownEditing\n---------------\n\n  # MarkdownEditing 2.1.4 Changelog\n  \n  Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of\n  feedback you can use [GitHub issues][issues].\n  \n  ## Bug Fixes\n  \n  * Various small bug fixes.\n  \n  ## New Features\n  \n  * Automatized syntax highlighting tests (a new feature of ST).\n  * \"Swift\" and \"scheme\" language support for fenced code blocks.\n  * More liberal fenced code block matching, with unknown language header.\n  \n  [issues]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n\n\nTheme - Cyanide\n---------------\n\n  Cyanide 3.0.0\n  ===============\n  \n  + Bugfix: XML declaration moved to top.\n  + Gruntfile.js: Rewritten with ES6, reduced footprint.\n  \n  Thanks for downloading Cyanide Theme!\n  Feel free to open an issue on Github if you have any problem with the theme.\n  \n  https://github.com/lefoy/cyanide-theme\n",
+			"settings":
+			{
+				"buffer_size": 2419,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/source.html",
+			"settings":
+			{
+				"buffer_size": 2417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html lang=\"hi\"><head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"Content-Language\" content=\"pa\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>\n\n<!-- font awesome -->\n<link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n\n<!-- bootstrap -->\n<link rel=\"stylesheet\" href=\"../assets/bootstrap/css/bootstrap.min.css\" />\n\n\n<!-- animate.css -->\n<link rel=\"stylesheet\" href=\"../assets/animate/animate.css\" />\n<link rel=\"stylesheet\" href=\"../assets/animate/set.css\" />\n\n<!-- gallery -->\n<link rel=\"stylesheet\" href=\"../assets/gallery/blueimp-gallery.min.css\">\n\n<!-- favicon -->\n<link rel=\"shortcut icon\" href=\"../images/favicon.ico\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"../images/favicon.ico\" type=\"image/x-icon\">\n<link href=\"css/hover.css\" rel=\"stylesheet\" media=\"all\">\n<link rel=\"stylesheet\" href=\"../assets/style.css\">\n\n</head><body  style=\"background:DeepSkyBlue\">\n<a href=\"../home.html\"><img src=\"../images/home.png\" style=\"float:right;height:70px;width:70px;margin-right:5%;margin-top:1%;\"/></a>\n<a href=\"../index.html\"><img src=\"../images/book.png\" style=\"float:right;height:50px;width:50px;margin-right:4%;margin-top:1.5%;\"/></a>\n<h1 style=\"text-align:center;color:Navy;font-family:myfont;\">ਮੁਬੀਨਾ</h1>\n	<div style=\"dislay:inline;margin-left:10%;margin-bottom:5%;\">\n<a href=\"ssf_files_17-11-15_trans.html\"><button class=\"btn btn-primary\" style=\"width:250px;height:40px;border-radius:10px;text-align:center;background:Yellow;color:Navy;\">Transliterate</button></a>\n<a href=\"ssf_files_17-11-15.html\"><button class=\"btn btn-primary\" style=\"width:350px;height:40px;border-radius:10px;text-align:center;background:Yellow;color:Navy;\">View Layerered Translation</button></a>\n</div> \n<div style=\"display:inline;\">\n<div>\n	 <a href=\"ssf_files_04-08-15_source.html\"><img src=\"../images/Previous.png\" style=\"width:60px;height:60px;position:fixed;float:right;margin-top:2%;\"/></a>\n	<img src=\"../images/oie_transparent.png\" style=\"float:right;margin-right:8%;margin-top:8%;\"/>\n	 <img src=\"../images/Next.png\" style=\"width:60px;height:60px;float:right;margin-right:10%;margin-top:3%;\"/>\n</div>\n</div>\n<div class=\"StoryScroll\">\n\n\n</div>\n</body></html>\n",
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15_source.html",
+			"file_size": 49419,
+			"file_write_time": 130923906410000000,
+			"settings":
+			{
+				"buffer_size": 2361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/index.html",
+			"settings":
+			{
+				"buffer_size": 6609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/style.css",
+			"settings":
+			{
+				"buffer_size": 7197,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/home.html",
+			"settings":
+			{
+				"buffer_size": 10193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/storage/storage/others/stupid_examples/Argile/cplrdb.argn",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/stupid_examples/Argile/cplr_db.argn",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/some_notes/gift_giving.html",
+			"settings":
+			{
+				"buffer_size": 30997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nesh/.config/sublime-text-3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 4656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nesh/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1512,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/srilm.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/srilm.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 336.0,
+		"last_filter": "save",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"save a",
+				"Project: Save As"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"server",
+				"Preferences: OmniMarkupPreviewer Settings – Default"
+			],
+			[
+				"mar",
+				"Markmon launch"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set sy",
+				"Set Syntax: Java"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"lis",
+				"Set Syntax: Lisp"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"set",
+				"Set Syntax: Lisp"
+			],
+			[
+				"pagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"conver ",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"markmon",
+				"Markmon launch"
+			],
+			[
+				"makr",
+				"Markmon launch"
+			],
+			[
+				"markdown ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"om",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set syntax py",
+				"Set Syntax: Python"
+			],
+			[
+				"perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"set sytax pas",
+				"Set Syntax: Pascal"
+			],
+			[
+				"set sytax p",
+				"Set Syntax: Python"
+			],
+			[
+				"set ",
+				"Set Syntax: TeX"
+			],
+			[
+				"syntax: Perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"ombi",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"format",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"meu",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"new",
+				"Build: New Build System"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"enabel",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"dia",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"d",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"enter",
+				"Sublime-IJulia: Enter"
+			],
+			[
+				"ijulia",
+				"Sublime-IJulia: Open New IJulia Console"
+			],
+			[
+				"iju",
+				"Sublime-IJulia: Enter"
+			],
+			[
+				"julia",
+				"Sublime-IJulia: Open New IJulia Console"
+			],
+			[
+				"remv",
+				"Package Control: Remove Channel"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
+				"omni",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"preview",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"omnihtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"reivew",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"prei",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"omniuser",
+				"Preferences: OmniMarkupPreviewer Settings – User"
+			],
+			[
+				"preivew",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"omnithml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omnhtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"preiv",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"omnitml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"review",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"omnihtm",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"piew",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"prev",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"onihml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omih",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omhtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omnitht",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omnihml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"omtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"ominhtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"sside",
+				"Set Syntax: Cyanide Sass & SCSS"
+			],
+			[
+				"omihtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"previwe",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"preiew",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"omnitohtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"omnitohtm",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"openf",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"delte",
+				"File: Delete"
+			],
+			[
+				"export",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"markhtml",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"html",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"multi",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"syntaxma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mexte",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdownex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"syntaxmarkdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"prewview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prewvi",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"to html",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"markdex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"prewv",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prew",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/storage/storage/work/projects/anu_accessor/controller"
+	],
+	"file_history":
+	[
+		"/home/nesh/.config/sublime-text-3/Packages/User/Monocyanide ColorScheme (SublimePythonIDE).tmTheme",
+		"/storage/storage/others/limps/limps.py",
+		"/storage/storage/others/limps/basefuncs.limp",
+		"/storage/storage/others/limps/recwhile.limp",
+		"/storage/storage/others/stupid_examples/setexp.sp",
+		"/storage/storage/others/stupid_examples/stuff.py",
+		"/storage/storage/others/stupid_examples/qttemplate.qtl",
+		"/storage/storage/others/stupid_examples/components.js",
+		"/storage/storage/work/projects/anu_accessor/controller/type_tree.limp",
+		"/storage/storage/work/projects/anu_accessor/controller/type_tree.pt",
+		"/storage/storage/others/stupid_examples/austere_winscript_chatclient.js",
+		"/storage/storage/others/stupid_examples/austere_winscript.js",
+		"/storage/storage/others/stupid_examples/qafktemplatedesign.xml",
+		"/storage/storage/others/limps/test2.limp",
+		"/storage/storage/others/limps/helpers.py",
+		"/storage/storage/others/limps/primitives.py",
+		"/storage/storage/work/projects/anu_accessor/controller/Type.limp",
+		"/storage/storage/others/limps/test.limp",
+		"/storage/storage/others/limps/assoc.limp",
+		"/storage/storage/others/limps/Type.limp",
+		"/storage/storage/others/limps/type_tree.limp",
+		"/home/nesh/.config/sublime-text-3/Packages/Lisp/Lisp.tmLanguage",
+		"/storage/storage/others/limps/scripting_exam/string_to_int.limp",
+		"/storage/storage/others/limps/scripting_exam/find_min.limp",
+		"/storage/storage/work/projects/anu_accessor/controller/README.md",
+		"/storage/storage/others/stupid_examples/resoir.md",
+		"/home/nesh/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/storage/storage/others/limps/listops.limp",
+		"/storage/storage/others/limps/tree.limp",
+		"/storage/storage/others/limps/README.md",
+		"/storage/storage/others/limps/parser.py",
+		"/storage/storage/others/limps/stree.py",
+		"/home/nesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/storage/storage/work/projects/anu_accessor/controller/app.py",
+		"/home/nesh/.config/sublime-text-3/Packages/Python/Python.tmLanguage",
+		"/storage/storage/others/stupid_examples/KCNTRL/simple.kcntrl",
+		"/storage/storage/others/stupid_examples/KCNTRL/nautilis_copy_file.kcntrl",
+		"/storage/storage/others/stupid_examples/KCNTRL/facebook_example.kcntrl",
+		"/storage/storage/others/stupid_examples/KCNTRL/google_search.kcntrl",
+		"/storage/storage/others/stupid_examples/KCNTRL/google.kcntrl",
+		"/storage/storage/others/stupid_examples/KCNTRL/facebook.kcntrl",
+		"/storage/storage/work/projects/anu_accessor/controller/Json2HTML.py",
+		"/storage/storage/others/limps/img",
+		"/home/nesh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nesh/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/nesh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nesh/.config/sublime-text-3/Packages/User/sublime-text-markmon.sublime-settings",
+		"/home/nesh/.config/sublime-text-3/Packages/sublime-text-markmon/sublime-text-markmon.sublime-settings",
+		"/storage/storage/work/scripting_course_2/bst_implementation/bst/bst.py",
+		"/storage/storage/others/stupid_examples/insti_apt.txt",
+		"/storage/storage/others/stupid_examples/ext.asm",
+		"/storage/storage/work/scripting_course_2/name_lines.py",
+		"/storage/storage/work/scripting_course_2/guessing_game.py",
+		"/storage/storage/work/scripting_course_2/randgame.py",
+		"/storage/storage/work/scripting_course_2/take_input.py",
+		"/storage/storage/work/research/indexer/index.c",
+		"/storage/storage/work/research/indexer/guessing_game.py",
+		"/home/nesh/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/nesh/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/console_upload.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/include/database.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/include/uploadfiles.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/upload.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/anu_eval.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/include/ratings.php",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/static/js/anu_ratings.js",
+		"/run/user/1000/gvfs/sftp:host=shakti.iiit.ac.in,user=ganesh_k/var/www/html/MTESS/anu_choose.php",
+		"/data/research/nlg/mutable_templates/common/Srilm/src/Srilm.jl",
+		"/data/research/nlg/mutable_templates/common/TotalSizeof/src/TotalSizeof.jl",
+		"/data/research/nlg/mutable_templates/common/totalsizeof/src/Totalsizeof.jl",
+		"/home/tingc/documents/dvv/pos_accuracy.py",
+		"/home/tingc/documents/dvv/test.ann.gold",
+		"/home/tingc/documents/dvv/trial.annot",
+		"/home/tingc/documents/dvv/pos_accuracy.py.bak",
+		"/home/tingc/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/tingc/documents/PropBank-hindi-sample-file",
+		"/data/research/nlg/mutable_templates/data/factored/ssbywindow_tf.txt",
+		"/data/research/nlg/mutable_templates/data/factored/ssbywindow_ft.txt",
+		"/data/research/nlg/mutable_templates/data/factored/ssbyrank_5000.txt",
+		"/data/research/nlg/mutable_templates/data/factored/ssbycount_50.txt",
+		"/data/research/nlg/mutable_templates/data/factored/bywindow_tf.txt",
+		"/data/research/nlg/mutable_templates/data/factored/bywindow_ft.txt",
+		"/data/research/nlg/mutable_templates/data/factored/byrank_5000.txt",
+		"/data/research/nlg/mutable_templates/data/factored/bycount_50.txt",
+		"/home/tingc/documents/ipython.min.css",
+		"/data/research/nlg/mutable_templates/common/srilm.cc",
+		"/data/research/tools/language_models/srilm/include/LM.h",
+		"/data/research/nlg/mutable_templates/common/srilm.h",
+		"/data/research/tools/language_models/srilm/include/Prob.h",
+		"/data/research/tools/language_models/srilm/include/Ngram.h",
+		"/data/research/tools/language_models/srilm/lm/src/NgramLM.cc",
+		"/data/research/nlg/mutable_templates/data/vocab.vocab",
+		"/home/tingc/backup/before_srilm_integration/mutable_templates/experiment_1/Experiment1_temp.ipynb",
+		"/home/tingc/backup/before_srilm_integration/mutable_templates/experiment_1/Experiment1.jl",
+		"/data/research/tools/language_models/srilm/srilm-python/tests/test_ngram.py",
+		"/data/research/tools/language_models/srilm/srilm-python/example.py",
+		"/data/research/nlg/mutable_templates/common/test.c",
+		"/data/research/nlg/mutable_templates/experiment_1/Experiment1.jl",
+		"/data/research/tools/language_models/srilm/include/Vocab.h",
+		"/data/research/tools/language_models/srilm/lm/src/Vocab.cc",
+		"/data/research/tools/language_models/srilm/lm/src/Prob.cc",
+		"/data/research/tools/language_models/srilm/include/File.h",
+		"/data/research/nlg/mutable_templates/data/test.v",
+		"/home/tingc/.config/sublime-text-3/Packages/User/clang_format.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/User/clang_format_custom.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/Clang Format/clang_format_custom.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/Clang Format/clang_format.sublime-settings",
+		"/home/tingc/.config/sublime-text-3/Packages/User/srilm.sublime-build",
+		"/home/tingc/.ipython/profile_julia/static/custom/custom.css",
+		"/home/tingc/.ipython/profile_julia/static/custom/custom.js",
+		"/home/tingc/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/data/research/nlg/mutable_templates/experiment_1/step0.sh",
+		"/data/research/nlg/mutable_templates/data/tokens.txt",
+		"/data/research/nlg/mutable_templates/data/raw.txt",
+		"/data/research/nlg/mutable_templates/experiment_1/Experiment1.ipynb",
+		"/data/research/nlg/mutable_templates/data/test.arpa",
+		"/data/research/nlg/mutable_templates/data/vocab.v",
+		"/data/research/nlg/mutable_templates/data/factored/bycount_60.txt",
+		"/data/research/nlg/mutable_templates/common/ChunkReader.jl",
+		"/data/research/nlg/mutable_templates/common/ChunkReader.ipynb",
+		"/tmp/lsyncd.log",
+		"/data/research/nlg/mutable_templates/common/.ipynb_checkpoints/ChunkReader-checkpoint.ipynb",
+		"/run/user/1000/gvfs/sftp:host=10.1.66.131,user=tingc/data/research/nlg/mutable_templates/common/ChunkReader.ipynb",
+		"/run/user/1000/gvfs/sftp:host=10.1.66.131,user=tingc/home/tingc/lsyncd.conf",
+		"/data/research/nlg/chunks.txt",
+		"/data/research/nlg/tokens.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<hr/>",
+			"\\d\\.(\\d*)+\\n",
+			"line.",
+			"images",
+			"b =",
+			"*",
+			"comment",
+			"(",
+			"lisp",
+			"stringify",
+			"\n        ",
+			"load_",
+			"tab",
+			"print",
+			"methods",
+			"evaluate_expr",
+			"evaluat",
+			"print",
+			"        ",
+			"font",
+			"header",
+			"complete",
+			"complete_total",
+			"python",
+			"=\\S*?>",
+			"=\\S*? ",
+			"' ",
+			"='",
+			"NN",
+			"anon",
+			"Chained",
+			"view",
+			"repeated",
+			"imap",
+			"partition",
+			"chain",
+			"Chain",
+			"nsmall",
+			"nlar",
+			"read!(",
+			"haskey(",
+			"length",
+			"length(",
+			"push!",
+			"==",
+			"skipoov",
+			"\\nthe",
+			"the",
+			"prob",
+			"bool",
+			"element",
+			"byName",
+			"contains",
+			"dele",
+			"byIndex",
+			"getWord",
+			"VocabIndex",
+			"VocabString",
+			"read",
+			"exit",
+			"enable_hexadecimal_encoding",
+			"txt",
+			"save",
+			" ",
+			"order",
+			"7",
+			"ORDER",
+			"Backoff(",
+			"ScoreExceptBackoff(",
+			"ExceptBackoff(",
+			"Backoff(",
+			"fullscore(",
+			"fullscore",
+			"fullscore ",
+			"fullscore (",
+			"fullscore(",
+			"score",
+			"multi",
+			"\\n",
+			"name",
+			" ",
+			"cyan",
+			"indent",
+			"print",
+			"parent",
+			"house",
+			"vpos",
+			"vc-",
+			"vpos",
+			"test",
+			"ssfv",
+			"func",
+			"open",
+			"vc-2-wx",
+			"vc-1",
+			"agr",
+			"etype",
+			"drel",
+			" ",
+			"^",
+			"\\n",
+			"alignedTo",
+			"agr_gen",
+			"head=",
+			"name",
+			"Aja",
+			"marisa",
+			"LidstoneProbDist",
+			"WittenBellProbDist",
+			"KneserNeyProbDist",
+			"SimpleGoodTuringProbDist",
+			"true",
+			"(\\(\\S+? \\S*?)(\\(|\\[)(\\S*?\\))",
+			"\\(\\S* \\S*(\\(|\\))\\S*\\)",
+			"(\\S+? \\S*?(\\(|\\))\\S*?\\) (\\(|\\)|\\[|\\])",
+			"indent",
+			"indent ",
+			"group",
+			"suffix",
+			"marker",
+			"case",
+			"person",
+			"number",
+			"gender",
+			"cat",
+			"root",
+			".type",
+			"type"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\d\\.(\\d*)+"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/run/user/1000/gvfs/sftp:host=10.2.8.104,user=ganesh_k/home/ganesh_k/mw_internal_composibility/check_composibility.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/storage/storage/others/some_notes/gift_giving.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2174,
+								2174
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 524.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/storage/storage/work/research/tools/word2vec/word2vec.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13615,
+								13615
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9018.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/storage/storage/others/stupid_examples/testdb.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2756,
+								2756
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1361.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/storage/storage/others/stupid_examples/Argile/autorgn_shlib.argn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1915,
+								1915
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1177.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2668,
+								2668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1817.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "data/2/1.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2319,
+								2319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/run/user/1000/gvfs/2.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20249,
+								20249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 20516.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data/2/2.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1523,
+								1523
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/storage/storage/work/projects/anu_accessor/controller",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/run/user/1000/gvfs/sftp:host=10.2.8.104,user=ganesh_k/home/ganesh_k/mw_internal_composibility",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/source.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1404,
+								1404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15_source.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2339,
+								2339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1257.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "data/2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2322,
+								2322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 991.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "assets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7184,
+								7184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5499.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2783,
+								2783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2027.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/storage/storage/others/stupid_examples/Argile/cplrdb.argn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/storage/storage/others/stupid_examples/Argile/cplr_db.argn",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 670.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/storage/storage/others/some_notes/gift_giving.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 28831.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/home/nesh/.config/sublime-text-3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/home/nesh/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppYCM.3":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 360.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "controller.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"controller/app.py"
+			],
+			[
+				"type",
+				"/storage/storage/others/limps/type_tree.limp"
+			],
+			[
+				"ty",
+				"type_tree.limp"
+			],
+			[
+				"rec",
+				"/storage/storage/others/limps/recwhile.limp"
+			],
+			[
+				"li",
+				"/storage/storage/others/limps/listops.limp"
+			],
+			[
+				"tree",
+				"/storage/storage/others/limps/tree.limp"
+			],
+			[
+				"lim",
+				"/storage/storage/others/limps/limps.py"
+			],
+			[
+				"pr",
+				"/storage/storage/others/limps/primitives.py"
+			],
+			[
+				"t",
+				"/storage/storage/others/limps/Type.limp"
+			],
+			[
+				"l",
+				"/storage/storage/others/limps/limps.py"
+			],
+			[
+				"base",
+				"/storage/storage/others/limps/basefuncs.limp"
+			],
+			[
+				"bas",
+				"/storage/storage/others/limps/basefuncs.limp"
+			],
+			[
+				"lis",
+				"/storage/storage/others/limps/listops.limp"
+			],
+			[
+				"read",
+				"/storage/storage/others/limps/README.md"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"as",
+				"/storage/storage/others/limps/assoc.limp"
+			],
+			[
+				"list",
+				"/storage/storage/others/limps/listops.limp"
+			],
+			[
+				"b",
+				"/storage/storage/others/limps/basefuncs.limp"
+			],
+			[
+				"up",
+				"include/uploadfiles.php"
+			],
+			[
+				"u",
+				"include/uploadfiles.php"
+			],
+			[
+				"co",
+				"console_upload.php"
+			],
+			[
+				"da",
+				"include/database.php"
+			],
+			[
+				"uploadf",
+				"include/uploadfiles.php"
+			],
+			[
+				"a",
+				"anu_choose.php"
+			],
+			[
+				"an",
+				"anu_choose.php"
+			],
+			[
+				"anu",
+				"anu_choose.php"
+			],
+			[
+				"dat",
+				"include/database.php"
+			],
+			[
+				"anu_ch",
+				"anu_choose.php"
+			],
+			[
+				"ratings.p",
+				"include/ratings.php"
+			],
+			[
+				"ani",
+				"static/js/anu_ratings.js"
+			],
+			[
+				"py",
+				"pos_accuracy.py.bak"
+			],
+			[
+				"postx",
+				"data/pos.txt"
+			],
+			[
+				"pos",
+				"data/pos.4.arpa"
+			],
+			[
+				"lmh",
+				"LM.h"
+			],
+			[
+				"prob",
+				"Prob.h"
+			],
+			[
+				"ex",
+				"experiment_1/Experiment1.jl"
+			],
+			[
+				"exp",
+				"experiment_1/Experiment1.ipynb"
+			],
+			[
+				"token",
+				"data/tokens.txt"
+			],
+			[
+				"pooljl",
+				"Pool/src/Pool.jl"
+			],
+			[
+				"jl",
+				"ParseTree/src/ParseTree.jl"
+			],
+			[
+				"jamfile",
+				"lm/Jamfile"
+			],
+			[
+				"string_",
+				"util/string_piece.cc"
+			],
+			[
+				"ssfapi",
+				"agreement_distribution/API/ssfAPI.py"
+			],
+			[
+				"nespy",
+				"named_entity_substitution/named_entity_substitution.py"
+			],
+			[
+				"rule",
+				"inter_chunk/res/hin/inter_chunk_rules.csv"
+			],
+			[
+				"agfeatpy",
+				"agreement_feature/agreement_feature.py"
+			],
+			[
+				"rooinfpy",
+				"root_to_infinitive/root_to_infinitive.py"
+			],
+			[
+				"afpy",
+				"agreement_feature/agreement_feature.py"
+			],
+			[
+				"agfpy",
+				"agreement_feature/agreement_feature.py"
+			],
+			[
+				"agr",
+				"agreement_distribution/agreement_distribution.py"
+			],
+			[
+				"html",
+				"root_to_infinitive/doc/documentation.html"
+			],
+			[
+				"ssf",
+				"ssfAPI.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/data/projects/agreementfeature-2.0.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 272.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

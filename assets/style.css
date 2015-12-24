@@ -17,6 +17,10 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
+@font-face {
+  font-family: myfont;
+  src: url('Toy.ttf');
+}
 td.number	{ background-color: lightgreen;				} 
 td.NP		{ background-color: rgb(152,245,255); /*cadetblue*/	}
 td.VP		{ background-color: rgb(255,182,193); /*lightpink*/	}
@@ -48,6 +52,7 @@ td.number
 
 td
 {
+  padding: 10px;
   border-left: 0px;
   border-top: 0px;
   line-height: 1.4em; /* TODO: Ugly way of doing this */

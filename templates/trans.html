@@ -1,0 +1,58 @@
+<HTML><BODY>
+<HTML lang="hi">
+	<head>
+		<title>ANUSAARAKA</title></head>
+	<BODY style="background:DeepSkyBlue">
+
+<meta http-equiv="Content-Language" content="pa">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+
+
+<!-- animate.css -->
+<link rel="stylesheet" href="/assets/animate/animate.css" />
+<link rel="stylesheet" href="/assets/animate/set.css" />
+
+<!-- gallery -->
+<link rel="stylesheet" href="/assets/gallery/blueimp-gallery.min.css">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link href="css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/assets/mystyle.css">
+
+<script href="converter.js"></script>
+<a href="/"><img src="/images/home.png" style="float:right;height:70px;width:70px;margin-right:5%;margin-top:1%;"/></a>
+<a href="/group/{{group}}"><img src="/images/book.png" style="float:right;height:50px;width:50px;margin-right:4%;margin-top:1.5%;"/></a>
+<h1 style="text-align:center;color:Navy;font-family:myfont;">{{name}}</h1>
+	<div style="dislay:inline;margin-left:10%;margin-bottom:5%;">
+<a href="/group/{{group}}/{{curr}}/html"><button class="btn btn-primary" style="width:250px;height:40px;border-radius:10px;text-align:center;background:Yellow;color:Navy;">View Source</button></a>
+<a href="ssf_files_04-08-15.html"><button class="btn btn-primary" style="width:350px;height:40px;border-radius:10px;text-align:center;background:Yellow;color:Navy;">View Layerered Translation</button></a>
+</div>
+<div style="display:inline;">
+<div>
+   {% if prev %}
+	 <a href="/group/{{group}}/{{prev}}/trans"><img src="/images/Previous.png" style="
+   width:60px;height:60px;position:fixed;float:right;margin-top:2%;"/></a>
+   {% endif %}
+
+	<img src="/images/oie_transparent.png" style="float:right;margin-right:8%;margin-top:8%;"/>
+
+  {% if next %}
+	 <a href="/group/{{group}}/{{next}}/trans"><img src="/images/Next.png" style="width:60px;height:60px;float:right;margin-right:10%;margin-top:3%;"/></a>
+  {% endif %}
+</div>
+</div>
+<div Id="demo" class="StoryScroll">
+{% for sentence in sentences %}
+{{sentence.id}} {{sentence.text}}<hr/>
+{% endfor %}
+</div>
+
