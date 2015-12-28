@@ -1,10 +1,10 @@
 /*
 Copyright (C) 2005 Sunil Mohan Adapa <sunil atc atc tcs co in>
 
-This program is free software; you can redistribute it and/or 
-modify it under the terms of the GNU General Public License 
-as published by the Free Software Foundation; either 
-version 2 of the License, or (at your option) any later 
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later
 version.
 
 This program is distributed in the hope that it will be useful,
@@ -18,10 +18,29 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
 @font-face {
-  font-family: myfont;
-  src: url('Toy.ttf');
+  /*font-family: myfont;*/
+  /*src: url('Toy.ttf');*/
 }
-td.number	{ background-color: lightgreen;				} 
+
+#side_bar {
+	color: black;
+	width: 20%;
+	min-height: 100px;
+	float: right;
+	margin-left: 1%;
+	word-wrap:break-word;
+	display: inline-block;
+	/*background-color: black;*/
+	border: 2px solid black;
+}
+
+#center {
+	display: inline-block;
+	margin: 0 0 0 0;
+	width : 70%;
+}
+
+td.number	{ background-color: lightgreen;				}
 td.NP		{ background-color: rgb(152,245,255); /*cadetblue*/	}
 td.VP		{ background-color: rgb(255,182,193); /*lightpink*/	}
 td.VGF		{ background-color: rgb(255,182,193); /*lightpink*/	}

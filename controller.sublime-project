@@ -12,6 +12,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/storage/storage/work/projects/anu_accessor/resource_api"
 		}
 	]
 }

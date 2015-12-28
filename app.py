@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory, render_template, request
+from flask import Flask, jsonify, send_from_directory, render_template, request, redirect
 from regex_converter import *
 import os, json
 import random
@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import re
 from Json2HTML import render_json
 import codecs
+import requests
 app = Flask(__name__)
 Data_Dir = "data/"
 
@@ -67,10 +68,15 @@ def list_group(group):
     for text, data in meta.items():
         ntext = {'id':text}
         ntext['title'] = data['title']
-        ntext['trans_title'] = data['trans_title']
+        ntext['single'] = False
+
+        if 'trans_title' in data:
+            ntext['trans_title'] = data['trans_title']
+            ntext['single'] = True
         random.shuffle(images)
         ntext['image'] = '/images/story_images/' + images[0]
         texts.append(ntext)
+
 
     print texts
 
@@ -135,6 +141,11 @@ def serve_file_html(group, file_num):
     """
     Given a group id and file number serves the file
     """
+
+
+    if os.path.exists('data/{group}/{file_num}.source'.format(**locals())) == False:
+        return redirect('/group/'+str(group)+'/'+str(file_num)+'/layers')
+
     sentences = get_sentences('data/{group}/{file_num}.source'.format(**locals()))
     all_files = [f.split('.')[0] for f in os.listdir('data/{group}'.format(**locals())) if f.endswith('.html') == False]
     all_files = list(set(all_files))
@@ -189,55 +200,7 @@ def serve_file_trans(group, file_num):
 
 
 
-def process_html(html):
-    #html = html.replace('../assets','/assets')
-    #html = html.replace('../images','/images')
-    html = precss_stuff.sub('=\"/assets/'+r'\g<path>'+'.css\"', html)
-    html = html.replace('<div class=\"float_clear\">', '<div class=\"float_clear\" />')
-    #html = css_stuff.sub('=\"/assets/'+r'\g<filename>'+'.css\"', html)
-    #html = js_stuff.sub('=\"/assets/'+r'\g<filename>'+'.js\"', html)
 
-    soup = BeautifulSoup(html, 'html.parser')
-
-
-
-    my_divs = soup.find_all('div', class_='float_clear')
-    has_table = False
-    count = 1
-    for div in my_divs:
-        next_sibling = div.next_sibling
-        e = False
-        colid = 1
-        for next_sibling in div.next_siblings:
-            try:
-                if next_sibling.name == 'table':
-                    next_sibling['id'] = count
-                    next_sibling['col'] = colid
-                    colid += 1
-                    e = True
-                elif next_sibling.name == 'div':
-                    break
-            except Exception as e:
-                print e
-
-        if e:
-            count += 1
-
-
-    jq = soup.new_tag('script')
-    jq['src'] = "/assets/jquery_11.min.js"
-    ev = soup.new_tag('script')
-    ev['src'] = '/assets/events.js'
-    soup.body.insert(len(soup.body.contents), jq)
-    soup.body.insert(len(soup.body.contents), ev)
-    #soup.body.('<script src=\"/assets/events.js\"></script>')
-
-
-    html = soup.prettify()
-
-
-    codecs.open('test.html',"w",'utf-8').write(html)
-    return html
 
 
 @app.route("/group/<regex('.*([0-9]+)'):group>/<regex('.*([0-9]+)'):file_num>/layers")
@@ -246,7 +209,7 @@ def serve_file_layers(group, file_num):
     Given a group id and file number serves the file
     """
     html = open('data/{group}/{file_num}.layers'.format(**locals())).read()
-    html = process_html(html)
+    #html = process_html(html)
     return html
 
 
@@ -259,7 +222,12 @@ def request_graph(group, file_num, sent_num, row_num, col_num):
             'row_num':row_num,
             'col_num':col_num,
             'text':text}
-    return jsonify(data)
+
+    text = text.strip('\" \n\t')
+    r = requests.get('http://0.0.0.0:5010/pb/p2h/'+text+'/html')
+    print 'http://0.0.0.0:5010/pb/p2h/'+text+'/html'
+    return r.content
+    #return jsonify(data)
 
 
 

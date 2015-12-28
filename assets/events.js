@@ -62,6 +62,7 @@ $('td').mouseup(function(event) {
         context: document.body
     }).done(function(data) {
         console.log(data);
+        document.getElementById('side_bar').innerHTML += JSON.stringify(data);
     });
 
     //console.log(window.getSelection());
