@@ -18,20 +18,10 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
 
-#side_bar {
-  color: black;
-  width: 200px;
-  min-height: 100px;
-  float: right;
-  word-wrap:break-word;
-  display: inline-block;
-  /*background-color: black;*/
-  border: 2px solid black;
-}
 
-#center {
-  display: inline-block;
-  width : 80%;
+.wrappable {
+  width: 150px;
+  word-wrap: break-word;
 }
 
 
@@ -60,10 +50,9 @@ td.number
 
 td
 {
-  border-left: 0px;
-  border-top: 0px;
+
   line-height: 1.4em; /* TODO: Ugly way of doing this */
-  white-space: nowrap;
+  word-wrap:break-word;
 
   /* dynamic */
   border-right: solid 1px white;

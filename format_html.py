@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 import re
 import codecs
 import json
@@ -37,11 +37,41 @@ def process_html(file_name, num):
             count += 1
 
 
+
+
+    model_stuff = BeautifulSoup("""
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" onclick='closeModal()'>&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body" id='reqbody'>
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+    """,'html.parser')
+
     jq = soup.new_tag('script')
     jq['src'] = "/assets/jquery_11.min.js"
     ev = soup.new_tag('script')
+    bj = soup.new_tag('script')
+    bj['src'] = "/assets/bootstrap/js/bootstrap.js"
     ev['src'] = '/assets/events.js'
+    bc = soup.new_tag('link')
+    bc['href'] = "/assets/bootstrap/css/bootstrap.css"
+    bc['type'] = 'text/css'
+    bc['rel'] = 'stylesheet'
+    soup.head.insert(len(soup.head.contents), bc)
     soup.body.insert(len(soup.body.contents), jq)
+    soup.body.insert(len(soup.body.contents), bj)
     soup.body.insert(len(soup.body.contents), ev)
     #soup.body.('<script src=\"/assets/events.js\"></script>')
 
@@ -50,11 +80,20 @@ def process_html(file_name, num):
     #soup.body['style'] ='width:80%;display:table-cell'
     soup.body.name = 'div'
     body = soup.new_tag('body')
-    side_bar = soup.new_tag('div')
-    side_bar['id'] = 'side_bar'
+    model = soup.new_tag('div')
+    model["class"] = "modal fade"
+    model["id"] = "modal"
+    model["role"] = "modal"
+    model.append(model_stuff)
+    #side_bar = soup.new_tag('div')
+    #side_bar['id'] = 'side_bar'
     #side_bar['style'] = ''
+    #d = soup.new_tag('div')
+    #d['class'] = 'container'
+    center['class'] = 'container'
     center.wrap(body)
-    soup.body.append(side_bar)
+    center.insert(0, model)
+    #d.wrap(body)
 
 
     html = soup.prettify()

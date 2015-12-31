@@ -7,6 +7,7 @@ import re
 from Json2HTML import render_json
 import codecs
 import requests
+from unification import helpers, fs_dispatch, dispatch_functions
 app = Flask(__name__)
 Data_Dir = "data/"
 
@@ -86,16 +87,19 @@ def list_group(group):
 
 
 
-    # group_dir = os.path.join(Data_Dir, group)
-    # group_list = os.listdir(group_dir)
-    # group_list.sort()
-    # group_files = {index + 1: file_name for index, file_name in enumerate(group_list)}
-    # return jsonify(group_files)
-
 @app.route("/<regex('.*'):path>/")
 def serve_static(path):
     print path
     return send_from_directory('.', path)
+
+
+def get_json_file(group, file_num):
+    file_path = os.path.join(os.path.join(Data_Dir, group), file_num + '.json')
+    data = None
+    print file_path
+    with open(file_path) as f:
+        data = f.read()
+    return json.loads(data)
 
 
 @app.route("/group/<regex('.*([0-9]+)'):group>/<regex('.*([0-9]+)'):file_num>/")
@@ -103,15 +107,7 @@ def serve_file(group, file_num):
     """
     Given a group id and file number serves the file
     """
-    group_files = os.listdir(os.path.join(Data_Dir, group))
-    group_files.sort()
-    file_num = int(file_num)
-    file_path = os.path.join(os.path.join(Data_Dir, group), group_files[file_num - 1])
-    data = None
-    print file_path
-    with open(file_path) as f:
-        data = f.read()
-    return jsonify(json.loads(data)) # I need to do this because jsonify apparently **needs** a dict
+    return jsonify(get_json_file(group, file_num)) # I need to do this because jsonify apparently **needs** a dict
 
 
 def get_sentences(file_name):
@@ -199,10 +195,6 @@ def serve_file_trans(group, file_num):
                             curr = file_num)
 
 
-
-
-
-
 @app.route("/group/<regex('.*([0-9]+)'):group>/<regex('.*([0-9]+)'):file_num>/layers")
 def serve_file_layers(group, file_num):
     """
@@ -216,16 +208,23 @@ def serve_file_layers(group, file_num):
 @app.route("/group/<regex('.*([0-9]+)'):group>/<regex('.*([0-9]+)'):file_num>/<regex('.*([0-9]+)'):sent_num>/<regex('.*([0-9]+)'):row_num>/<regex('.*([0-9]+)'):col_num>")
 def request_graph(group, file_num, sent_num, row_num, col_num):
     text = request.args.get('text')
-    data = {'group':group,
+    request_data = {'group':group,
             'file_num':file_num,
             'sent_num':sent_num,
             'row_num':row_num,
             'col_num':col_num,
             'text':text}
-
+    file_data = get_json_file(group, file_num)
+    data = {'request' : request_data, 'file' : file_data}
     text = text.strip('\" \n\t')
-    r = requests.get('http://0.0.0.0:5010/pb/p2h/'+text+'/html')
-    print 'http://0.0.0.0:5010/pb/p2h/'+text+'/html'
+    #r = requests.get('http://0.0.0.0:5010/pb/p2h/'+text+'/html')
+#    r = requests.get('http://localhost:5010/wv/h/'+text+'/html')
+    #r = requests.get('http://localhost:5010/hw/'+text+'/html')
+
+    feat =  helpers.dict_to_feat(data)
+    dispatch_functions.dispatch_functions(feat)
+    r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')
+    #print 'http://0.0.0.0:5010/pb/p2h/'+text+'/html'
     return r.content
     #return jsonify(data)
 

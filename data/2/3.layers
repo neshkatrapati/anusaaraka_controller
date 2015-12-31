@@ -17,9 +17,35 @@
     </link>
    </link>
   </meta>
+  <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
  </head>
  <body>
-  <div id="center" onload="register_keys()">
+  <div class="container" id="center" onload="register_keys()">
+   <div class="modal fade" id="modal" role="modal">
+<div class="modal-dialog">
+ <!-- Modal content-->
+ <div class="modal-content">
+  <div class="modal-header">
+   <button class="close" data-dismiss="modal" onclick="closeModal()" type="button">
+    ×
+   </button>
+   <h4 class="modal-title">
+    Modal Header
+   </h4>
+  </div>
+  <div class="modal-body" id="reqbody">
+   <p>
+    Some text in the modal.
+   </p>
+  </div>
+  <div class="modal-footer">
+   <button class="btn btn-default" data-dismiss="modal" type="button">
+    Close
+   </button>
+  </div>
+ </div>
+</div>
+   </div>
    <div id="navigation">
     <form action="" onsubmit="goto_section(); return false;">
      <p>
@@ -47110,10 +47136,10 @@
    </div>
    <script src="/assets/jquery_11.min.js">
    </script>
+   <script src="/assets/bootstrap/js/bootstrap.js">
+   </script>
    <script src="/assets/events.js">
    </script>
-  </div>
-  <div id="side_bar">
   </div>
  </body>
 </html>

@@ -42,27 +42,31 @@ get_group_details = function() {
     return q;
 }
 
+closeModal = function() {
+    $('#modal').hide();
+}
+$(document).ready(function() {
+    //$('#modal').hide();
+});
 
 $('td').mouseup(function(event) {
     rowClass = event.target.parentNode.className;
     ps = event.target.parentNode.parentNode.parentNode;
-    rowNumber = parseInt(rowClass[rowClass.length - 1]);
+
+    rowNumber = parseInt(rowClass.substr(3));
     others = get_group_details();
     colid = ps.getAttribute('col');
-    //console.log(window.getSelection());
-    // console.log(rowNumber);
-    // console.log(ps.id);
-    // console.log(others);
     text = window.getSelection().toString();
-    uril = "http://localhost:5000/group/"+q[0]+"/"+q[1]+"/"+ps.id+"/"+rowNumber+'/'+colid+'?text=\"'+text+'\"';
+    uril = "http://0.0.0.0:5000/group/"+q[0]+"/"+q[1]+"/"+ps.id+"/"+rowNumber+'/'+colid+'?text=\"'+text+'\"';
+    console.log(uril);
     console.log(uril);
 
     $.ajax({
         url: uril,
         context: document.body
     }).done(function(data) {
-        console.log(data);
-        document.getElementById('side_bar').innerHTML += JSON.stringify(data);
+        document.getElementById('reqbody').innerHTML = data;
+        $('#modal').modal();
     });
 
     //console.log(window.getSelection());
