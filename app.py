@@ -222,10 +222,11 @@ def request_graph(group, file_num, sent_num, row_num, col_num):
     #r = requests.get('http://localhost:5010/hw/'+text+'/html')
 
     feat =  helpers.dict_to_feat(data)
-    dispatch_functions.dispatch_functions(feat)
+    content = dispatch_functions.dispatch_functions(feat)
     r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')
     #print 'http://0.0.0.0:5010/pb/p2h/'+text+'/html'
-    return r.content
+    #return r.content
+    return content
     #return jsonify(data)
 
 
