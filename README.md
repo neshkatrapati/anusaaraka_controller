@@ -2,6 +2,13 @@
 
 This is controller for anusaaraka accessor project implemented in flask.
 
+
+# What will you need ?  #
+* Flask 
+* NLTK
+* BS4
+
+
 # How to get it running ?
 
 ``` bash
