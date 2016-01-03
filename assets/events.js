@@ -57,12 +57,13 @@ $('td').mouseup(function(event) {
     others = get_group_details();
     colid = ps.getAttribute('col');
     text = window.getSelection().toString();
-    uril = "http://0.0.0.0:5000/group/"+q[0]+"/"+q[1]+"/"+ps.id+"/"+rowNumber+'/'+colid+'?text=\"'+text+'\"';
+    uril = "/group/"+q[0]+"/"+q[1]+"/"+ps.id+"/"+rowNumber+'/'+colid+'?text=\"'+text+'\"';
     console.log(uril);
     console.log(uril);
 
     $.ajax({
         url: uril,
+//	dataType:"jsonp",
         context: document.body
     }).done(function(data) {
         document.getElementById('reqbody').innerHTML = data;

@@ -8,7 +8,9 @@ from Json2HTML import render_json
 import codecs
 import requests
 from unification import helpers, fs_dispatch, dispatch_functions
+from flask.ext.cors import CORS, cross_origin
 app = Flask(__name__)
+CORS(app)
 Data_Dir = "data/"
 
 # Add this to enable regex parsing of the url.
@@ -206,6 +208,7 @@ def serve_file_layers(group, file_num):
 
 
 @app.route("/group/<regex('.*([0-9]+)'):group>/<regex('.*([0-9]+)'):file_num>/<regex('.*([0-9]+)'):sent_num>/<regex('.*([0-9]+)'):row_num>/<regex('.*([0-9]+)'):col_num>")
+@cross_origin()
 def request_graph(group, file_num, sent_num, row_num, col_num):
     text = request.args.get('text')
     request_data = {'group':group,
