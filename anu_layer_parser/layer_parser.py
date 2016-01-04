@@ -23,6 +23,7 @@ class SansStory:
     div_symbol = "->"
     def __init__(self,fs):
         self.story_data = fs["file"]
+        self.req = fs["request"]
         # with open(fs) as f:
         #     self.story_data = load(f)
         # hardcode the file map
@@ -31,15 +32,20 @@ class SansStory:
         self.featfmap["gen"] = "gen.txt"
     def change_story(self, fs):
         self.story_data = fs["file"]
-    def get_text_type(self, text, sentno, layer, colno):
+    def get_text_type(self, text):
+        sentno = self.req["sent_num"]
+        layer = int(self.req["row_num"])
+        colno = self.req["col_num"]
         feats = defaultdict(lambda: None)
         feats.update(self.story_data[str(sentno)][SAN_ACCEPTED_LAYERS[int(layer)]][str(colno)])
         if layer in [10,11]:
+#            print 'Im in ze layers'
             if text.strip() == SansStory.div_symbol:
                 return self.featfmap["divsym"]
             elif text.strip() in SansStory.prattyaya_braces:
                 return self.featfmap["pratsym"]
             elif text.strip() in SansStory.vibhakti_braces:
+                print "I is in ze vibbraces"
                 return self.featfmap["vibsym"]
             elif text.strip() == SansStory.pratambig_sym:
                 return self.featfmap["pratambigsym"]
@@ -75,5 +81,5 @@ class SansStory:
                             with open("data/"+self.featfmap["vibdiv"]) as adoc:
                                 auxdoc = adoc.read().strip()
                 return featdoc,valdoc,auxdoc 
-a = SansStory("/data/raship/anusaaraka_language_accessor/anusaaraka_controller/data/3/1.json")
-print a.get_text_type("पु०",1,10,1)
+#a = SansStory("/data/raship/anusaaraka_language_accessor/anusaaraka_controller/data/3/1.json")
+#print a.get_text_type("पु०",1,10,1)

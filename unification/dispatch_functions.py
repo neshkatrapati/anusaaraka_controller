@@ -4,6 +4,7 @@
 from fs_dispatch import *
 import requests
 import json 
+from anu_layer_parser import layer_parser
 
 SAN_ACCEPTED_LAYERS = {
   1 : 'source',
@@ -28,7 +29,7 @@ WIKI_URL = "http://10.2.8.55/wiki/doku.php?id={term}"
 def sanskrit_hindi_bilingual(fs):
   text = fs["request"]["text"]
   r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')
-  response = {'type' : 'dict', 'content' : r.content, 'name':'Sanskrit-Hindi Bilingual Dictionary(Apte)'}
+  response = {'type' : 'dict', 'content' : r.content, 'name':'Sanskrit-Hindi Bilingual Dictionary(Apte)', 'priority':0}
   return response
 
 @dispatch("[request=[row_num='5']]")
@@ -48,7 +49,7 @@ def wiki_dispatch(fs):
      url = WIKI_URL.format(term = term) 
 #     r = requests.get(url)
      content = url
-  response = {'type' : 'wiki', 'content' : content, 'name':'Wiki'}
+  response = {'type' : 'wiki', 'content' : content, 'name':'Wiki', 'priority':0}
   return response
 
 
@@ -57,7 +58,7 @@ def wiki_dispatch(fs):
 def hindi_wordnet(fs):
   text = fs["request"]["text"]
   r = requests.get('http://localhost:5010/hw/'+text+'/html')
-  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Wordnet'}
+  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Wordnet', 'priority':0}
   return response
 
 
@@ -65,8 +66,22 @@ def hindi_wordnet(fs):
 def hindi_w2v(fs):
   text = fs["request"]["text"]
   r = requests.get('http://localhost:5010/wv/h/'+text+'/html')
-  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Word2Vec'}
+  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Word2Vec', 'priority':1}
   return response
+
+
+@dispatch_or("[request=[row_num='10']]","[request=[row_num='11']]")
+def hprime_interpret(fs):
+  text = fs["request"]["text"]
+  san_story = layer_parser.SansStory(fs)
+  stuff = san_story.get_text_type(text)
+  print "Stuff",stuff
+  r = requests.get('http://localhost:5010/hw/'+text+'/html')
+  response = {'type' : 'graph', 'content' : r.content, 'name':'', 'priority':0}
+  return response
+
+
+
 
 def dispatch_functions(fs):
 
@@ -77,13 +92,16 @@ def dispatch_functions(fs):
       class_ = 'active'
     html += "<li role=\"presentation\" class=\"{class_}\"><a href=\"#{info_type}\" aria-controls=\"{info_type}\" role=\"tab\" data-toggle=\"tab\">{info_name}</a></li>".format(**locals())
     #elif info_type == 'wiki':
-  responses = {rt : [] for rt in UI_LAYERS}
+
+
+  responses = {rt : {} for rt in UI_LAYERS}
 
   for rule, func in dispatchRules.items():
+    resp = None
     try:
       resp = func(fs)
       if resp['content'] != 'None':
-        responses[resp['type']].append(resp)
+        responses[resp['type']][resp['priority']] = resp
         name = resp['name']
       print "Function Dispatch ::: Got Response from ", rule, "OK"
     except UnificationError as e:
@@ -100,14 +118,22 @@ def dispatch_functions(fs):
   <div class="tab-content">
 
   """
+
+#  print responses
   for response_type, response_object in responses.items():
-    class_ = ""
-    if response_type == 'dict':
-      class_ = 'active'
-      content = "\n".join(["<table><th>"+s['name']+"</th><tr><td>"+s['content']+"</td></tr></table>" for s in response_object])
-    elif response_type == 'wiki':
-      content = "<iframe src='{src}' width='500' height='300'></iframe>".format(src = response_object[0]['content'])
-    html += "<div role=\"tabpanel\" class=\"tab-pane {class_}\" id=\"{response_type}\">{content}</div>".format(**locals())
+      class_ = ""
+      content = ""
+#      print response_type, response_object
+      if response_type == 'dict':
+          class_ = 'active'
+      
+      if len(response_object) > 0:
+        if response_type == 'dict':
+          class_ = 'active'
+          content = "\n".join(["<table><th>"+s['name']+"</th><tr><td>"+s['content']+"</td></tr></table>" for k,s in response_object.items()])
+        elif response_type == 'wiki':
+          content = "<iframe src='{src}' width='500' height='300'></iframe>".format(src = response_object[0]['content'])
+      html += "<div role=\"tabpanel\" class=\"tab-pane {class_}\" id=\"{response_type}\">{content}</div>".format(**locals())
 
   html += '</div>'
 
