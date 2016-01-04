@@ -53,6 +53,32 @@ def wiki_dispatch(fs):
   return response
 
 
+@dispatch("[request=[row_num='5']]")
+def karaka_highlight(fs):
+	
+  text = fs["request"]["text"].strip()
+  content = 'Something'
+  try:
+    if ',' in text:
+      text = text.split(',')
+      rel = text[0].strip()    
+      idx = int(text[1].strip())
+      sent_num = str(fs['request']['sent_num'])
+      col_num = str(fs['request']['col_num'])
+
+#      print "Sent_NUM", sent_num
+      sentence = fs['file'][sent_num]
+#      print sentence
+      word_1 = sentence["source"][col_num]["tok"]
+      word_2 = sentence["source"][str(idx)]["tok"]
+      
+      r = word_1 + " is the " + rel + " of " + word_2
+      content = r 
+  except:
+    pass
+  response = {'type' : 'graph', 'content' : content, 'name':'Syntactic-Relations', 'priority':0}
+  return response
+
 
 @dispatch_or("[request=[row_num='10']]","[request=[row_num='11']]")
 def hindi_wordnet(fs):
@@ -70,17 +96,32 @@ def hindi_w2v(fs):
   return response
 
 
+def stuff_to_html(stuff):
+#  print type(stuff)
+  if len(stuff) < 2:
+    return ''
+  if len(stuff) == 2:
+    if stuff[0] != None and stuff[1] != None:
+      return "<div><h4>"+stuff[0]+"</h4>"+stuff[1]+"</div>"
+    else:
+      return ''
+  else:
+    t = ""
+    for k in stuff:
+      t += stuff_to_html(k)
+    return t
+
 @dispatch_or("[request=[row_num='10']]","[request=[row_num='11']]")
 def hprime_interpret(fs):
   text = fs["request"]["text"]
+  print [text]
   san_story = layer_parser.SansStory(fs)
   stuff = san_story.get_text_type(text)
-  print "Stuff",stuff
-  r = requests.get('http://localhost:5010/hw/'+text+'/html')
-  response = {'type' : 'graph', 'content' : r.content, 'name':'', 'priority':0}
+  print stuff
+  html = stuff_to_html(stuff)
+#  r = requests.get('http://localhost:5010/hw/'+text+'/html')
+  response = {'type' : 'graph', 'content' : html, 'name':'', 'priority':0}
   return response
-
-
 
 
 def dispatch_functions(fs):
@@ -128,8 +169,9 @@ def dispatch_functions(fs):
           class_ = 'active'
       
       if len(response_object) > 0:
-        if response_type == 'dict':
-          class_ = 'active'
+        if response_type in ['dict','graph']:
+          if response_type == 'dict':
+            class_ = 'active'
           content = "\n".join(["<table><th>"+s['name']+"</th><tr><td>"+s['content']+"</td></tr></table>" for k,s in response_object.items()])
         elif response_type == 'wiki':
           content = "<iframe src='{src}' width='500' height='300'></iframe>".format(src = response_object[0]['content'])

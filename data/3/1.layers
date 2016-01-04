@@ -143,7 +143,7 @@
        1.J
       </td>
       <td class="n1">
-       नामदेव  { पु० / एक० / 0 }
+       नामदेव  { 0 }
       </td>
      </tr>
      <tr class="row11" style="border-right:dashed;">
@@ -203,7 +203,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       एक { पु० / एक० / 0 }
+       एक { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -260,7 +260,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       महान् { पु० / एक० / 0 }
+       महान् { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -317,7 +317,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       साधु { पु० / एक० / 0 }
+       साधु { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -374,12 +374,12 @@
      </tr>
      <tr class="row10">
       <td class="v">
-       हुआ { प्र० / एक० / 0 }
+       हो &lt; या &gt; { 0 }
       </td>
      </tr>
      <tr class="row11">
       <td class="v">
-       हो &lt; या &gt; { उ० / एक० }
+       हो &lt; या &gt; { 0 }
       </td>
      </tr>
     </table>
@@ -471,7 +471,7 @@
        2.K
       </td>
       <td class="NA">
-       सभी_जगह { 0 }
+       सभी_जगह { पु० / एक० / 0 }
       </td>
      </tr>
     </table>
@@ -523,7 +523,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       भगवद्-दृष्टि  { स्त्री० / एक० / 0 }
+       भगवद्-दृष्टि  { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -580,7 +580,7 @@
      </tr>
      <tr class="row10">
       <td class="n6">
-       वह { पु० / एक० / 0 }
+       वह { का }
       </td>
      </tr>
      <tr class="row11">
@@ -637,12 +637,12 @@
      </tr>
      <tr class="row10">
       <td class="v">
-       था { प्र० / एक०  }
+       था { 0 }
       </td>
      </tr>
      <tr class="row11">
       <td class="v">
-       था { उ० / एक० }
+       था { 0 }
       </td>
      </tr>
     </table>
@@ -786,7 +786,7 @@
      </tr>
      <tr class="row10">
       <td class="n4">
-       भगवान् { पु० / एक० / को }
+       भगवान् { को }
       </td>
      </tr>
      <tr class="row11">
@@ -843,12 +843,12 @@
      </tr>
      <tr class="row10">
       <td class="n3">
-       प्रसाद-रूप { न० / एक० / से3 }
+       प्रसाद-रूप { से3 }
       </td>
      </tr>
      <tr class="row11">
       <td class="n3">
-       प्रसाद-रूप { पु०  / एक० / से3 }
+       प्रसाद-रूप { न० / एक० / से3 }
       </td>
      </tr>
     </table>
@@ -905,7 +905,7 @@
      </tr>
      <tr class="row11">
       <td class="NA">
-       समर्पित_कर &lt; ने_के_लिए &gt; { 0 }
+       समर्पित  &lt; कर &gt; { 0 }
       </td>
      </tr>
     </table>
@@ -957,7 +957,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       वह { पु० / एक० / 0 }
+       वह { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -1014,12 +1014,12 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       रोटी { स्त्री० / एक० / को }
+       रोटी { को }
       </td>
      </tr>
      <tr class="row11">
       <td class="n2">
-       रोटी { स्त्री० / एक० / को }
+       रोटी { सत्री० / एक० / को }
       </td>
      </tr>
     </table>
@@ -1185,12 +1185,12 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       घी { स्त्री० / एक० / को }
+       घी { को }
       </td>
      </tr>
      <tr class="row11">
       <td class="n2">
-       घी { स्त्री०  / एक० / को }
+       घी {न० / एक० / को }
       </td>
      </tr>
     </table>
@@ -1247,7 +1247,7 @@
      </tr>
      <tr class="row11">
       <td class="NA">
-       लगा &lt; ने~के_लिये &gt; { 0 }
+       लगा  { 0 }
       </td>
      </tr>
     </table>
@@ -1299,7 +1299,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       तैयार { पु० / एक० / 0 }
+       तैयार { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -1567,7 +1567,7 @@
      </tr>
      <tr class="row11">
       <td class="NA">
-       कहीँ  &lt; से' &gt; { 0 }
+       कहीँ  &lt; से &gt; { 0 }
       </td>
      </tr>
     </table>
@@ -1619,7 +1619,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       एक { पु० / एक० / 0 }
+       एक { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -1676,7 +1676,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       कुत्ता { पु० / एक० / 0 }
+       कुत्ता { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -1847,7 +1847,7 @@
      </tr>
      <tr class="row10">
       <td class="n7">
-       मुख { पु० / एक० / में }
+       मुख { में }
       </td>
      </tr>
      <tr class="row11">
@@ -1961,7 +1961,7 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       रोटी { स्त्री० / एक० / को }
+       रोटी { को }
       </td>
      </tr>
      <tr class="row11">
@@ -2075,12 +2075,12 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       भागा { प्र० / एक० }
+       भागा { 0 }
       </td>
      </tr>
      <tr class="row11">
       <td class="n1">
-       भागा { उ० / एक० }
+       भागा { 0 }
       </td>
      </tr>
     </table>
@@ -2164,7 +2164,7 @@
        5.J
       </td>
       <td class="n7">
-       कुत्ता { पु० / एक० / में }
+       कुत्ता { में }
       </td>
      </tr>
      <tr class="row11" style="border-right:dashed;">
@@ -2281,7 +2281,7 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       भगवान् { पु० / एक० / को }
+       भगवान् { को }
       </td>
      </tr>
      <tr class="row11">
@@ -2452,7 +2452,7 @@
      </tr>
      <tr class="row10">
       <td class="n1">
-       नामदेव { पु० / एक० / 0 }
+       नामदेव { 0 }
       </td>
      </tr>
      <tr class="row11">
@@ -2509,12 +2509,12 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       घी-पात्र { न० / एक० / को }
+       घी-पात्र { को }
       </td>
      </tr>
      <tr class="row11">
       <td class="n2">
-       घी-पात्र { पु० / एक० / को }
+       घी-पात्र { न० / एक० / को }
       </td>
      </tr>
     </table>
@@ -2566,7 +2566,7 @@
      </tr>
      <tr class="row10">
       <td class="n7">
-       हाथ { पु० / एक० / में }
+       हाथ { में }
       </td>
      </tr>
      <tr class="row11">
@@ -2680,7 +2680,7 @@
      </tr>
      <tr class="row10">
       <td class="n2">
-       कुत्ता  { पु० / एक० / को -&gt; के }
+       कुत्ता  { को / के }
       </td>
      </tr>
      <tr class="row11">
@@ -3300,7 +3300,7 @@
      </tr>
      <tr class="row6">
       <td class="NA">
-       क्यों
+       क्या
       </td>
      </tr>
      <tr class="row7">
@@ -3320,12 +3320,12 @@
      </tr>
      <tr class="row10">
       <td class="NA">
-       क्यों { 0 }
+       क्या { 0 }
       </td>
      </tr>
      <tr class="row11">
       <td class="NA">
-       क्यों { 0 }
+       क्या { 0 }
       </td>
      </tr>
     </table>
@@ -3357,7 +3357,7 @@
      </tr>
      <tr class="row6">
       <td class="v">
-       ले_जा_रहे_हो
+       ले_जाते_हो
       </td>
      </tr>
      <tr class="row7">
@@ -3377,12 +3377,12 @@
      </tr>
      <tr class="row10">
       <td class="v">
-       ले_जा_रहा_है { 0 }
+       ले_जा  { है }
       </td>
      </tr>
      <tr class="row11">
       <td class="v">
-       ले_जा_रहा_है  { 0 }
+       ले_जा  { है }
       </td>
      </tr>
     </table>
@@ -3794,7 +3794,7 @@
      </tr>
      <tr class="row11">
       <td class="n6">
-       आप { सर्व० / एक० / के }
+       आप { वि० / एक० / के }
       </td>
      </tr>
     </table>
@@ -3851,7 +3851,7 @@
      </tr>
      <tr class="row11">
       <td class="n2">
-       जीभ { स्त्री० / एक० / को }
+       जीभ { न० / एक० / को }
       </td>
      </tr>
     </table>

@@ -3,32 +3,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!--
-Copyright (C) 2005 Sunil Mohan Adapa <sunil at atc tcs co in>
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either
-version 2 of the License, or (at your option) any later
-version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
--->
-
 <head>
   <title>Show/Hide Rows</title>
   <script type="text/javascript">
-  <!--
   var parent = window.opener;
-  alert(parent);
-  var no_of_rows = parent.document.forms[0].no_of_rows.value;
+  //alert(parent);
+  form_len  = parent.document.forms.length - 1
+  var no_of_rows = parent.document.forms[form_len].no_of_rows.value;
   var loading = true;
 
   function print_form ()
@@ -64,7 +45,6 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   {
     return parent.get_description (row);
   }
-  // -->
   </script>
 </head>
 <body>
