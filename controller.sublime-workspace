@@ -4,6 +4,162 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"responses	statement"
+			],
+			[
+				"resp",
+				"response_type	(forflow)"
+			],
+			[
+				"info",
+				"info_type	(forflow)"
+			],
+			[
+				"di",
+				"dispatchRules	statement"
+			],
+			[
+				"fil",
+				"file_data	statement"
+			],
+			[
+				"req",
+				"request_data	statement"
+			],
+			[
+				"dic",
+				"dict_to_feat	function"
+			],
+			[
+				"help",
+				"helpers	(module)"
+			],
+			[
+				"filepath",
+				"file_path	(statement)"
+			],
+			[
+				"fo",
+				"folder_name	statement"
+			],
+			[
+				"le",
+				"lexhead	param"
+			],
+			[
+				"lex",
+				"lexhead"
+			],
+			[
+				"syn",
+				"synsetArray"
+			],
+			[
+				"dem",
+				"demoIndexWord	statement"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"model",
+				"model_stuff	statement"
+			],
+			[
+				"get",
+				"get_similars	function"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"json",
+				"jsonify	(statement)"
+			],
+			[
+				"pun",
+				"pun_bilingual"
+			],
+			[
+				"trans",
+				"trans_title"
+			],
+			[
+				"table",
+				"table-column"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"for",
+				"format_simple	function"
+			],
+			[
+				"form",
+				"format_pun	function"
+			],
+			[
+				"ge",
+				"getSelection"
+			],
+			[
+				"jso",
+				"jsonify	import"
+			],
+			[
+				"sen",
+				"sent_num	(param)"
+			],
+			[
+				"next",
+				"next_sibling"
+			],
+			[
+				"new_",
+				"new_tag	(function)"
+			],
+			[
+				"nex",
+				"next_sibling	statement"
+			],
+			[
+				"ne",
+				"next_sibling	statement"
+			],
+			[
+				"find",
+				"find_all	(function)"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"nu",
+				"number_of_files	statement"
+			],
+			[
+				"file",
+				"file_num	param"
+			],
+			[
+				"co",
+				"count	function"
+			],
+			[
+				"all",
+				"all_files	statement"
+			],
+			[
 				"render",
 				"render_template	import"
 			],
@@ -48,10 +204,6 @@
 				"send_from_directory	(function)"
 			],
 			[
-				"file",
-				"file_name	param"
-			],
-			[
 				"el",
 				"elements	statement"
 			],
@@ -90,10 +242,6 @@
 			[
 				"me",
 				"methods	(param)"
-			],
-			[
-				"nex",
-				"next_element	statement"
 			],
 			[
 				"st",
@@ -138,10 +286,6 @@
 			[
 				"temp",
 				"temp_file"
-			],
-			[
-				"for",
-				"foreach	foreach …"
 			],
 			[
 				"machine",
@@ -370,22 +514,6 @@
 			[
 				"senten",
 				"sentences	statement"
-			],
-			[
-				"chunk",
-				"chunk_head	statement"
-			],
-			[
-				"outpu",
-				"output_doc	statement"
-			],
-			[
-				"nom",
-				"nominal	forflow"
-			],
-			[
-				"nomina",
-				"nominal_tags	statement"
 			]
 		]
 	},
@@ -438,7 +566,265 @@
 			"file": "app.py",
 			"settings":
 			{
-				"buffer_size": 3210,
+				"buffer_size": 7396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "unification/fs_dispatch.py",
+			"settings":
+			{
+				"buffer_size": 2446,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "unification/dispatch_test.py",
+			"settings":
+			{
+				"buffer_size": 457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "unification/helpers.py",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from fs_dispatch import *\nimport requests\n\nSAN_ACCEPTED_LAYERS = {\n  1 : 'source',\n  5 : 'karaka',\n  10 : 'morph',\n  11 : 'anusarita'\n}\n\n\nUI_LAYERS = {\n  'dict' : 'Dictionaries',\n  'graph' : 'Information',\n  'wiki' : 'Wiki'\n}\n\n\n\n\n\n\n\n@dispatch(\"[request=[row_num='1']]\")\ndef sanskrit_hindi_bilingual(fs):\n  text = fs[\"request\"][\"text\"]\n  r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')\n  response = {'type' : 'dict', 'content' : r.content, 'name':'Sanskrit-Hindi Bilingual Dictionary(Apte)'}\n  return response\n\n@dispatch_or(\"[request=[row_num='10']]\",\"[request=[row_num='11']]\")\ndef hindi_wordnet(fs):\n  text = fs[\"request\"][\"text\"]\n  r = requests.get('http://localhost:5010/hw/'+text+'/html')\n  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Wordnet'}\n  return response\n\n\n@dispatch_or(\"[request=[row_num='10']]\",\"[request=[row_num='11']]\")\ndef hindi_w2v(fs):\n  text = fs[\"request\"][\"text\"]\n  r = requests.get('http://localhost:5010/wv/h/'+text+'/html')\n  response = {'type' : 'dict', 'content' : r.content, 'name':'Hindi-Word2Vec'}\n  return response\n\n\n\n\n\ndef dispatch_functions(fs):\n\n  html = \"\"\"<ul class=\"nav nav-tabs\" role=\"tablist\">\"\"\"\n  for info_type, info_name in UI_LAYERS.items():\n    class_ = \"\"\n    if info_type == 'dict':\n      class_ = 'active'\n    html += \"<li role=\\\"presentation\\\" class=\\\"{class_}\\\"><a href=\\\"#{info_type}\\\" aria-controls=\\\"{info_type}\\\" role=\\\"tab\\\" data-toggle=\\\"tab\\\">{info_name}</a></li>\".format(**locals())\n\n  responses = {rt : [] for rt in UI_LAYERS}\n  for rule, func in dispatchRules.items():\n\n    try:\n      resp = func(fs)\n      if resp['content'] != 'None':\n        responses[resp['type']].append(resp)\n        name = resp['name']\n      print \"Function Dispatch ::: Got Response from \", rule, \"OK\"\n    except UnificationError as e:\n      print  \"Function Dispatch Error ::: Failed to unify\", rule\n      # continue\n    except Exception as e:\n      print \"Function Dispatch Error ::: Failed to execute\", rule, \"because\", e\n\n\n\n  html += '</ul>'\n  html += \"\"\"\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n\n  \"\"\"\n  for response_type, response_object in responses.items():\n    class_ = \"\"\n    if response_type == 'dict':\n      class_ = 'active'\n    content = \"\\n\".join([\"<table><th>\"+s['name']+\"</th><tr><td>\"+s['content']+\"</td></tr></table>\" for s in response_object])\n    html += \"<div role=\\\"tabpanel\\\" class=\\\"tab-pane {class_}\\\" id=\\\"{response_type}\\\">{content}</div>\".format(**locals())\n\n  html += '</div>'\n\n  return html",
+			"file": "unification/dispatch_functions.py",
+			"file_size": 5316,
+			"file_write_time": 130963629542173705,
+			"settings":
+			{
+				"buffer_size": 2496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/Dicts/Apte_dict/parse_and_convert.py",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/app.py",
+			"settings":
+			{
+				"buffer_size": 1068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/punj_bilingual.py",
+			"settings":
+			{
+				"buffer_size": 2589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/outp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/apte.py",
+			"settings":
+			{
+				"buffer_size": 1287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/w2v.py",
+			"settings":
+			{
+				"buffer_size": 2147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/helpers.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from bs4 import BeautifulSoup, NavigableString\nimport re\nimport codecs\nimport json\n\nprecss_stuff = re.compile('=\\\"(.*?/)?(?P<path>[^\\s]*)\\.(css|js)\\\"')\ncss_stuff = re.compile('=\\\"(?P<filename>[^/]*)\\.css\\\"')\njs_stuff = re.compile('=\\\"(?P<filename>[^/]*)\\.js\\\"')\n\n\ndef process_html(file_name, num):\n    html = open(file_name).read()\n    html = precss_stuff.sub('=\\\"/assets/'+r'\\g<path>'+'.css\\\"', html)\n    html = html.replace('<div class=\\\"float_clear\\\">', '<div class=\\\"float_clear\\\" />')\n    soup = BeautifulSoup(html, 'html.parser')\n\n    my_divs = soup.find_all('div', class_='float_clear')\n    has_table = False\n    count = 1\n    for div in my_divs:\n        next_sibling = div.next_sibling\n        e = False\n        colid = 1\n        for next_sibling in div.next_siblings:\n            try:\n                if next_sibling.name == 'table':\n                    next_sibling['id'] = count\n                    next_sibling['col'] = colid\n                    colid += 1\n                    e = True\n                elif next_sibling.name == 'div':\n                    break\n            except Exception as e:\n                print e\n\n        if e:\n            count += 1\n\n\n\n\n    model_stuff = BeautifulSoup(\"\"\"\n    <div class=\"modal-dialog\">\n\n      <!-- Modal content-->\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" onclick='closeModal()'>&times;</button>\n          <h4 class=\"modal-title\">Modal Header</h4>\n        </div>\n        <div class=\"modal-body\" id='reqbody'>\n          <p>Some text in the modal.</p>\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n        </div>\n      </div>\n\n    </div>\n    \"\"\",'html.parser')\n\n    jq = soup.new_tag('script')\n    jq['src'] = \"/assets/jquery_11.min.js\"\n    ev = soup.new_tag('script')\n    bj = soup.new_tag('script')\n    bj['src'] = \"/assets/bootstrap/js/bootstrap.js\"\n    ev['src'] = '/assets/events.js'\n    bc = soup.new_tag('link')\n    bc['href'] = \"/assets/bootstrap/css/bootstrap.css\"\n    bc['type'] = 'text/css'\n    bc['rel'] = 'stylesheet'\n    soup.head.insert(len(soup.head.contents), bc)\n    soup.body.insert(len(soup.body.contents), jq)\n    soup.body.insert(len(soup.body.contents), bj)\n    soup.body.insert(len(soup.body.contents), ev)\n    #soup.body.('<script src=\\\"/assets/events.js\\\"></script>')\n\n    center = soup.body\n    soup.body['id'] = 'center'\n    #soup.body['style'] ='width:80%;display:table-cell'\n    soup.body.name = 'div'\n    body = soup.new_tag('body')\n    model = soup.new_tag('div')\n    model[\"class\"] = \"modal fade\"\n    model[\"id\"] = \"modal\"\n    model[\"role\"] = \"modal\"\n    model.append(model_stuff)\n    #side_bar = soup.new_tag('div')\n    #side_bar['id'] = 'side_bar'\n    #side_bar['style'] = ''\n    #d = soup.new_tag('div')\n    #d['class'] = 'container'\n    center['class'] = 'container'\n    center.wrap(body)\n    center.insert(0, model)\n    #d.wrap(body)\n\n\n    html = soup.prettify()\n\n\n    codecs.open(num+'.layers',\"w\",'utf-8').write(html)\n    #return html\n\ndef format_simple(file_name, num, typ):\n    html = open(file_name).read()\n    soup = BeautifulSoup(html, 'html.parser')\n    plain_text = soup.getText().strip()\n    open(num+'.'+typ, 'w').write(plain_text.encode('utf-8'))\n\ndef format_pun(prefix, num):\n    html_file = prefix + '.html'\n    source_file = prefix + '_source.html'\n    trans_file = prefix + '_trans.html'\n    format_simple(source_file, num, 'source')\n    format_simple(trans_file, num, 'trans')\n    process_html(html_file, num)\n    t = {num : {'title':'Dummy', 'trans_title':'dummy'}}\n    print json.dumps(t, indent=2)\n    #print html_file, source_file, trans_file\n\n\nimport sys\nprefix = sys.argv[1]\nnum= sys.argv[2]\nformat_pun(prefix, num)",
+			"file": "format_html.py",
+			"file_size": 3820,
+			"file_write_time": 130958556856505757,
+			"settings":
+			{
+				"buffer_size": 3820,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/bootstrap/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "format_san.py",
+			"settings":
+			{
+				"buffer_size": 3131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sanstyle.css",
+			"settings":
+			{
+				"buffer_size": 2378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/3/1.layers",
+			"settings":
+			{
+				"buffer_size": 74702,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/project/L/L.html",
+			"settings":
+			{
+				"buffer_size": 47422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/anurows.html",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/J/J.html",
+			"settings":
+			{
+				"buffer_size": 66551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/K/2.layers",
+			"settings":
+			{
+				"buffer_size": 80192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/J/1.layers",
+			"settings":
+			{
+				"buffer_size": 105687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test_soup.py",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/test",
+			"settings":
+			{
+				"buffer_size": 120479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/test1",
+			"settings":
+			{
+				"buffer_size": 5158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 516,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "NOFN\n- Pravada Vizag\n- Many not connected - Many Engineering Challenges\n    + Getting them linked - Pressure from IT people here \n    + Fixing non-working links\n    + Give back sort of thing - Write Software\n- Services Swecha Can Offer\n  * Swecha Cloud OS - Telugu\n  * BalaSwecha\n  * Hardware - Computers for accessing \n  * POS Machines\n  * Wireless infra\n  * TeleMedicine \n  * Agricultural HelpVideos\n      - Prices of Commodites - Kiosk/Led screen\n  * Banking ?\n  \n- Isolated Digital Literacy is stupid\n    -   Localized\n    -   Functionalxcd",
+			"file": "/home/nesh/documents/Ideas_Swecha.md",
+			"file_size": 541,
+			"file_write_time": 130955722555963469,
+			"settings":
+			{
+				"buffer_size": 544,
+				"line_ending": "Unix",
+				"name": "NOFN"
+			}
+		},
+		{
+			"file": "/storage/storage/others/limps/type_tree.limp",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/limps/limps.py",
+			"settings":
+			{
+				"buffer_size": 11115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/limps/basefuncs.limp",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/limps/assoc.limp",
+			"settings":
+			{
+				"buffer_size": 1025,
 				"line_ending": "Unix"
 			}
 		},
@@ -465,19 +851,134 @@
 			"file": "data/2/2.source",
 			"settings":
 			{
-				"buffer_size": 98,
+				"buffer_size": 18866,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nMarkdown Preview\n----------------\n\n  Changes in Markdown Preview\n  ===========================\n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * Multimarkdown specific settings have been removed.  Multimarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for Github.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *Github Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changlog file for both developpers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nMarkdownEditing\n---------------\n\n  # MarkdownEditing 2.1.4 Changelog\n  \n  Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of\n  feedback you can use [GitHub issues][issues].\n  \n  ## Bug Fixes\n  \n  * Various small bug fixes.\n  \n  ## New Features\n  \n  * Automatized syntax highlighting tests (a new feature of ST).\n  * \"Swift\" and \"scheme\" language support for fenced code blocks.\n  * More liberal fenced code block matching, with unknown language header.\n  \n  [issues]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n\n\nTheme - Cyanide\n---------------\n\n  Cyanide 3.0.0\n  ===============\n  \n  + Bugfix: XML declaration moved to top.\n  + Gruntfile.js: Rewritten with ES6, reduced footprint.\n  \n  Thanks for downloading Cyanide Theme!\n  Feel free to open an issue on Github if you have any problem with the theme.\n  \n  https://github.com/lefoy/cyanide-theme\n",
+			"file": "data/2/2.trans",
 			"settings":
 			{
-				"buffer_size": 2419,
+				"buffer_size": 19815,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/3.trans",
+			"settings":
+			{
+				"buffer_size": 5334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15.html",
+			"settings":
+			{
+				"buffer_size": 531948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/3.layers",
+			"settings":
+			{
+				"buffer_size": 828260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/others/Amble/_posts/2015-12-19-of-some-bilinguals-problems.md",
+			"settings":
+			{
+				"buffer_size": 3304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html lang=\"hi\"><head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></head><body>\n\n<meta http-equiv=\"Content-Language\" content=\"hi\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n1.1\nमुख्खे मसीह का आँखें थाणीं… .\n<br>\n1.2\nप्रीतफ़लसफा\n<br>\n1.3\nसरवमीत सिंह\n<br>\n1.4\nप्रीति नगर से इंज जुड़या होयां कि पिछली दस सालों से बाहर रहके भी यदा कभी\n सिरनावां लिखना लग्गीदै तो सुभावक ही पिंड और डाकखाना प्रीतनगर-143110 \nलिखया जांदै .\n<br>\n1.5\nगैरकानूंनी होना का बावज़ूद प्रीति नगर लोपोके बनी अपनी वोट अभी तक नहीं कटवाई .\n<br>\n1.6\nदो महीने से ज़्यादा समय घूर्णन लगे को नंघ जाए तो दिल में कुछ और तर का होना लग पैंदै .\n<br>\n1.7\nउथे कई भर है जिसको ' अपना ' कहया जा सकदै .\n<br>\n1.8\nहक्कणा से .\n<br>\n1.9\nमोह से .\n<br>\n1.10\nयह भी अजीब संजोग है कि पिछली कई सालों से प्रीति नगर में लगातार कुछ न भर खुर्ना , भुर्ना जा रिहै .\n<br>\n1.11\nयदा भी जाईदाा तो एक दो मनहूस खबरां तैयार होतीं ने .\n<br>\n1.12\nऐतकां गये तो उदास करनवालियां खबरां की गिनती ज़्यादा था .\n<br>\n1.13\nलोपोके अड्डे में गांढा तोपा का काम करने वाला मोहन क़रीबमें महीना पहले चलाणा कर चुका था .\n<br>\n1.14\nचोगावें वाला मुखिया सचिव सिंह चार दिन पहले पीलिये से ' शराब का शहीद ' हो ਚੁੱਕਾ था .\n<br>\n1.15\nसब से अधिक दुखदाई खबर फौजी गुलज़ार सिंह का जवान पुत्र तोची का मारे जाना का था .\n<br>\n1.16\nतोची एक तर से मेरा हाथों में ही जवान हुआ था .\n<br>\n1.17\nछ फुट नौं इंच की कद निकालने वाला तोची निरा अंग्रेज लगदा था .\n<br>\n1.18\nउसका यही रूप उसको ले बैठा .\n<br>\n1.19\nआले दुआले बढ़ी जा रहा समैकियां की गिनती से तंग आये मापे तोची को धनागम के लिए कवैत घल्लणा दिता .\n<br>\n1.20\nओतों अगांह ज़्यादा धनागम करना वह इराक जा0 वड़िआ .\n<br>\n1.21\nडराईवरी करता था .\n<br>\n1.22\nअमरीकन फौजों के अपना देश में विरोध कर0 रहा हारा हुए सदाम हुसैन के हमसाया\n ने सामान की ट्रक लादी आते तोची को अंग्रेज समझके आं कर सैंतालीस का \nबरस्सट के निकट मार कर , उसको मार मुकाउणा .\n<br>\n1.23\nकई दिनों बाद लाश पिंड पहुँची .\n<br>\n1.24\nमापे चज्ज से रो0 भी न सके .\n<br>\n1.25\nइन दुखों से भी बड़ा सल्ल यह है कि मेरा इलाके का अतीव युवक समैक जैसा खतरनाक नशे का आदी हो ਚੁਕੇ ने .\n<br>\n1.26\nन जीऊंदयां में ने नाउणा मरता ' हुआ . च\n<br>\n1.27\nबातें करता हुआ मुख्खे अर्थात् मुखतार मसीह का ज़िक्र छिड़0 पया .\n<br>\n1.28\nआज से दस ही साल पहले तक हमारा घरपर जानी का मुखतार गिल के घरपर एक दो बार \nभी जा चुके प्रत्येक लेखक अलेखक को मुख्खे का स्मरण ज़रूर होगा .\n<br>\n1.29\nप्रीतलड़ी का पृटिंग प्रैस के इस कारीगर के दायाँ हाथ के ढाई अंगुल मशीन \nमें आ कर काटया जाना से बाद उसका एक नाम मुख्खा टुंडा भी डल गया .\n<br>\n1.30\nमधरा कद का आतुर छोहला तुर्ना वाला मुख्खा दो घूँट पीना से बाद लेखकों से हर तर की बहस कर पाता था .\n<br>\n1.31\nउस चाली सालें प्रीति शृंखला प्रैस पर काम किया .\n<br>\n1.32\nउसका श्वास का सुगन्ध गवाह है .\n<br>\n1.33\nअब तक भी उसका श्वासों में प्रैस की स्याही की गंध आती है .\n<br>\n1.34\nमुख्खे को बात बड़ा फुर्ना था .\n<br>\n1.35\nवह हर एक से आढा लगाने का लिए तैयार बर तैयार रहता था .\n<br>\n1.36\nउसका अंदाज़ दमदार था .\n<br>\n1.37\nचिर तक याद रहने वाला .\n<br>\n1.38\nमेरा मनोभावना है कि प्रीति नगर अपनी पहली नौकरी करने वाला अमरजीत संदल को \nहजे तक भी उथे बिताये शराबी दिनों में मुख्खे मसीह का चितव - झओला डलता \nहोगा .\n<br>\n1.39\nउसका टुंडा हाथ शराबी त्रकाल के घुसमुसा में लहराता हुआ एक अभुल्ल शैअ बनने की क्षमता रखता था .\n<br>\n1.40\nप्रमिंदरजीत के पास कहते ने मुख्खे का यह हिलदा टुंड प्यार से बर्दाश्त नहीं था होता .\n<br>\n1.41\nप्यार में ही वह गाल्हां निकालता .\n<br>\n1.42\nप्यार से ही मुख्खा सुनता .\n<br>\n1.43\nअपना झग्गा उठा कर दूसरे का नंगेज़ को इश्तिहार के माफ़िक शाया करने में \nमजा लेने का लिए धीरे धीमी मशहूर हो रहा निरूपमा दत्त के पहले आशिक वजों \nसीमत जैसी पहचान का मोहताज रह गया दर्शनजयक मुख्खे का मुहब्बती सोहबत के कई\n वाक्ये सुना0 सकदै .\n<br>\n1.44\nपर जो बंदा अपनी बदखोही को भी ' चल वह जाने ' से भी वधीक ' होऊ परे ' जाना \nमचला बना रह सकता , अपनी पहली माशूक को ' कुछ भी नहीं ' कहता , वह मुख्खे \nबारे क्या कहऊ भला ? ,\n<br>\n1.45\nहो0 सकदै कि जे जयक के ससुर का कुटुंब हजे भी प्रीति नगर ही बसता होता तो वह गेड़ा लगाना गया मुख्खे का हाल चाल भी पूछ आता .\n<br>\n1.46\nयह मुख्खा परिवर्धित बिगड़ा हुई शुगर का नामुराद बीमारी का शिकार हो कर \nपूरे तर अंन्हां हो0 चुक्कै ( पता नहीं किओं पर मुख्खे को नेतरहीण कहने का \nलिए जीअ जिहानहीं करता ) .\n<br>\n1.47\nपिछली ढाई सालों से वह शय्या रोका बैठै .\n<br>\n1.48\nरहती छूत था तो उसका जवान पुत्र राणा ने पिछला दिसम्बर में फाहा ले कर पूरी कर दिया .\n<br>\n1.49\nचार निके निके बच्चे और भार्या का पहाड़ मुख्खे और उसका घरवाली पर फेंक कर चलते बणा .\n<br>\n1.50\nअब मुख्खे की घरवाली देशी शराब निकाल0 , बेच कर एस कुटुंब का पेट भरती है .\n<br>\n1.51\nऔर भी पता नहीं ' की क्या ज़फ़र जालणे ' डलते ने इस देही को .\n<br>\n1.52\nहम मिलना गये तो मुख्खे की आवाज़ में गड़्हका पहले वाला ही था .\n<br>\n1.53\nबस सुर रता निमर हो गयी था .\n<br>\n1.54\nजो आँखें थाणीं गुर्बखश सिंह का प्रीति फ़लसफे का अक्षर अक्षर लाँघ कर \nहाथों में होता हुआ प्रीतलड़ी का सफ़िआं थीं लोकाई को नूर बँटता रहा , वही \nआँखें निरजोत हुईं मुख्खा झमक्क रहा , देखा नहीं था जाता .\n<br>\n1.55\nउस गर्व से बताया कि रत्तीकंत सिंह ( नवतेज सिंह का सरव - छोटा सुत ) कभी कदाईं हाल चाल पूछ0 जांदै .\n<br>\n1.56\nचाचा चंडीगड़्हिया गुर्चरन सिंह घई भी दसवें बारहवेँ घूर्णन मारना नहीं खुंझाउणा .\n<br>\n1.57\nनूपी भी मिल0 जांदै .\n<br>\n1.58\nइस संपूर्ण के बाहर आते ने .\n<br>\n1.59\nपर हिरदेपाल सिंह एथे रह कर भी , रोज़ दस कदमों के दूरस्थान ' से लाँघदयां भी , हुए कभी हाल पूछना नहीं आया .\n<br>\n1.60\nमुख्खे को गिला था कि एस बंदे हिरदेपाल सिंह भाव गुर्बखश सिंह के छोटे सुत \nअर्थात् संपादक बाल संदेश उरफ़ पाली भाई जी से सब से लम्बा समय काम किया .\n<br>\n1.61\nऔर एस बंदे ने कोई मदद तो क्या करनी था कभी हाल चाल का फिटे मुँह तक कहना नहीं आया .\n<br>\n1.62\nमुख्खे का घरों निकलदयां ही हुए कुत्ते का जंजीर पकड़ी आते पाली भाई जी टक्कर गये .\n<br>\n1.63\nआदत के अनुसार उन भी टिच्चर की और आगे जवाब भी सुन डाला .\n<br>\n1.64\nमैं मुख्खे की बात छेड़ी तो बगल ऐंठ गये .\n<br>\n1.65\nमैं भी चुप्पी ही भला समझा .\n<br>\n1.66\nसोचा गुर्बखश सिंह के किताब की धूल छाँट कर कितों ढूँढ़ने का कोशश करूँगा कि कोई एना निरमोहा और कोरा भी हो0 सकदै भला ?\n<br>\n1.67\nविशिष्ट कर उस प्रीति फ़लसफी का अपनी औलाद ! ओसदे बसाये नगर में रह कर ही !  \n<br>\n\n</body></html>",
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15_trans.html",
+			"file_size": 13268,
+			"file_write_time": 130951561500000000,
+			"settings":
+			{
+				"buffer_size": 5844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/3.layers",
+			"settings":
+			{
+				"buffer_size": 828260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/1.trans",
+			"settings":
+			{
+				"buffer_size": 5334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15_trans.html",
+			"settings":
+			{
+				"buffer_size": 23556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15_trans.html",
+			"settings":
+			{
+				"buffer_size": 31546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/1.trans",
+			"settings":
+			{
+				"buffer_size": 27946,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMarkdown Preview\n----------------\n\n  Changes in Markdown Preview\n  ===========================\n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * Multimarkdown specific settings have been removed.  Multimarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for Github.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *Github Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changlog file for both developpers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nMarkdownEditing\n---------------\n\n  # MarkdownEditing 2.1.4 Changelog\n  \n  Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of\n  feedback you can use [GitHub issues][issues].\n  \n  ## Bug Fixes\n  \n  * Various small bug fixes.\n  \n  ## New Features\n  \n  * Automatized syntax highlighting tests (a new feature of ST).\n  * \"Swift\" and \"scheme\" language support for fenced code blocks.\n  * More liberal fenced code block matching, with unknown language header.\n  \n  [issues]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n\n\nTheme - Cyanide\n---------------\n\n  Cyanide 3.0.0\n  ===============\n  \n  + Bugfix: XML declaration moved to top.\n  + Gruntfile.js: Rewritten with ES6, reduced footprint.\n  \n  Thanks for downloading Cyanide Theme!\n  Feel free to open an issue on Github if you have any problem with the theme.\n  \n  https://github.com/lefoy/cyanide-theme\n\n\nGitGutter\n---------\n\n  * Adds Protected Regions\n    \n    - Option to specify regions that should not be overridden.\n      \n    - This fixes GitGutter hiding Linters and other Gutter icons.\n  \n    - You must manually specify what regions are protected in the settings.\n  \n  * Adds Minimap Support\n  \n    - Can be turned off in settings.\n  \n  \n  😍 Love Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  \n  --> $10 OFF Sublime Text Power User.\n  \n  Become amazing with Sublime Text with this book + video series. 📖📹\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  💰 Use the coupon code GITGUTTER for $10 off 💵\n  \n  \n  --> $10 OFF React for Beginners\n  \n  Upgrade your JavaScript skills. \n  Learn React.js in just a couple of afternoons. 📹\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  💰 Use the coupon code GITGUTTER for $10 off 💵\n  \n  \n  Join 3,000 other developers already learning React.js with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n",
+			"settings":
+			{
+				"buffer_size": 3454,
 				"line_ending": "Unix",
 				"name": "Package Control Messages",
 				"read_only": true,
 				"scratch": true
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/data/hindi_wordnet/JHWNL_1_2/Examples.java",
+			"settings":
+			{
+				"buffer_size": 3083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/data/hindi_wordnet/JHWNL_1_2/example.py",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/resource_api/hindi_wordnet.py",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -491,7 +992,23 @@
 			"file": "templates/source.html",
 			"settings":
 			{
-				"buffer_size": 2417,
+				"buffer_size": 2548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/mystyle.css",
+			"settings":
+			{
+				"buffer_size": 7194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/trans.html",
+			"settings":
+			{
+				"buffer_size": 2538,
 				"line_ending": "Unix"
 			}
 		},
@@ -510,7 +1027,114 @@
 			"file": "data/2/index.html",
 			"settings":
 			{
-				"buffer_size": 6609,
+				"buffer_size": 6568,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15_frame.html",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15.html",
+			"settings":
+			{
+				"buffer_size": 2812382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/1.layers",
+			"settings":
+			{
+				"buffer_size": 2805729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/events.js",
+			"settings":
+			{
+				"buffer_size": 2121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15_source.html",
+			"settings":
+			{
+				"buffer_size": 5659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/2/3.source",
+			"settings":
+			{
+				"buffer_size": 5152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/group.html",
+			"settings":
+			{
+				"buffer_size": 3669,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/2/meta.json",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/3/meta.json",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/format_data.py",
+			"settings":
+			{
+				"buffer_size": 1064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/pan-hin/pan.txt",
+			"settings":
+			{
+				"buffer_size": 2300861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/pan-hin/hin.txt",
+			"settings":
+			{
+				"buffer_size": 2616490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n<title>Anusaaraka</title>\n\n<!-- Google fonts -->\n<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>\n\n<!-- font awesome -->\n<link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n\n<!-- bootstrap -->\n<link rel=\"stylesheet\" href=\"/assets/bootstrap/css/bootstrap.min.css\" />\n\n<!-- animate.css -->\n<link rel=\"stylesheet\" href=\"/assets/animate/animate.css\" />\n<link rel=\"stylesheet\" href=\"/assets/animate/set.css\" />\n\n<!-- gallery -->\n<link rel=\"stylesheet\" href=\"/assets/gallery/blueimp-gallery.min.css\">\n\n<!-- favicon -->\n<link rel=\"shortcut icon\" href=\"/images/favicon.ico\" type=\"image/x-icon\">\n<link rel=\"icon\" href=\"/images/favicon.ico\" type=\"image/x-icon\">\n\n\n<link rel=\"stylesheet\" href=\"/assets/style.css\">\n\n</head>\n\n<body>\n<div class=\"topbar animated fadeInLeftBig\"></div>\n\n<!-- Header Starts -->\n<div class=\"navbar-wrapper\">\n      <div class=\"container\">\n\n        <div class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\" id=\"top-nav\">\n          <div class=\"container\">\n            <div class=\"navbar-header\">\n              <!-- Logo Starts -->\n              <a class=\"navbar-brand\" href=\"#home\"><img src=\"/images/logo.png\" alt=\"logo\"></a>\n              <!-- #Logo Ends -->\n\n\n\n\n            </div>\n\n\n            <!-- Nav Starts -->\n            <div class=\"navbar-collapse  collapse\">\n              <ul class=\"nav navbar-nav navbar-right\">\n                 <li class=\"active\"><a href=\"/\">Home</a></li>\n                 <li class=\"active\"><a href=\"#\">Stories</a></li>\n              </ul>\n            </div>\n            <!-- #Nav Ends -->\n\n          </div>\n        </div>\n\n      </div>\n    </div>\n<!-- #Header Starts -->\n\n\n\n\n\n\n\n<!-- works -->\n<div id=\"works\"  class=\" clearfix grid\">\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story1.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਪੰਜਾਬੀ ਭਾਸ਼ਾ<br/><span style=\"font-size:32px;\">(पंजाबी\n            भाषा)</span></h2>\n            <p><br>\n            <a href=\"/group/2/1/html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story2.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਮੁਬੀਨਾ<br/><span style=\"font-size:32px;\">(मुबीना)</span></h2>\n            <p><br>\n            <a href=\"/group/2/2/html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story3.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਇਕ ਰਾਤ<br/><span style=\"font-size:32px;\">(एक रात)</span></h2>\n            <p><br>\n            <a href=\"../ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story4.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਮਾਂ<br/><span style=\"font-size:32px;\">(मां)</span></h2>\n            <p><br>\n            <a href=\"./ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story5.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਦਾਸਤਾਨ<br/><span style=\"font-size:32px;\">(दास्तां)</span></h2>\n            <p><br>\n            <a href=\"./ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\">View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story6.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਆਵਦੀ ਧਰਤੀ<br/><span style=\"font-size:32px;\">(अवादी पृथ्वी)</span></h2>\n            <p><br/>\n            <a href=\"./ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story7.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਕਰਜ਼ਾ ਮੁਕਤੀ<br/><span style=\"font-size:32px;\">(ऋण मोचन)</span></h2>\n            <p><br>\n            <a href=\"./ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story8.jpg\" alt=\"img01\" style=\"height:287.5px;\"/>\n        <figcaption>\n            <h2>ਅਧੂਰਾ ਜਾਂ ਪੂਰਾ<br/><span style=\"font-size:32px;\">(अधूरा या पूर्ण\n            )</span></h2>\n            <p><br>\n            <a href=\"./ssf_files_04-08-15_html/ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n    <figure class=\"effect-oscar  wowload fadeIn\">\n        <img src=\"/images/stories/story9.jpg\" alt=\"img01\"/>\n        <figcaption>\n            <h2>ਰਾਤ ਦੀ ਰਾਣੀ<br/><span style=\"font-size:32px;\">(रात की रानी)</span></h2>\n            <p><br>\n            <a href=\"./ssf_files_04-08-15_source.html\" title=\"1\" >View more</a></p>\n        </figcaption>\n    </figure>\n\n\n\n</div>\n<!-- works -->\n\n\n\n<div class=\"footer text-center spacer\" style=\"height:40px;\">\nLTRC IIIT Hyderabad\n</div>\n\n\n\n\n\n<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->\n<div id=\"blueimp-gallery\" class=\"blueimp-gallery blueimp-gallery-controls\">\n    <!-- The container for the modal slides -->\n    <div class=\"slides\"></div>\n    <!-- Controls for the borderless lightbox -->\n    <h3 class=\"title\">Title</h3>\n    <a class=\"prev\">‹</a>\n    <a class=\"next\">›</a>\n    <a class=\"close\">×</a>\n    <!-- The modal dialog, which will be used to wrap the lightbox content -->\n</div>\n\n\n<!-- Cirlce Starts -->\n\n\n\n<!-- jquery -->\n<script src=\"/assets/jquery.js\"></script>\n\n<!-- wow script -->\n<script src=\"/assets/wow/wow.min.js\"></script>\n\n\n<!-- boostrap -->\n<script src=\"/assets/bootstrap/js/bootstrap.js\" type=\"text/javascript\" ></script>\n\n<!-- jquery mobile -->\n<script src=\"/assets/mobile/touchSwipe.min.js\"></script>\n<script src=\"/assets/respond/respond.js\"></script>\n\n<!-- gallery -->\n<script src=\"/assets/gallery/jquery.blueimp-gallery.min.js\"></script>\n\n<!-- custom script -->\n<script src=\"/assets/script.js\"></script>\n\n</body>\n</html>",
+			"file": "views/group.html",
+			"file_size": 7066,
+			"file_write_time": 130946453137150524,
+			"settings":
+			{
+				"buffer_size": 6568,
 				"line_ending": "Windows"
 			}
 		},
@@ -518,15 +1142,31 @@
 			"file": "assets/style.css",
 			"settings":
 			{
-				"buffer_size": 7197,
-				"line_ending": "Windows"
+				"buffer_size": 5327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15.html",
+			"settings":
+			{
+				"buffer_size": 2037803,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "templates/home.html",
 			"settings":
 			{
-				"buffer_size": 10193,
+				"buffer_size": 10197,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/home.html",
+			"settings":
+			{
+				"buffer_size": 10338,
 				"line_ending": "Windows"
 			}
 		},
@@ -567,6 +1207,22 @@
 			"settings":
 			{
 				"buffer_size": 1512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 3607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nesh/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 153,
 				"line_ending": "Unix"
 			}
 		}
@@ -618,25 +1274,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 336.0,
-		"last_filter": "save",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"save",
-				"Project: Save As"
+				"settings",
+				"Preferences: Settings - User"
 			],
 			[
 				"add",
 				"Project: Add Folder"
 			],
 			[
-				"save a",
-				"Project: Save As"
+				"syntax py",
+				"Set Syntax: Python"
 			],
 			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"save a",
+				"Project: Save As"
 			],
 			[
 				"server",
@@ -1125,14 +1789,6 @@
 			[
 				"rena",
 				"File: Rename"
-			],
-			[
-				"prewv",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"prew",
-				"Preferences: Browse Packages"
 			]
 		],
 		"width": 485.0
@@ -1156,10 +1812,21 @@
 	},
 	"expanded_folders":
 	[
-		"/storage/storage/work/projects/anu_accessor/controller"
+		"/storage/storage/work/projects/anu_accessor/controller",
+		"/storage/storage/work/projects/anu_accessor/controller/assets",
+		"/storage/storage/work/projects/anu_accessor/controller/data",
+		"/storage/storage/work/projects/anu_accessor/controller/data/3",
+		"/storage/storage/work/projects/anu_accessor/controller/templates",
+		"/storage/storage/work/projects/anu_accessor/controller/unification",
+		"/storage/storage/work/projects/anu_accessor/resource_api",
+		"/storage/storage/work/projects/anu_accessor/resource_api/tools"
 	],
 	"file_history":
 	[
+		"/storage/storage/work/projects/anu_accessor/controller/test_soup.py",
+		"/storage/storage/others/limps/Type.limp",
+		"/storage/storage/others/limps/listops.limp",
+		"/storage/storage/work/projects/anu_accessor/Punjabi-Hindi.tar.gz",
 		"/home/nesh/.config/sublime-text-3/Packages/User/Monocyanide ColorScheme (SublimePythonIDE).tmTheme",
 		"/storage/storage/others/limps/limps.py",
 		"/storage/storage/others/limps/basefuncs.limp",
@@ -1179,7 +1846,6 @@
 		"/storage/storage/work/projects/anu_accessor/controller/Type.limp",
 		"/storage/storage/others/limps/test.limp",
 		"/storage/storage/others/limps/assoc.limp",
-		"/storage/storage/others/limps/Type.limp",
 		"/storage/storage/others/limps/type_tree.limp",
 		"/home/nesh/.config/sublime-text-3/Packages/Lisp/Lisp.tmLanguage",
 		"/storage/storage/others/limps/scripting_exam/string_to_int.limp",
@@ -1187,7 +1853,6 @@
 		"/storage/storage/work/projects/anu_accessor/controller/README.md",
 		"/storage/storage/others/stupid_examples/resoir.md",
 		"/home/nesh/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
-		"/storage/storage/others/limps/listops.limp",
 		"/storage/storage/others/limps/tree.limp",
 		"/storage/storage/others/limps/README.md",
 		"/storage/storage/others/limps/parser.py",
@@ -1285,13 +1950,11 @@
 		"/tmp/lsyncd.log",
 		"/data/research/nlg/mutable_templates/common/.ipynb_checkpoints/ChunkReader-checkpoint.ipynb",
 		"/run/user/1000/gvfs/sftp:host=10.1.66.131,user=tingc/data/research/nlg/mutable_templates/common/ChunkReader.ipynb",
-		"/run/user/1000/gvfs/sftp:host=10.1.66.131,user=tingc/home/tingc/lsyncd.conf",
-		"/data/research/nlg/chunks.txt",
-		"/data/research/nlg/tokens.txt"
+		"/run/user/1000/gvfs/sftp:host=10.1.66.131,user=tingc/home/tingc/lsyncd.conf"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -1305,6 +1968,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overflow",
+			"table",
+			"mod",
+			"</div",
+			"<br>",
+			"pop",
+			"/",
+			"style.css",
+			"script.js",
 			"<hr/>",
 			"\\d\\.(\\d*)+\\n",
 			"line.",
@@ -1423,16 +2095,7 @@
 			"indent",
 			"indent ",
 			"group",
-			"suffix",
-			"marker",
-			"case",
-			"person",
-			"number",
-			"gender",
-			"cat",
-			"root",
-			".type",
-			"type"
+			"suffix"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1440,6 +2103,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"pbmod",
 			"",
 			"\\d\\.(\\d*)+"
 		],
@@ -1452,7 +2116,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 69,
 			"sheets":
 			[
 				{
@@ -1477,10 +2141,10 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
@@ -1507,10 +2171,10 @@
 							"target": "disk"
 						},
 						"translation.x": 0.0,
-						"translation.y": 524.0,
+						"translation.y": 552.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 82,
 					"type": "text"
 				},
 				{
@@ -1535,10 +2199,10 @@
 							"syntax": "Packages/C++/C.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9018.0,
+						"translation.y": 9730.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 81,
 					"type": "text"
 				},
 				{
@@ -1554,8 +2218,8 @@
 						"selection":
 						[
 							[
-								2756,
-								2756
+								731,
+								731
 							]
 						],
 						"settings":
@@ -1565,10 +2229,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1361.0,
+						"translation.y": 763.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
@@ -1584,8 +2248,8 @@
 						"selection":
 						[
 							[
-								1915,
-								1915
+								357,
+								357
 							]
 						],
 						"settings":
@@ -1595,10 +2259,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1177.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
@@ -1607,15 +2271,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3210,
+						"buffer_size": 7396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2668,
-								2668
+								6651,
+								6651
 							]
 						],
 						"settings":
@@ -1625,124 +2289,122 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1817.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "data/2/1.source",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2319,
-								2319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1610.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/run/user/1000/gvfs/2.source",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20249,
-								20249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 20516.0,
+						"translation.y": 5300.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "data/2/2.source",
+					"buffer": 6,
+					"file": "unification/fs_dispatch.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 98,
+						"buffer_size": 2446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								2039,
+								2039
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "unification/dispatch_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
+					"file": "unification/helpers.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2419,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1523,
-								1523
+								366,
+								366
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
-							"default_dir": "/storage/storage/work/projects/anu_accessor/controller",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "unification/dispatch_functions.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1766,8 +2428,1293 @@
 						],
 						"settings":
 						{
-							"default_dir": "/run/user/1000/gvfs/sftp:host=10.2.8.104,user=ganesh_k/home/ganesh_k/mw_internal_composibility",
+							"auto_name": "",
+							"default_dir": "/storage/storage/work/projects/anu_accessor/controller",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/Dicts/Apte_dict/parse_and_convert.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 527.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/punj_bilingual.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/outp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/apte.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1286,
+								1286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/w2v.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1086,
+								1086
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/helpers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "format_html.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3017,
+								3017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1738.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "assets/bootstrap/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4030,
+								4030
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "format_san.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "assets/sanstyle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1560,
+								1560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "data/3/1.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74702,
+								74702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 99472.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/project/L/L.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "assets/anurows.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1054,
+								1054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/J/J.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2666,
+								2666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/K/2.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Sanskrit/stories/J/1.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "test_soup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/test",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2295,
+								2295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 58,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/test1",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5689.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 57,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/home/nesh/documents/Ideas_Swecha.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"auto_name": "NOFN",
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 61,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/storage/storage/others/limps/type_tree.limp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lisp/Lisp.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 64,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/storage/storage/others/limps/limps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4535,
+								4535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 291.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 68,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/storage/storage/others/limps/basefuncs.limp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lisp/Lisp.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 67,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/storage/storage/others/limps/assoc.limp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lisp/Lisp.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 66,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "data/2/1.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2319,
+								2319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1332.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "/run/user/1000/gvfs/2.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20249,
+								20249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 65,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "data/2/2.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18866,
+								18866
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "data/2/2.trans",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 56,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "data/2/3.trans",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531948,
+								531948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"file": "data/2/3.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "/storage/storage/others/Amble/_posts/2015-12-19-of-some-bilinguals-problems.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3304,
+								3304
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown (Standard).tmLanguage",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15_trans.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/3.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/1.trans",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 55,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15_trans.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23528,
+								23528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 23263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 76,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15_trans.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31518,
+								31518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 23930.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 78,
+					"type": "text"
+				},
+				{
+					"buffer": 50,
+					"file": "data/2/1.trans",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27946,
+								27946
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1523,
+								1523
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/storage/storage/work/projects/anu_accessor/controller",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 52,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/data/hindi_wordnet/JHWNL_1_2/Examples.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2131,
+								2131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1205.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/data/hindi_wordnet/JHWNL_1_2/example.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "/storage/storage/work/projects/anu_accessor/resource_api/hindi_wordnet.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1777,20 +3724,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "templates/source.html",
+					"buffer": 55,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2417,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1404,
-								1404
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/run/user/1000/gvfs/sftp:host=10.2.8.104,user=ganesh_k/home/ganesh_k/mw_internal_composibility",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 79,
+					"type": "text"
+				},
+				{
+					"buffer": 56,
+					"file": "templates/source.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								931,
+								931
 							]
 						],
 						"settings":
@@ -1798,14 +3773,72 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 483.0,
+						"translation.y": 716.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 57,
+					"file": "assets/mystyle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7181,
+								7181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "templates/trans.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1036,
+								1036
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 70,
+					"type": "text"
+				},
+				{
+					"buffer": 59,
 					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15_source.html",
 					"semi_transient": false,
 					"settings":
@@ -1826,27 +3859,27 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1257.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 60,
 					"file": "data/2/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6609,
+						"buffer_size": 6568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2322,
-								2322
+								2655,
+								2655
 							]
 						],
 						"settings":
@@ -1856,56 +3889,472 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 991.0,
+						"translation.y": 382.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "assets/style.css",
+					"buffer": 61,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15_frame.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7197,
+						"buffer_size": 332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7184,
-								7184
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 75,
+					"type": "text"
+				},
+				{
+					"buffer": 62,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_04-08-15.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2812382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2812382,
+								2812382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 74,
+					"type": "text"
+				},
+				{
+					"buffer": 63,
+					"file": "data/2/1.layers",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2805729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13722,
+								13722
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 904.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 64,
+					"file": "assets/events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1604,
+								1604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 920.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 65,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/ssf_files_21-12-15_files/ssf_files_21-12-15_source.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 59,
+					"type": "text"
+				},
+				{
+					"buffer": 66,
+					"file": "data/2/3.source",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 67,
+					"file": "templates/group.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2240,
+								2240
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1904.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 68,
+					"file": "data/2/meta.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 69,
+					"file": "data/3/meta.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 70,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/format_data.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								926,
+								926
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 754.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 71,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/pan-hin/pan.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2300861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 72,
+					"file": "/storage/storage/work/projects/anu_accessor/data/Punjabi/dicts/bilingual/pan-hin/hin.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2616490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 73,
+					"file": "views/group.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 77,
+					"type": "text"
+				},
+				{
+					"buffer": 74,
+					"file": "assets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2945,
+								2945
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5499.0,
+						"translation.y": 2029.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "templates/home.html",
+					"buffer": 75,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/ssf_files_04-08-15_html/ssf_files_17-11-15.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10193,
+						"buffer_size": 2037803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2783,
-								2783
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 76,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9190,
+								9190
 							]
 						],
 						"settings":
@@ -1914,14 +4363,43 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2027.0,
+						"translation.y": 8627.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 77,
+					"file": "/storage/storage/work/projects/anu_accessor/Punjabi-Hindi/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10338,
+								10338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 72,
+					"type": "text"
+				},
+				{
+					"buffer": 78,
 					"file": "/storage/storage/others/stupid_examples/Argile/cplrdb.argn",
 					"semi_transient": false,
 					"settings":
@@ -1942,14 +4420,14 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 79,
 					"file": "/storage/storage/others/stupid_examples/Argile/cplr_db.argn",
 					"semi_transient": false,
 					"settings":
@@ -1971,14 +4449,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 670.0,
+						"translation.y": 706.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 80,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 80,
 					"file": "/storage/storage/others/some_notes/gift_giving.html",
 					"semi_transient": false,
 					"settings":
@@ -2001,14 +4479,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 28831.0,
+						"translation.y": 29275.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 83,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 81,
 					"file": "/home/nesh/.config/sublime-text-3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -2031,14 +4509,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 934.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 84,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 82,
 					"file": "/home/nesh/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -2061,10 +4539,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 373.0,
+						"translation.y": 508.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 83,
+					"file": "/home/nesh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2024,
+								2024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 84,
+					"file": "/home/nesh/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
 					"type": "text"
 				}
 			]
@@ -2072,7 +4607,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -2121,7 +4656,7 @@
 	"project": "controller.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2132,7 +4667,187 @@
 		[
 			[
 				"",
+				"controller/unification/dispatch_functions.py"
+			],
+			[
+				"app",
 				"controller/app.py"
+			],
+			[
+				"ap",
+				"controller/app.py"
+			],
+			[
+				"d",
+				"controller/unification/dispatch_test.py"
+			],
+			[
+				"fs",
+				"controller/unification/fs_dispatch.py"
+			],
+			[
+				"eve",
+				"controller/assets/events.js"
+			],
+			[
+				"fs_d",
+				"controller/unification/fs_dispatch.py"
+			],
+			[
+				"disp",
+				"controller/unification/dispatch_test.py"
+			],
+			[
+				"app.",
+				"controller/app.py"
+			],
+			[
+				"for",
+				"controller/format_san.py"
+			],
+			[
+				"1.",
+				"controller/data/3/1.layers"
+			],
+			[
+				"apte",
+				"resource_api/apte.py"
+			],
+			[
+				"pun",
+				"resource_api/punj_bilingual.py"
+			],
+			[
+				"pub",
+				"resource_api/punj_bilingual.py"
+			],
+			[
+				"event",
+				"controller/assets/events.js"
+			],
+			[
+				"f",
+				"controller/format_html.py"
+			],
+			[
+				"sublin",
+				"~/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings"
+			],
+			[
+				"a",
+				"controller/app.py"
+			],
+			[
+				"w2",
+				"resource_api/w2v.py"
+			],
+			[
+				"san",
+				"controller/assets/sanstyle.css"
+			],
+			[
+				"st",
+				"controller/assets/style.css"
+			],
+			[
+				"form",
+				"controller/format_html.py"
+			],
+			[
+				"w",
+				"resource_api/w2v.py"
+			],
+			[
+				"hin",
+				"resource_api/hindi_wordnet.py"
+			],
+			[
+				"boo",
+				"controller/assets/bootstrap/css/bootstrap.css"
+			],
+			[
+				"w2v",
+				"resource_api/w2v.py"
+			],
+			[
+				"exa",
+				"resource_api/data/hindi_wordnet/JHWNL_1_2/Examples.java"
+			],
+			[
+				"ev",
+				"controller/assets/events.js"
+			],
+			[
+				"bo",
+				"controller/assets/bootstrap/css/bootstrap.css"
+			],
+			[
+				"e",
+				"controller/assets/events.js"
+			],
+			[
+				"fp",
+				"controller/format_html.py"
+			],
+			[
+				"pu",
+				"resource_api/punj_bilingual.py"
+			],
+			[
+				"sty",
+				"controller/assets/style.css"
+			],
+			[
+				"me",
+				"data/3/meta.json"
+			],
+			[
+				"gro",
+				"templates/group.html"
+			],
+			[
+				"s",
+				"assets/style.css"
+			],
+			[
+				"4",
+				"data/2/4.layers"
+			],
+			[
+				"4.",
+				"data/2/4.layers"
+			],
+			[
+				"m",
+				"data/2/meta.json"
+			],
+			[
+				"met",
+				"data/2/meta.json"
+			],
+			[
+				"fo",
+				"format_html.py"
+			],
+			[
+				"1",
+				"data/2/1.layers"
+			],
+			[
+				"3",
+				"data/2/3.layers"
+			],
+			[
+				"3.",
+				"data/2/3.layers"
+			],
+			[
+				"lis",
+				"/storage/storage/others/limps/listops.limp"
+			],
+			[
+				"mys",
+				"assets/mystyle.css"
 			],
 			[
 				"type",
@@ -2179,10 +4894,6 @@
 				"/storage/storage/others/limps/basefuncs.limp"
 			],
 			[
-				"lis",
-				"/storage/storage/others/limps/listops.limp"
-			],
-			[
 				"read",
 				"/storage/storage/others/limps/README.md"
 			],
@@ -2221,10 +4932,6 @@
 			[
 				"uploadf",
 				"include/uploadfiles.php"
-			],
-			[
-				"a",
-				"anu_choose.php"
 			],
 			[
 				"an",
@@ -2371,7 +5078,7 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

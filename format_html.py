@@ -3,7 +3,8 @@ import re
 import codecs
 import json
 
-precss_stuff = re.compile('=\"(.*?/)?(?P<path>[^\s]*)\.(css|js)\"')
+precss_stuff = re.compile('=\"(.*?/)?(?P<path>[^\s]*)\.css\"')
+prejs_stuff = re.compile('=\"(.*?/)?(?P<path>[^\s]*)\.js\"')
 css_stuff = re.compile('=\"(?P<filename>[^/]*)\.css\"')
 js_stuff = re.compile('=\"(?P<filename>[^/]*)\.js\"')
 
@@ -11,30 +12,48 @@ js_stuff = re.compile('=\"(?P<filename>[^/]*)\.js\"')
 def process_html(file_name, num):
     html = open(file_name).read()
     html = precss_stuff.sub('=\"/assets/'+r'\g<path>'+'.css\"', html)
+    html = prejs_stuff.sub('=\"/assets/'+r'\g<path>'+'.js\"', html)
     html = html.replace('<div class=\"float_clear\">', '<div class=\"float_clear\" />')
+    html = html.replace('rows.html', '/assets/rows.html')
+    html = html.replace('anusaaraka_tran.js', 'pun_anusaaraka_tran.js')
     soup = BeautifulSoup(html, 'html.parser')
 
-    my_divs = soup.find_all('div', class_='float_clear')
+    #my_divs = soup.find_all('div', class_='float_clear')
+    my_tables = soup.find_all('table')
     has_table = False
-    count = 1
-    for div in my_divs:
-        next_sibling = div.next_sibling
-        e = False
-        colid = 1
-        for next_sibling in div.next_siblings:
-            try:
-                if next_sibling.name == 'table':
-                    next_sibling['id'] = count
-                    next_sibling['col'] = colid
-                    colid += 1
-                    e = True
-                elif next_sibling.name == 'div':
-                    break
-            except Exception as e:
-                print e
-
-        if e:
+    count = 0
+    colid = 0
+    for table in my_tables:
+        #next_sibling = div.next_sibling
+        trs =  table.find_all('tr', recursive = False)
+        my_tr = trs[0]
+        my_tr_l = len([t for t in my_tr.children if t not in ['\n']])
+        #print my_tr_l
+        if my_tr_l > 1:
             count += 1
+            colid = 1
+
+        table["id"] = count
+        table["col"] = colid
+        all_tds = table.find_all('td')
+        colid += 1
+
+
+        # colid = 1
+        # for next_sibling in div.next_siblings:
+        #     try:
+        #         if next_sibling.name == 'table':
+        #             next_sibling['id'] = count
+        #             next_sibling['col'] = colid
+        #             colid += 1
+        #             e = True
+        #         elif next_sibling.name == 'div':
+        #             break
+        #     except Exception as e:
+        #         print e
+
+        # if e:
+        #     count += 1
 
 
 

@@ -46,7 +46,7 @@
    <div id="navigation">
     <form action="" onsubmit="goto_section(); return false;">
      <p>
-      <a href="ssf_files_18-01-16_trans.html" id="translation" target="_new">
+      <a href="ssf_files_19-01-16_trans.html" id="translation" target="_new">
        Translation
       </a>
       <input name="goto_section_value" size="5" type="text"/>
@@ -58,7 +58,7 @@
    </div>
    <div class="float_clear">
    </div>
-   <table cellspacing="0" col="1" id="1">
+   <table cellspacing="0" colid="1" id="1">
     <tr class="row1">
      <td class="number">
       1.1.A
@@ -93,7 +93,7 @@
       1.1.D
      </td>
      <td class="NP">
-      जो,pn,any,sg,3,o,-
+      जो,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -141,11 +141,11 @@
       1.1.J
      </td>
      <td class="NP">
-      जिस
+      जिस को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="2" id="1">
+   <table cellspacing="0" colid="2" id="1">
     <tr class="row1">
      <td class="NP">
       ਤਨ
@@ -168,7 +168,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      तन,n,m,sg,3,d,-
+      तन,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -198,11 +198,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      तन
+      -
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="3" id="1">
+   <table cellspacing="0" colid="3" id="1">
     <tr class="row1">
      <td class="VGF">
       ਲਾਗੇ
@@ -225,7 +225,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      lAgA,n,m,sg,3,o,-
+      lAgA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -255,11 +255,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      समीप
+      लागे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="4" id="1">
+   <table cellspacing="0" colid="4" id="1">
     <tr class="row1">
      <td class="CCP">
       ਸੋ ਹੀ
@@ -282,7 +282,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      सो,avy,-,-,-,-,-
+      सो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -312,11 +312,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      सो
+      वो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="5" id="1">
+   <table cellspacing="0" colid="5" id="1">
     <tr class="row1">
      <td class="VGF">
       ਜਾਣੇ
@@ -339,7 +339,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      जानना,v,m,pl,any,-,या
+      जानना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -375,7 +375,7 @@
    </table>
    <div class="float_clear">
    </div>
-   <table cellspacing="0" col="1" id="2">
+   <table cellspacing="0" colid="1" id="2">
     <tr class="row1">
      <td class="number">
       1.2.A
@@ -410,7 +410,7 @@
       1.2.D
      </td>
      <td class="NP">
-      आज,n,m,sg,3,d,-
+      आज,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -458,11 +458,11 @@
       1.2.J
      </td>
      <td class="NP">
-      -
+      आज
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="2" id="2">
+   <table cellspacing="0" colid="2" id="2">
     <tr class="row1">
      <td class="NP">
       ਪੂਰੇ
@@ -485,7 +485,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पूरा,adj,m,sg,-,o,-
+      पूरा,&lt;पु०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -515,11 +515,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पूरे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="3" id="2">
+   <table cellspacing="0" colid="3" id="2">
     <tr class="row1">
      <td class="NP">
       ਦੋ
@@ -537,7 +537,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दो,num,any,pl,-,d,-
+      दो,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -567,11 +569,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      दो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="4" id="2">
+   <table cellspacing="0" colid="4" id="2">
     <tr class="row1">
      <td class="NP">
       ਮਹੀਨੇ
@@ -594,7 +596,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      महीना,n,m,pl,3,d,-
+      महीना,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -624,11 +626,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      महीने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="5" id="2">
+   <table cellspacing="0" colid="5" id="2">
     <tr class="row1">
      <td class="VGF">
       ਹੋ ਗਏ ਹਨ
@@ -651,7 +653,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      होना,v,any,sg,2,-,0
+      होना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -681,11 +683,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      5 6 7 8
+      हो गया हैं .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="6" id="2">
+   <table cellspacing="0" colid="6" id="2">
     <tr class="row1">
      <td class="VGF">
       .
@@ -708,7 +710,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -737,7 +741,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="7" id="2">
+   <table cellspacing="0" colid="1" id="3">
     <tr class="row1">
      <td class="number">
       1.3.A
@@ -767,7 +771,7 @@
       1.3.D
      </td>
      <td class="NP">
-      pApA,n,m,sg,3,d,-
+      pApA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -815,11 +819,11 @@
       1.3.J
      </td>
      <td class="NP">
-      -
+      पापा के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="8" id="2">
+   <table cellspacing="0" colid="2" id="3">
     <tr class="row1">
      <td class="NP">
       ਪੈਸੇ
@@ -842,7 +846,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पैसा,n,m,pl,3,d,-
+      पैसा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -876,7 +880,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="9" id="2">
+   <table cellspacing="0" colid="3" id="3">
     <tr class="row1">
      <td class="NP">
       ਅਜੇ ਤਕ ਵੀ
@@ -894,7 +898,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      अभी,adv,-,-,-,-,-
+      अभी,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -924,11 +928,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पैसे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="10" id="2">
+   <table cellspacing="0" colid="4" id="3">
     <tr class="row1">
      <td class="VGF">
       ਨਹੀਂ
@@ -946,7 +950,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -976,11 +980,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      अभी तक
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="11" id="2">
+   <table cellspacing="0" colid="5" id="3">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲੇ
@@ -1003,7 +1007,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,m,pl,any,-,या
+      मिलना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1037,7 +1041,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="12" id="2">
+   <table cellspacing="0" colid="6" id="3">
     <tr class="row1">
      <td class="VGF">
       .
@@ -1055,7 +1059,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -1085,11 +1091,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      भी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="13" id="2">
+   <table cellspacing="0" colid="1" id="4">
     <tr class="row1">
      <td class="number">
       1.4.A
@@ -1119,7 +1125,7 @@
       1.4.D
      </td>
      <td class="NP">
-      आम,adj,-,-,-,-,-
+      आम,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1167,11 +1173,11 @@
       1.4.J
      </td>
      <td class="NP">
-      -
+      आम
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="14" id="2">
+   <table cellspacing="0" colid="2" id="4">
     <tr class="row1">
      <td class="NP">
       ਤੌਰ 'ਤੇ
@@ -1194,7 +1200,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      रूप,n,m,sg,3,o,-
+      रूप,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1224,11 +1230,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      तौर पर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="15" id="2">
+   <table cellspacing="0" colid="3" id="4">
     <tr class="row1">
      <td class="NP">
       ਮਹੀਨੇ
@@ -1251,7 +1257,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      महीना,n,m,pl,3,d,-
+      महीना,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1285,7 +1291,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="16" id="2">
+   <table cellspacing="0" colid="4" id="4">
     <tr class="row1">
      <td class="NP">
       ,
@@ -1303,7 +1309,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -1333,11 +1341,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      महीने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="17" id="2">
+   <table cellspacing="0" colid="5" id="4">
     <tr class="row1">
      <td class="NP">
       ਡੇਢ
@@ -1355,7 +1363,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      deDa,unk,-,-,-,-,-
+      deDa,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -1385,11 +1395,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="18" id="2">
+   <table cellspacing="0" colid="6" id="4">
     <tr class="row1">
      <td class="NP">
       ਮਹੀਨੇ ਵਿਚ
@@ -1412,7 +1422,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      महीना,n,m,sg,3,o,-
+      महीना,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1442,11 +1452,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      डेढ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="19" id="2">
+   <table cellspacing="0" colid="7" id="4">
     <tr class="row1">
      <td class="NP">
       ਪੈਸੇ
@@ -1469,7 +1479,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पैसा,n,m,pl,3,d,-
+      पैसा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1499,11 +1509,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      महीने में
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="20" id="2">
+   <table cellspacing="0" colid="8" id="4">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲ ਜਾਇਆ ਕਰਦੇ ਹਨ
@@ -1521,7 +1531,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,any,sg,2,-,0
+      मिलना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1555,7 +1565,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="21" id="2">
+   <table cellspacing="0" colid="9" id="4">
     <tr class="row1">
      <td class="VGF">
       .
@@ -1578,7 +1588,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -1603,11 +1615,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      पैसे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="22" id="2">
+   <table cellspacing="0" colid="1" id="5">
     <tr class="row1">
      <td class="number">
       1.5.A
@@ -1637,7 +1649,7 @@
       1.5.D
      </td>
      <td class="NP">
-      पता,n,m,sg,3,d,-
+      पता,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1685,11 +1697,11 @@
       1.5.J
      </td>
      <td class="NP">
-      -
+      पता
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="23" id="2">
+   <table cellspacing="0" colid="2" id="5">
     <tr class="row1">
      <td class="NP">
       ਨਹੀਂ
@@ -1707,7 +1719,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1737,11 +1749,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      नहीं
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="24" id="2">
+   <table cellspacing="0" colid="3" id="5">
     <tr class="row1">
      <td class="RBP">
       ਕੀ
@@ -1764,7 +1776,7 @@
     </tr>
     <tr class="row4">
      <td class="RBP">
-      क्या,pn,any,sg,3,d,-
+      क्या,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1794,11 +1806,11 @@
     </tr>
     <tr class="row10">
      <td class="RBP">
-      -
+      क्या
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="25" id="2">
+   <table cellspacing="0" colid="4" id="5">
     <tr class="row1">
      <td class="NP">
       ਕਾਰਨ
@@ -1821,7 +1833,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कारण,n,m,sg,3,d,-
+      कारण,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1851,11 +1863,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कारण
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="26" id="2">
+   <table cellspacing="0" colid="5" id="5">
     <tr class="row1">
      <td class="VGF">
       ਹੋ ਗਿਆ
@@ -1878,7 +1890,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      होना,v,any,sg,2,-,0
+      होना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -1908,11 +1920,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      5 6 7
+      हो गया .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="27" id="2">
+   <table cellspacing="0" colid="6" id="5">
     <tr class="row1">
      <td class="VGF">
       .
@@ -1935,7 +1947,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -1964,7 +1978,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="28" id="2">
+   <table cellspacing="0" colid="1" id="6">
     <tr class="row1">
      <td class="number">
       1.6.A
@@ -1994,7 +2008,7 @@
       1.6.D
      </td>
      <td class="RBP">
-      क्यों,adv,-,-,-,-,-
+      क्यों,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2042,11 +2056,11 @@
       1.6.J
      </td>
      <td class="RBP">
-      -
+      क्यों
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="29" id="2">
+   <table cellspacing="0" colid="2" id="6">
     <tr class="row1">
      <td class="NP">
       ਏਨੀ
@@ -2069,7 +2083,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      enA,adj,f,sg,-,d,-
+      enA,&lt;स्त्री०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2099,11 +2113,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      इतना
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="30" id="2">
+   <table cellspacing="0" colid="3" id="6">
     <tr class="row1">
      <td class="NP">
       ਦੇਰ
@@ -2126,7 +2140,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      देर,n,f,sg,3,d,-
+      देर,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2156,11 +2170,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      देर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="31" id="2">
+   <table cellspacing="0" colid="4" id="6">
     <tr class="row1">
      <td class="VGF">
       ਹੋ ਗਈ
@@ -2183,7 +2197,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      होना,v,any,sg,2,-,0
+      होना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2213,11 +2227,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      4 5 6
+      हो गया .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="32" id="2">
+   <table cellspacing="0" colid="5" id="6">
     <tr class="row1">
      <td class="VGF">
       .
@@ -2240,7 +2254,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -2269,7 +2285,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="33" id="2">
+   <table cellspacing="0" colid="1" id="7">
     <tr class="row1">
      <td class="number">
       1.7.A
@@ -2304,7 +2320,7 @@
       1.7.D
      </td>
      <td class="NP">
-      राशन,n,m,sg,3,o,-
+      राशन,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2352,11 +2368,11 @@
       1.7.J
      </td>
      <td class="NP">
-      -
+      राशन वाला के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="34" id="2">
+   <table cellspacing="0" colid="2" id="7">
     <tr class="row1">
      <td class="NP">
       ਦੋ
@@ -2374,7 +2390,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दो,num,any,pl,-,d,-
+      दो,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -2408,7 +2426,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="35" id="2">
+   <table cellspacing="0" colid="3" id="7">
     <tr class="row1">
      <td class="NP">
       ਮਹੀਨੇ ਦਾ
@@ -2431,7 +2449,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      महीना,n,m,sg,3,o,-
+      महीना,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2465,7 +2483,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="36" id="2">
+   <table cellspacing="0" colid="4" id="7">
     <tr class="row1">
      <td class="NP">
       ਉਧਾਰ
@@ -2483,7 +2501,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      उधार,n,m,sg,3,d,-
+      उधार,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2513,11 +2531,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      दो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="37" id="2">
+   <table cellspacing="0" colid="5" id="7">
     <tr class="row1">
      <td class="NP">
       ਸਿਰ
@@ -2540,7 +2558,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      सिर,n,m,sg,3,d,-
+      सिर,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2570,11 +2588,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      महीने का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="38" id="2">
+   <table cellspacing="0" colid="6" id="7">
     <tr class="row1">
      <td class="VGF">
       ਚੜ੍ਹ ਗਿਆ ਹੈ
@@ -2597,7 +2615,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      चढ़ना,v,any,sg,2,-,0
+      चढ़ना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2631,7 +2649,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="39" id="2">
+   <table cellspacing="0" colid="7" id="7">
     <tr class="row1">
      <td class="CCP">
       ਤੇ
@@ -2654,7 +2672,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      और,avy,-,-,-,-,-
+      और,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2684,11 +2702,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      उधार
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="40" id="2">
+   <table cellspacing="0" colid="8" id="7">
     <tr class="row1">
      <td class="NP">
       ਉਸ ਨੇ ਅਗੇ
@@ -2706,7 +2724,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,sg,3,o,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2736,11 +2754,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      सिर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="41" id="2">
+   <table cellspacing="0" colid="9" id="7">
     <tr class="row1">
      <td class="NP">
       ਹੋਰ
@@ -2763,7 +2781,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      और,adj,any,sg,-,d,-
+      और,&lt;अन्य,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2793,11 +2811,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      9 10 11
+      चढ़ गया है
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="42" id="2">
+   <table cellspacing="0" colid="10" id="7">
     <tr class="row1">
      <td class="NP">
       ਉਧਾਰ
@@ -2815,7 +2833,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      उधार,n,m,sg,3,d,-
+      उधार,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2849,7 +2867,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="43" id="2">
+   <table cellspacing="0" colid="11" id="7">
     <tr class="row1">
      <td class="VGNN">
       ਦੇਣ ਤੋਂ
@@ -2872,7 +2890,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNN">
-      देना,v,m,pl,any,-,ना
+      देना,&lt;पु०,बहु०,अन्य,ना&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2906,7 +2924,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="44" id="2">
+   <table cellspacing="0" colid="12" id="7">
     <tr class="row1">
      <td class="VGF">
       ਨਾਂਹ
@@ -2929,7 +2947,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      जी_नहीं,n,f,sg,3,d,-
+      जी_नहीं,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -2959,11 +2977,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      और
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="45" id="2">
+   <table cellspacing="0" colid="13" id="7">
     <tr class="row1">
      <td class="VGF">
       ਕਰ ਦਿਤੀ ਹੈ
@@ -2986,7 +3004,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,any,sg,2,-,0
+      करना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3016,11 +3034,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      उसने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="46" id="2">
+   <table cellspacing="0" colid="14" id="7">
     <tr class="row1">
      <td class="VGF">
       .
@@ -3043,7 +3061,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -3068,11 +3088,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      अआगे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="47" id="2">
+   <table cellspacing="0" colid="1" id="8">
     <tr class="row1">
      <td class="number">
       1.8.A
@@ -3107,7 +3127,7 @@
       1.8.D
      </td>
      <td class="RBP">
-      क्या,pn,any,sg,3,d,-
+      क्या,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3155,11 +3175,11 @@
       1.8.J
      </td>
      <td class="RBP">
-      -
+      क्या
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="48" id="2">
+   <table cellspacing="0" colid="2" id="8">
     <tr class="row1">
      <td class="VGF">
       ਬਣੂ
@@ -3177,7 +3197,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      बनना,v,any,sg,3,-,U
+      बनना,&lt;अन्य,एक०,तृतिय,U&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3207,11 +3227,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      2
+      होगा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="49" id="2">
+   <table cellspacing="0" colid="3" id="8">
     <tr class="row1">
      <td class="CCP">
       ਜੇਕਰ
@@ -3229,7 +3249,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      अगर,avy,-,-,-,-,-
+      अगर,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3259,11 +3279,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      अगर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="50" id="2">
+   <table cellspacing="0" colid="4" id="8">
     <tr class="row1">
      <td class="RBP">
       ਜਲਦੀ
@@ -3286,7 +3306,7 @@
     </tr>
     <tr class="row4">
      <td class="RBP">
-      शीघ्र,adv,f,sg,-,d,-
+      शीघ्र,&lt;स्त्री०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3316,11 +3336,11 @@
     </tr>
     <tr class="row10">
      <td class="RBP">
-      -
+      जल्दी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="51" id="2">
+   <table cellspacing="0" colid="5" id="8">
     <tr class="row1">
      <td class="NP">
       ਕੋਈ
@@ -3343,7 +3363,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कोई,pn,any,sg,3,d,-
+      कोई,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3373,11 +3393,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कोई
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="52" id="2">
+   <table cellspacing="0" colid="6" id="8">
     <tr class="row1">
      <td class="NP">
       ਪੈਸਾ
@@ -3395,7 +3415,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पैसा,n,m,sg,3,d,-
+      पैसा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3425,11 +3445,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पैसा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="53" id="2">
+   <table cellspacing="0" colid="7" id="8">
     <tr class="row1">
      <td class="VGF">
       ਨਾ
@@ -3447,7 +3467,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      न,avy,-,-,-,-,-
+      न,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3477,11 +3497,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      7 8
+      न आया
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="54" id="2">
+   <table cellspacing="0" colid="8" id="8">
     <tr class="row1">
      <td class="VGF">
       ਆਇਆ
@@ -3499,7 +3519,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      आना,v,m,sg,any,-,या
+      आना,&lt;पु०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3533,7 +3553,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="55" id="2">
+   <table cellspacing="0" colid="9" id="8">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -3551,7 +3571,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3581,11 +3601,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="56" id="2">
+   <table cellspacing="0" colid="10" id="8">
     <tr class="row1">
      <td class="CCP">
       .
@@ -3603,7 +3623,9 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -3637,7 +3659,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="57" id="2">
+   <table cellspacing="0" colid="1" id="9">
     <tr class="row1">
      <td class="number">
       1.9.A
@@ -3672,7 +3694,7 @@
       1.9.D
      </td>
      <td class="NP">
-      कल,n,any,sg,3,o,-
+      कल,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3720,11 +3742,11 @@
       1.9.J
      </td>
      <td class="NP">
-      -
+      कल
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="58" id="2">
+   <table cellspacing="0" colid="2" id="9">
     <tr class="row1">
      <td class="NP">
       ਮੰਮੀ ਨੇ
@@ -3742,7 +3764,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      maMmI,unk,-,-,-,-,-
+      maMmI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -3772,11 +3796,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      मंमी ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="59" id="2">
+   <table cellspacing="0" colid="3" id="9">
     <tr class="row1">
      <td class="NP">
       ਕੁਝ
@@ -3799,7 +3823,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      भर,pn,any,sg,3,d,-
+      भर,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3833,7 +3857,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="60" id="2">
+   <table cellspacing="0" colid="4" id="9">
     <tr class="row1">
      <td class="VGF">
       ਨਹੀਂ
@@ -3851,7 +3875,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3881,11 +3905,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      कुछ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="61" id="2">
+   <table cellspacing="0" colid="5" id="9">
     <tr class="row1">
      <td class="VGF">
       ਖਾਧਾ
@@ -3903,7 +3927,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      खाना,v,m,sg,any,-,या
+      खाना,&lt;पु०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -3933,11 +3957,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      5 6 7
+      नहीं खाया .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="62" id="2">
+   <table cellspacing="0" colid="6" id="9">
     <tr class="row1">
      <td class="VGF">
       .
@@ -3955,7 +3979,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -3989,7 +4015,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="63" id="2">
+   <table cellspacing="0" colid="1" id="10">
     <tr class="row1">
      <td class="number">
       1.10.A
@@ -4019,7 +4045,7 @@
       1.10.D
      </td>
      <td class="NP">
-      मैं,pn,any,pl,1,o,nUM
+      मैं,&lt;अन्य,बहु०,प्रथम,nUM&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4067,11 +4093,11 @@
       1.10.J
      </td>
      <td class="NP">
-      -
+      हमें
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="64" id="2">
+   <table cellspacing="0" colid="2" id="10">
     <tr class="row1">
      <td class="NP">
       ਚਾਰੇ
@@ -4094,7 +4120,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      चार,num,any,pl,-,d,-
+      चार,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -4124,11 +4152,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      चार
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="65" id="2">
+   <table cellspacing="0" colid="3" id="10">
     <tr class="row1">
      <td class="NP">
       ਭੈਣਾਂ
@@ -4151,7 +4179,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बहन,n,f,pl,3,o,-
+      बहन,&lt;स्त्री०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4181,11 +4209,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      बहनों भाइयों को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="66" id="2">
+   <table cellspacing="0" colid="4" id="10">
     <tr class="row1">
      <td class="NP">
       -
@@ -4203,7 +4231,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      –,punc,-,-,-,-,-
+      –,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -4237,7 +4267,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="67" id="2">
+   <table cellspacing="0" colid="5" id="10">
     <tr class="row1">
      <td class="NP">
       ਭਰਾਵਾਂ ਨੂੰ ਵੀ
@@ -4260,7 +4290,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      भाई,n,m,pl,3,o,-
+      भाई,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4294,7 +4324,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="68" id="2">
+   <table cellspacing="0" colid="6" id="10">
     <tr class="row1">
      <td class="NP">
       ਰੁਖੀ
@@ -4312,7 +4342,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कर्कश,adj,f,sg,-,d,-
+      कर्कश,&lt;स्त्री०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4346,7 +4376,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="69" id="2">
+   <table cellspacing="0" colid="7" id="10">
     <tr class="row1">
      <td class="NP">
       -
@@ -4364,7 +4394,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      –,punc,-,-,-,-,-
+      –,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -4394,11 +4426,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      भी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="70" id="2">
+   <table cellspacing="0" colid="8" id="10">
     <tr class="row1">
      <td class="NP">
       ਮਿਸੀ
@@ -4416,7 +4448,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      misA,adj,f,sg,-,d,-
+      misA,&lt;स्त्री०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4446,11 +4478,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      रूखी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="71" id="2">
+   <table cellspacing="0" colid="9" id="10">
     <tr class="row1">
      <td class="VGNF">
       ਖਾ ਕੇ
@@ -4468,7 +4500,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      खाना,v,any,sg,2,-,0
+      खाना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4498,11 +4530,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNF">
-      -
+      रोटी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="72" id="2">
+   <table cellspacing="0" colid="10" id="10">
     <tr class="row1">
      <td class="NP">
       ਗੁਜ਼ਾਰਾ
@@ -4520,7 +4552,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      गुज़ारा,n,m,sg,3,d,-
+      गुज़ारा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4550,11 +4582,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      खा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="73" id="2">
+   <table cellspacing="0" colid="11" id="10">
     <tr class="row1">
      <td class="VGF">
       ਕਰਨਾ ਪਿਆ ਸੀ
@@ -4572,7 +4604,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,m,sg,any,-,ना
+      करना,&lt;पु०,एक०,अन्य,ना&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4602,11 +4634,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      कर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="74" id="2">
+   <table cellspacing="0" colid="12" id="10">
     <tr class="row1">
      <td class="VGF">
       .
@@ -4629,7 +4661,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -4654,11 +4688,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      गुज़ारा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="75" id="2">
+   <table cellspacing="0" colid="1" id="11">
     <tr class="row1">
      <td class="number">
       1.11.A
@@ -4688,7 +4722,7 @@
       1.11.D
      </td>
      <td class="NP">
-      सबेरे,adv,-,-,-,-,-
+      सबेरे,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4736,11 +4770,11 @@
       1.11.J
      </td>
      <td class="NP">
-      -
+      सबेरे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="76" id="2">
+   <table cellspacing="0" colid="2" id="11">
     <tr class="row1">
      <td class="JJP">
       ਮੰਮੀ
@@ -4758,7 +4792,9 @@
     </tr>
     <tr class="row4">
      <td class="JJP">
-      maMmI,unk,-,-,-,-,-
+      maMmI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -4788,11 +4824,11 @@
     </tr>
     <tr class="row10">
      <td class="JJP">
-      -
+      तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="77" id="2">
+   <table cellspacing="0" colid="3" id="11">
     <tr class="row1">
      <td class="VGF">
       ਰੋ ਰਹੀ ਸੀ
@@ -4815,7 +4851,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      रोना,v,any,sg,2,-,0
+      रोना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4845,11 +4881,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      मंमी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="78" id="2">
+   <table cellspacing="0" colid="4" id="11">
     <tr class="row1">
      <td class="VGF">
       .
@@ -4872,7 +4908,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -4897,11 +4935,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      4 5 6 7
+      रो रही थी .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="79" id="2">
+   <table cellspacing="0" colid="1" id="12">
     <tr class="row1">
      <td class="number">
       1.12.A
@@ -4936,7 +4974,7 @@
       1.12.D
      </td>
      <td class="NP">
-      कौन,pn,any,sg,3,o,-
+      कौन,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -4984,11 +5022,11 @@
       1.12.J
      </td>
      <td class="NP">
-      -
+      किस के पास
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="80" id="2">
+   <table cellspacing="0" colid="2" id="12">
     <tr class="row1">
      <td class="VGF">
       ਜਾਈਏ
@@ -5006,7 +5044,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      जाना,v,any,pl,1,-,ए
+      जाना,&lt;अन्य,बहु०,प्रथम,ए&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5040,7 +5078,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="81" id="2">
+   <table cellspacing="0" colid="3" id="12">
     <tr class="row1">
      <td class="VGF">
       .
@@ -5058,7 +5096,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -5088,11 +5128,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      पास
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="82" id="2">
+   <table cellspacing="0" colid="1" id="13">
     <tr class="row1">
      <td class="number">
       1.13.A
@@ -5122,7 +5162,7 @@
       1.13.D
      </td>
      <td class="NP">
-      pApA,n,m,sg,3,d,-
+      pApA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5170,11 +5210,11 @@
       1.13.J
      </td>
      <td class="NP">
-      -
+      पापा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="83" id="2">
+   <table cellspacing="0" colid="2" id="13">
     <tr class="row1">
      <td class="NP">
       ਤਿੰਨ
@@ -5192,7 +5232,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      तीन,num,any,pl,-,d,-
+      तीन,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -5222,11 +5264,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      तीन
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="84" id="2">
+   <table cellspacing="0" colid="3" id="13">
     <tr class="row1">
      <td class="NP">
       ਸਾਲ ਤੋਂ
@@ -5249,7 +5291,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वर्ष,n,m,sg,3,o,-
+      वर्ष,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5279,11 +5321,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      वर्ष से
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="85" id="2">
+   <table cellspacing="0" colid="4" id="13">
     <tr class="row1">
      <td class="NP">
       ਪਰਦੇਸ
@@ -5306,7 +5348,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      परदेश,n,m,sg,3,d,-
+      परदेश,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5340,7 +5382,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="86" id="2">
+   <table cellspacing="0" colid="5" id="13">
     <tr class="row1">
      <td class="VGF">
       ਗਏ ਹੋਏ ਹਨ
@@ -5358,7 +5400,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      जाना,v,m,pl,any,-,या
+      जाना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5388,11 +5430,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      परदेश
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="87" id="2">
+   <table cellspacing="0" colid="6" id="13">
     <tr class="row1">
      <td class="VGF">
       .
@@ -5415,7 +5457,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -5440,11 +5484,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      6 7 8 9
+      गये हुआ हैं .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="88" id="2">
+   <table cellspacing="0" colid="1" id="14">
     <tr class="row1">
      <td class="number">
       1.14.A
@@ -5474,7 +5518,7 @@
       1.14.D
      </td>
      <td class="VGF">
-      कहना,v,m,pl,any,-,ता
+      कहना,&lt;पु०,बहु०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5522,11 +5566,11 @@
       1.14.J
      </td>
      <td class="VGF">
-      1 2
+      कहते थे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="89" id="2">
+   <table cellspacing="0" colid="2" id="14">
     <tr class="row1">
      <td class="NP">
       ਦੋ
@@ -5544,7 +5588,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दो,num,any,pl,-,d,-
+      दो,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -5578,7 +5624,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="90" id="2">
+   <table cellspacing="0" colid="3" id="14">
     <tr class="row1">
      <td class="NP">
       ਚਿਠੀਆਂ
@@ -5601,7 +5647,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      चिट्ठी,n,f,pl,3,d,-
+      चिट्ठी,&lt;स्त्री०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5631,11 +5677,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      दो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="91" id="2">
+   <table cellspacing="0" colid="4" id="14">
     <tr class="row1">
      <td class="VGF">
       ਪਾਈਆਂ ਸਨ
@@ -5658,7 +5704,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      पाना,v,f,pl,any,-,या
+      पाना,&lt;स्त्री०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5688,11 +5734,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      चिट्ठियाँ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="92" id="2">
+   <table cellspacing="0" colid="5" id="14">
     <tr class="row1">
      <td class="VGF">
       .
@@ -5715,7 +5761,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -5740,11 +5788,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      5 6 7
+      भेजे थे .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="93" id="2">
+   <table cellspacing="0" colid="1" id="15">
     <tr class="row1">
      <td class="number">
       1.15.A
@@ -5779,7 +5827,7 @@
       1.15.D
      </td>
      <td class="CCP">
-      para,adv,-,-,-,-,-
+      para,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5827,11 +5875,11 @@
       1.15.J
      </td>
      <td class="CCP">
-      परन्तु
+      पर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="94" id="2">
+   <table cellspacing="0" colid="2" id="15">
     <tr class="row1">
      <td class="NP">
       ਸਾਨੂੰ ਤਾਂ
@@ -5849,7 +5897,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      मैं,pn,any,pl,1,o,nUM
+      मैं,&lt;अन्य,बहु०,प्रथम,nUM&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5883,7 +5931,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="95" id="2">
+   <table cellspacing="0" colid="3" id="15">
     <tr class="row1">
      <td class="NP">
       ਇਕ ਵੀ
@@ -5906,7 +5954,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      एक,pn,any,sg,3,d,-
+      एक,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5940,7 +5988,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="96" id="2">
+   <table cellspacing="0" colid="4" id="15">
     <tr class="row1">
      <td class="VGF">
       ਨਹੀਂ
@@ -5958,7 +6006,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -5992,7 +6040,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="97" id="2">
+   <table cellspacing="0" colid="5" id="15">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲੀ
@@ -6010,7 +6058,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,f,sg,any,-,या
+      मिलना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6044,7 +6092,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="98" id="2">
+   <table cellspacing="0" colid="6" id="15">
     <tr class="row1">
      <td class="VGF">
       .
@@ -6062,7 +6110,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -6092,11 +6142,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      नहीं मिली. 8
+      नहीं मिली .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="99" id="2">
+   <table cellspacing="0" colid="1" id="16">
     <tr class="row1">
      <td class="number">
       1.16.A
@@ -6126,7 +6176,7 @@
       1.16.D
      </td>
      <td class="NP">
-      पिछला,adj,f,sg,-,d,-
+      पिछला,&lt;स्त्री०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6178,7 +6228,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="100" id="2">
+   <table cellspacing="0" colid="2" id="16">
     <tr class="row1">
      <td class="NP">
       ਚਿਠੀ ਵਿਚ
@@ -6201,7 +6251,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      चिट्ठी,n,f,sg,3,o,-
+      चिट्ठी,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6235,7 +6285,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="101" id="2">
+   <table cellspacing="0" colid="3" id="16">
     <tr class="row1">
      <td class="VGF">
       ਲਿਖਿਆ ਸੀ
@@ -6253,7 +6303,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      लिखना,v,m,sg,any,-,या
+      लिखना,&lt;पु०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6287,7 +6337,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="102" id="2">
+   <table cellspacing="0" colid="4" id="16">
     <tr class="row1">
      <td class="VGF">
       ,
@@ -6310,7 +6360,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -6335,11 +6387,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      लिखा था, काम
+      लिखा था ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="103" id="2">
+   <table cellspacing="0" colid="5" id="16">
     <tr class="row1">
      <td class="NP">
       ਕੰਮ
@@ -6362,7 +6414,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      काम,n,m,sg,3,d,-
+      काम,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6396,7 +6448,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="104" id="2">
+   <table cellspacing="0" colid="6" id="16">
     <tr class="row1">
      <td class="NP">
       ਕਦੇ
@@ -6414,7 +6466,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कभी,adv,-,-,-,-,-
+      कभी,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6448,7 +6500,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="105" id="2">
+   <table cellspacing="0" colid="7" id="16">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲਦਾ ਹੈ
@@ -6466,7 +6518,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,m,sg,any,-,ता
+      मिलना,&lt;पु०,एक०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6496,11 +6548,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      कभी
+      काम
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="106" id="2">
+   <table cellspacing="0" colid="8" id="16">
     <tr class="row1">
      <td class="CCP">
       ਤੇ
@@ -6523,7 +6575,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      और,avy,-,-,-,-,-
+      और,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6553,11 +6605,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      मिलता
+      कभी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="107" id="2">
+   <table cellspacing="0" colid="9" id="16">
     <tr class="row1">
      <td class="NP">
       ਕਦੇ
@@ -6575,7 +6627,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कभी,adv,-,-,-,-,-
+      कभी,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6605,11 +6657,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      है और
+      मिलता है
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="108" id="2">
+   <table cellspacing="0" colid="10" id="16">
     <tr class="row1">
      <td class="NP">
       ਕੰਪਨੀ
@@ -6632,7 +6684,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कंपनी,n,f,sg,3,d,-
+      कंपनी,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6666,7 +6718,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="109" id="2">
+   <table cellspacing="0" colid="11" id="16">
     <tr class="row1">
      <td class="VGF">
       ਬਦਲਣੀ ਪੈਂਦੀ ਹੈ
@@ -6684,7 +6736,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      baxalaNI,unk,-,-,-,-,-
+      baxalaNI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -6714,11 +6768,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      कभी
+      और
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="110" id="2">
+   <table cellspacing="0" colid="12" id="16">
     <tr class="row1">
      <td class="VGF">
       .
@@ -6741,7 +6795,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -6766,11 +6822,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      कंपनी
+      कभी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="111" id="2">
+   <table cellspacing="0" colid="1" id="17">
     <tr class="row1">
      <td class="number">
       1.17.A
@@ -6805,7 +6861,7 @@
       1.17.D
      </td>
      <td class="NP">
-      हमारा,pn,f,sg,3,d,-
+      हमारा,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6853,11 +6909,11 @@
       1.17.J
      </td>
      <td class="NP">
-      -
+      हमारा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="112" id="2">
+   <table cellspacing="0" colid="2" id="17">
     <tr class="row1">
      <td class="NP">
       ਚਾਰਾਂ ਦੀ
@@ -6875,7 +6931,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      cAranA,v,any,sg,1,-,ए
+      cAranA,&lt;अन्य,एक०,प्रथम,ए&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6905,11 +6961,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      चारो की
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="113" id="2">
+   <table cellspacing="0" colid="3" id="17">
     <tr class="row1">
      <td class="NP">
       ਪੜ੍ਹਾਈ
@@ -6932,7 +6988,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      शिक्षण,n,f,sg,3,d,-
+      शिक्षण,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -6966,7 +7022,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="114" id="2">
+   <table cellspacing="0" colid="4" id="17">
     <tr class="row1">
      <td class="VGF">
       ਚਲ ਰਹੀ ਹੈ
@@ -6984,7 +7040,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      cala,unk,-,-,-,-,-
+      cala,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -7014,11 +7072,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      पढ़ाई
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="115" id="2">
+   <table cellspacing="0" colid="5" id="17">
     <tr class="row1">
      <td class="VGF">
       .
@@ -7041,7 +7099,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -7066,11 +7126,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      5 6 7 8
+      चल रही है .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="116" id="2">
+   <table cellspacing="0" colid="1" id="18">
     <tr class="row1">
      <td class="number">
       1.18.A
@@ -7100,7 +7160,9 @@
       1.18.D
      </td>
      <td class="JJP">
-      maMmI,unk,-,-,-,-,-
+      maMmI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -7148,11 +7210,11 @@
       1.18.J
      </td>
      <td class="JJP">
-      -
+      मंमी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="117" id="2">
+   <table cellspacing="0" colid="2" id="18">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -7170,7 +7232,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7200,11 +7262,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="118" id="2">
+   <table cellspacing="0" colid="3" id="18">
     <tr class="row1">
      <td class="NP">
       ਕੁਝ
@@ -7227,7 +7289,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कुछ,adj,-,-,-,-,-
+      कुछ,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7257,11 +7319,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कुछ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="119" id="2">
+   <table cellspacing="0" colid="4" id="18">
     <tr class="row1">
      <td class="NP">
       ਹੋਰ
@@ -7284,7 +7346,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      और,adj,any,sg,-,d,-
+      और,&lt;अन्य,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7314,11 +7376,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      और
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="120" id="2">
+   <table cellspacing="0" colid="5" id="18">
     <tr class="row1">
      <td class="NP">
       ਕੰਮ ਵੀ
@@ -7341,7 +7403,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      काम,n,m,sg,3,d,-
+      काम,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7371,11 +7433,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      काम
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="121" id="2">
+   <table cellspacing="0" colid="6" id="18">
     <tr class="row1">
      <td class="VGF">
       ਨਹੀਂ
@@ -7393,7 +7455,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7423,11 +7485,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      भी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="122" id="2">
+   <table cellspacing="0" colid="7" id="18">
     <tr class="row1">
      <td class="VGF">
       ਕਰ ਸਕਦੀ
@@ -7450,7 +7512,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,any,sg,2,-,0
+      करना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7480,11 +7542,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      7 8 9 10
+      नहीं कर पाता .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="123" id="2">
+   <table cellspacing="0" colid="8" id="18">
     <tr class="row1">
      <td class="VGF">
       .
@@ -7507,7 +7569,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -7536,7 +7600,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="124" id="2">
+   <table cellspacing="0" colid="1" id="19">
     <tr class="row1">
      <td class="number">
       1.19.A
@@ -7571,7 +7635,7 @@
       1.19.D
      </td>
      <td class="NP">
-      कुछ,adj,-,-,-,-,-
+      कुछ,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7623,7 +7687,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="125" id="2">
+   <table cellspacing="0" colid="2" id="19">
     <tr class="row1">
      <td class="NP">
       ਲੋਕਾਂ ਦੇ
@@ -7641,7 +7705,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      लोग,n,m,pl,3,o,-
+      लोग,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7675,7 +7739,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="126" id="2">
+   <table cellspacing="0" colid="3" id="19">
     <tr class="row1">
      <td class="NP">
       ਕਪੜੇ
@@ -7698,7 +7762,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कपड़ा,n,m,pl,3,d,-
+      कपड़ा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7732,7 +7796,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="127" id="2">
+   <table cellspacing="0" colid="4" id="19">
     <tr class="row1">
      <td class="NP">
       ਸੀਣ ਨੂੰ
@@ -7750,7 +7814,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      sINa,unk,-,-,-,-,-
+      sINa,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -7784,7 +7850,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="128" id="2">
+   <table cellspacing="0" colid="5" id="19">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲ ਜਾਂਦੇ ਹਨ
@@ -7802,7 +7868,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,any,sg,2,-,0
+      मिलना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7832,11 +7898,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      सीना को
+      सीने को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="129" id="2">
+   <table cellspacing="0" colid="6" id="19">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -7854,7 +7920,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7888,7 +7954,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="130" id="2">
+   <table cellspacing="0" colid="7" id="19">
     <tr class="row1">
      <td class="NP">
       ਗੁਜ਼ਾਰਾ
@@ -7906,7 +7972,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      गुज़ारा,n,m,sg,3,d,-
+      गुज़ारा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -7936,11 +8002,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      मिल जाते हैं
+      मिल जाता हैं
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="131" id="2">
+   <table cellspacing="0" colid="8" id="19">
     <tr class="row1">
      <td class="VGF">
       ਚਲ ਜਾਂਦਾ ਹੈ
@@ -7958,7 +8024,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      cala,unk,-,-,-,-,-
+      cala,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -7992,7 +8060,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="132" id="2">
+   <table cellspacing="0" colid="9" id="19">
     <tr class="row1">
      <td class="VGF">
       .
@@ -8015,7 +8083,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -8044,7 +8114,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="133" id="2">
+   <table cellspacing="0" colid="1" id="20">
     <tr class="row1">
      <td class="number">
       1.20.A
@@ -8079,7 +8149,7 @@
       1.20.D
      </td>
      <td class="NP">
-      दोपहर,n,f,sg,3,d,-
+      दोपहर,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8127,11 +8197,11 @@
       1.20.J
      </td>
      <td class="NP">
-      -
+      दोपहर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="134" id="2">
+   <table cellspacing="0" colid="2" id="20">
     <tr class="row1">
      <td class="VGF">
       ਹੋ ਗਈ ਸੀ
@@ -8154,7 +8224,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      होना,v,any,sg,2,-,0
+      होना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8184,11 +8254,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      2 3 4 5
+      हो गयी थी .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="135" id="2">
+   <table cellspacing="0" colid="3" id="20">
     <tr class="row1">
      <td class="VGF">
       .
@@ -8211,7 +8281,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -8240,7 +8312,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="136" id="2">
+   <table cellspacing="0" colid="1" id="21">
     <tr class="row1">
      <td class="number">
       1.21.A
@@ -8275,7 +8347,7 @@
       1.21.D
      </td>
      <td class="NP">
-      रोटी,n,f,pl,3,o,-
+      रोटी,&lt;स्त्री०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8323,11 +8395,11 @@
       1.21.J
      </td>
      <td class="NP">
-      -
+      रोटियों के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="137" id="2">
+   <table cellspacing="0" colid="2" id="21">
     <tr class="row1">
      <td class="NP">
       ਟੁਕੜਿਆਂ ਨੂੰ
@@ -8345,7 +8417,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      टुकड़ा,n,m,pl,3,o,-
+      टुकड़ा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8379,7 +8451,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="138" id="2">
+   <table cellspacing="0" colid="3" id="21">
     <tr class="row1">
      <td class="NP">
       ਦੁਧ ਵਿਚ
@@ -8402,7 +8474,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दूध,n,m,sg,3,o,-
+      दूध,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8432,11 +8504,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      टुकड़ों को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="139" id="2">
+   <table cellspacing="0" colid="4" id="21">
     <tr class="row1">
      <td class="VGNF">
       ਰਿੰਨ੍ਹ ਕੇ
@@ -8454,7 +8526,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      riMnhaNA,v,any,sg,2,-,0
+      riMnhaNA,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8488,7 +8560,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="140" id="2">
+   <table cellspacing="0" colid="5" id="21">
     <tr class="row1">
      <td class="NP">
       ਸਾਨੂੰ
@@ -8506,7 +8578,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      मैं,pn,any,pl,1,o,nUM
+      मैं,&lt;अन्य,बहु०,प्रथम,nUM&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8536,11 +8608,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      दूध में
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="141" id="2">
+   <table cellspacing="0" colid="6" id="21">
     <tr class="row1">
      <td class="NP">
       ਸਾਰਿਆਂ ਨੂੰ
@@ -8563,7 +8635,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      संपूर्ण,adj,m,pl,-,o,-
+      संपूर्ण,&lt;पु०,बहु०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8597,7 +8669,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="142" id="2">
+   <table cellspacing="0" colid="7" id="21">
     <tr class="row1">
      <td class="VGNN">
       ਖਾਣ ਨੂੰ
@@ -8620,7 +8692,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNN">
-      खाना,v,m,pl,any,-,ना
+      खाना,&lt;पु०,बहु०,अन्य,ना&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8650,11 +8722,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNN">
-      -
+      डुबो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="143" id="2">
+   <table cellspacing="0" colid="8" id="21">
     <tr class="row1">
      <td class="VGF">
       ਮਿਲੇ ਹਨ
@@ -8677,7 +8749,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      मिलना,v,m,pl,any,-,या
+      मिलना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8707,11 +8779,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      कर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="144" id="2">
+   <table cellspacing="0" colid="9" id="21">
     <tr class="row1">
      <td class="VGF">
       .
@@ -8734,7 +8806,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -8759,11 +8833,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      हम
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="145" id="2">
+   <table cellspacing="0" colid="1" id="22">
     <tr class="row1">
      <td class="number">
       1.22.A
@@ -8798,7 +8872,7 @@
       1.22.D
      </td>
      <td class="NP">
-      वह,pn,any,sg,3,d,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8850,7 +8924,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="146" id="2">
+   <table cellspacing="0" colid="2" id="22">
     <tr class="row1">
      <td class="VGNF">
       ਖਾ ਕੇ
@@ -8868,7 +8942,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      खाना,v,any,sg,2,-,0
+      खाना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8902,7 +8976,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="147" id="2">
+   <table cellspacing="0" colid="3" id="22">
     <tr class="row1">
      <td class="NP">
       ਅਜ
@@ -8925,7 +8999,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      आज,n,m,sg,3,d,-
+      आज,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -8959,7 +9033,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="148" id="2">
+   <table cellspacing="0" colid="4" id="22">
     <tr class="row1">
      <td class="NP">
       ਛੁਟੀ ਵਾਲੇ
@@ -8982,7 +9056,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      छुट्टी,n,f,sg,3,o,-
+      छुट्टी,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9016,7 +9090,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="149" id="2">
+   <table cellspacing="0" colid="5" id="22">
     <tr class="row1">
      <td class="NP">
       ਦਿਨ
@@ -9039,7 +9113,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दिन,n,m,sg,3,d,-
+      दिन,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9069,11 +9143,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      छुट्टी वाले
+      छुट्टी वाला
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="150" id="2">
+   <table cellspacing="0" colid="6" id="22">
     <tr class="row1">
      <td class="NP">
       ਸਾਨੂੰ ਤਾਂ
@@ -9091,7 +9165,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      मैं,pn,any,pl,1,o,nUM
+      मैं,&lt;अन्य,बहु०,प्रथम,nUM&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9125,7 +9199,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="151" id="2">
+   <table cellspacing="0" colid="7" id="22">
     <tr class="row1">
      <td class="NP">
       ਨੀਂਦ
@@ -9148,7 +9222,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      निद्रा,n,f,sg,3,d,-
+      निद्रा,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9182,7 +9256,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="152" id="2">
+   <table cellspacing="0" colid="8" id="22">
     <tr class="row1">
      <td class="VGF">
       ਆ ਗਈ
@@ -9200,7 +9274,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      आना,v,any,sg,2,-,0
+      आना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9234,7 +9308,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="153" id="2">
+   <table cellspacing="0" colid="9" id="22">
     <tr class="row1">
      <td class="VGF">
       .
@@ -9257,7 +9331,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -9286,7 +9362,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="154" id="2">
+   <table cellspacing="0" colid="1" id="23">
     <tr class="row1">
      <td class="number">
       1.23.A
@@ -9321,7 +9397,7 @@
       1.23.D
      </td>
      <td class="NP">
-      शाम,n,any,sg,3,o,-
+      शाम,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9369,11 +9445,11 @@
       1.23.J
      </td>
      <td class="NP">
-      -
+      शाम का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="155" id="2">
+   <table cellspacing="0" colid="2" id="23">
     <tr class="row1">
      <td class="NP">
       ਪੰਜ
@@ -9391,7 +9467,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पाँच,num,any,pl,-,d,-
+      पाँच,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -9425,7 +9503,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="156" id="2">
+   <table cellspacing="0" colid="3" id="23">
     <tr class="row1">
      <td class="NP">
       ਵਜੇ
@@ -9443,7 +9521,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बजे,adv,-,-,-,-,-
+      बजे,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9473,11 +9551,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पाँच
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="157" id="2">
+   <table cellspacing="0" colid="4" id="23">
     <tr class="row1">
      <td class="NP">
       ,
@@ -9495,7 +9573,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -9525,11 +9605,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      बजे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="158" id="2">
+   <table cellspacing="0" colid="5" id="23">
     <tr class="row1">
      <td class="NP">
       ਦਰਵਾਜ਼ੇ ਉਤੇ
@@ -9552,7 +9632,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दरवाज़ा,n,m,sg,3,o,-
+      दरवाज़ा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9582,11 +9662,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="159" id="2">
+   <table cellspacing="0" colid="6" id="23">
     <tr class="row1">
      <td class="NP">
       ਕਿਸੇ ਨੇ
@@ -9609,7 +9689,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कोई,pn,any,sg,3,o,-
+      कोई,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9639,11 +9719,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      दरवाज़े पर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="160" id="2">
+   <table cellspacing="0" colid="7" id="23">
     <tr class="row1">
      <td class="NP">
       ਦਸਤਕ
@@ -9666,7 +9746,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      xasawaka,n,f,sg,3,d,-
+      xasawaka,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9700,7 +9780,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="161" id="2">
+   <table cellspacing="0" colid="8" id="23">
     <tr class="row1">
      <td class="VGF">
       ਦਿਤੀ ਸੀ
@@ -9718,7 +9798,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      देना,v,f,sg,any,-,या
+      देना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9748,11 +9828,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      किसी ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="162" id="2">
+   <table cellspacing="0" colid="9" id="23">
     <tr class="row1">
      <td class="VGF">
       .
@@ -9775,7 +9855,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -9804,7 +9886,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="163" id="2">
+   <table cellspacing="0" colid="1" id="24">
     <tr class="row1">
      <td class="number">
       1.24.A
@@ -9834,7 +9916,9 @@
       1.24.D
      </td>
      <td class="NP">
-      maMmI,unk,-,-,-,-,-
+      maMmI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -9882,11 +9966,11 @@
       1.24.J
      </td>
      <td class="NP">
-      -
+      मंमी ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="164" id="2">
+   <table cellspacing="0" colid="2" id="24">
     <tr class="row1">
      <td class="NP">
       ਬਾਹਰ
@@ -9904,7 +9988,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बाहर,adv,any,sg,-,d,-
+      बाहर,&lt;अन्य,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9938,7 +10022,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="165" id="2">
+   <table cellspacing="0" colid="3" id="24">
     <tr class="row1">
      <td class="VGNF">
       ਜਾ ਕੇ
@@ -9956,7 +10040,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      जाना,v,any,sg,2,-,0
+      जाना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -9986,11 +10070,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNF">
-      -
+      बाहर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="166" id="2">
+   <table cellspacing="0" colid="4" id="24">
     <tr class="row1">
      <td class="VGF">
       ਦੇਖਿਆ
@@ -10008,7 +10092,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      देखना,v,m,sg,any,-,या
+      देखना,&lt;पु०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10038,11 +10122,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      जा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="167" id="2">
+   <table cellspacing="0" colid="5" id="24">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -10060,7 +10144,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10090,11 +10174,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      कर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="168" id="2">
+   <table cellspacing="0" colid="6" id="24">
     <tr class="row1">
      <td class="NP">
       ਪਾਪਾ ਦੇ
@@ -10112,7 +10196,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      pApA,n,m,sg,3,d,-
+      pApA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10142,11 +10226,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      6
+      देखा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="169" id="2">
+   <table cellspacing="0" colid="7" id="24">
     <tr class="row1">
      <td class="NP">
       ਦੋਸਤ
@@ -10169,7 +10253,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      सहचर,n,m,sg,3,d,-
+      सहचर,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10199,11 +10283,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="170" id="2">
+   <table cellspacing="0" colid="8" id="24">
     <tr class="row1">
      <td class="VGF">
       ਖੜ੍ਹੇ ਸਨ
@@ -10226,7 +10310,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      KadZhanA,v,m,pl,any,-,या
+      KadZhanA,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10256,11 +10340,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      पापा का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="171" id="2">
+   <table cellspacing="0" colid="9" id="24">
     <tr class="row1">
      <td class="VGF">
       .
@@ -10283,7 +10367,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -10312,7 +10398,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="172" id="2">
+   <table cellspacing="0" colid="1" id="25">
     <tr class="row1">
      <td class="number">
       1.25.A
@@ -10347,7 +10433,7 @@
       1.25.D
      </td>
      <td class="NP">
-      वह,pn,any,sg,3,d,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10395,11 +10481,11 @@
       1.25.J
      </td>
      <td class="NP">
-      -
+      वह
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="173" id="2">
+   <table cellspacing="0" colid="2" id="25">
     <tr class="row1">
      <td class="NP">
       ਕਲ੍ਹ ਹੀ ਬਾਹਰੋਂ
@@ -10422,7 +10508,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कल,n,any,sg,3,d,-
+      कल,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10452,11 +10538,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कल
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="174" id="2">
+   <table cellspacing="0" colid="3" id="25">
     <tr class="row1">
      <td class="VGF">
       ਆਏ ਸਨ
@@ -10479,7 +10565,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      आना,v,m,pl,any,-,या
+      आना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10509,11 +10595,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      ही के बाहर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="175" id="2">
+   <table cellspacing="0" colid="4" id="25">
     <tr class="row1">
      <td class="VGF">
       .
@@ -10536,7 +10622,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -10565,7 +10653,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="176" id="2">
+   <table cellspacing="0" colid="1" id="26">
     <tr class="row1">
      <td class="number">
       1.26.A
@@ -10595,7 +10683,7 @@
       1.26.D
      </td>
      <td class="NP">
-      वह,pn,any,pl,3,o,-
+      वह,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10643,11 +10731,11 @@
       1.26.J
      </td>
      <td class="NP">
-      -
+      उन के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="177" id="2">
+   <table cellspacing="0" colid="2" id="26">
     <tr class="row1">
      <td class="NP">
       ਪਾਪਾ ਨੇ
@@ -10665,7 +10753,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      pApA,n,m,sg,3,d,-
+      pApA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10699,7 +10787,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="178" id="2">
+   <table cellspacing="0" colid="3" id="26">
     <tr class="row1">
      <td class="NP">
       ਕੁਝ
@@ -10722,7 +10810,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कुछ,adj,-,-,-,-,-
+      कुछ,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10752,11 +10840,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      हाथ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="179" id="2">
+   <table cellspacing="0" colid="4" id="26">
     <tr class="row1">
      <td class="NP">
       ਪੈਸੇ
@@ -10779,7 +10867,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पैसा,n,m,pl,3,d,-
+      पैसा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10809,11 +10897,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पापा ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="180" id="2">
+   <table cellspacing="0" colid="5" id="26">
     <tr class="row1">
      <td class="VGF">
       ਭੇਜੇ ਸਨ
@@ -10836,7 +10924,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      भेजना,v,m,pl,any,-,या
+      भेजना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -10870,7 +10958,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="181" id="2">
+   <table cellspacing="0" colid="6" id="26">
     <tr class="row1">
      <td class="VGF">
       .
@@ -10893,7 +10981,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -10918,11 +11008,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      कुछ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="182" id="2">
+   <table cellspacing="0" colid="1" id="27">
     <tr class="row1">
      <td class="number">
       1.27.A
@@ -10952,7 +11042,9 @@
       1.27.D
      </td>
      <td class="NP">
-      maMmI,unk,-,-,-,-,-
+      maMmI,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -11000,11 +11092,11 @@
       1.27.J
      </td>
      <td class="NP">
-      -
+      मंमी की
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="183" id="2">
+   <table cellspacing="0" colid="2" id="27">
     <tr class="row1">
      <td class="NP">
       ਜਾਨ ਵਿਚ
@@ -11027,7 +11119,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जान,n,f,sg,3,o,-
+      जान,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11061,7 +11153,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="184" id="2">
+   <table cellspacing="0" colid="3" id="27">
     <tr class="row1">
      <td class="NP">
       ਜਾਨ
@@ -11084,7 +11176,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जान,n,f,sg,3,d,-
+      जान,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11114,11 +11206,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      जान में
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="185" id="2">
+   <table cellspacing="0" colid="4" id="27">
     <tr class="row1">
      <td class="VGF">
       ਆਈ
@@ -11136,7 +11228,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      आना,v,f,sg,any,-,या
+      आना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11170,7 +11262,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="186" id="2">
+   <table cellspacing="0" colid="5" id="27">
     <tr class="row1">
      <td class="VGF">
       .
@@ -11188,7 +11280,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -11218,11 +11312,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      जान
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="187" id="2">
+   <table cellspacing="0" colid="1" id="28">
     <tr class="row1">
      <td class="number">
       1.28.A
@@ -11257,7 +11351,7 @@
       1.28.D
      </td>
      <td class="NP">
-      वह,pn,any,sg,3,d,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11305,11 +11399,11 @@
       1.28.J
      </td>
      <td class="NP">
-      -
+      वह
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="188" id="2">
+   <table cellspacing="0" colid="2" id="28">
     <tr class="row1">
      <td class="VGF">
       ਦਸ ਰਹੇ ਸਨ
@@ -11332,7 +11426,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      बताना,v,any,sg,2,-,0
+      बताना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11362,11 +11456,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      2 3 4
+      बता रहा थे
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="189" id="2">
+   <table cellspacing="0" colid="3" id="28">
     <tr class="row1">
      <td class="CCP">
       ਕਿ
@@ -11384,7 +11478,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      कि,avy,-,-,-,-,-
+      कि,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11418,7 +11512,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="190" id="2">
+   <table cellspacing="0" colid="4" id="28">
     <tr class="row1">
      <td class="NP">
       ਉਹ
@@ -11441,7 +11535,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,sg,3,d,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11475,7 +11569,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="191" id="2">
+   <table cellspacing="0" colid="5" id="28">
     <tr class="row1">
      <td class="NP">
       ਪਾਪਾ ਦੀ
@@ -11493,7 +11587,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      pApA,n,m,sg,3,d,-
+      pApA,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11523,11 +11617,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कि
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="192" id="2">
+   <table cellspacing="0" colid="6" id="28">
     <tr class="row1">
      <td class="NP">
       ਕੰਪਨੀ ਵਿਚ ਹੀ
@@ -11550,7 +11644,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कंपनी,n,f,sg,3,o,-
+      कंपनी,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11580,11 +11674,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      वह
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="193" id="2">
+   <table cellspacing="0" colid="7" id="28">
     <tr class="row1">
      <td class="NP">
       ਕੰਮ
@@ -11607,7 +11701,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      काम,n,m,sg,3,d,-
+      काम,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11637,11 +11731,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पापा के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="194" id="2">
+   <table cellspacing="0" colid="8" id="28">
     <tr class="row1">
      <td class="VGF">
       ਕਰਦੇ ਹਨ
@@ -11659,7 +11753,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,m,pl,any,-,ता
+      करना,&lt;पु०,बहु०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11693,7 +11787,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="195" id="2">
+   <table cellspacing="0" colid="9" id="28">
     <tr class="row1">
      <td class="CCP">
       ਤੇ
@@ -11716,7 +11810,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      और,avy,-,-,-,-,-
+      और,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11746,11 +11840,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      कंपनी में
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="196" id="2">
+   <table cellspacing="0" colid="10" id="28">
     <tr class="row1">
      <td class="NP">
       ਉਹ
@@ -11773,7 +11867,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,sg,3,d,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11807,7 +11901,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="197" id="2">
+   <table cellspacing="0" colid="11" id="28">
     <tr class="row1">
      <td class="JJP">
       ਠੀਕ
@@ -11830,7 +11924,7 @@
     </tr>
     <tr class="row4">
      <td class="JJP">
-      समुचित,adj,-,-,-,-,-
+      समुचित,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11860,11 +11954,11 @@
     </tr>
     <tr class="row10">
      <td class="JJP">
-      -
+      ही
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="198" id="2">
+   <table cellspacing="0" colid="12" id="28">
     <tr class="row1">
      <td class="JJP">
       -
@@ -11882,7 +11976,9 @@
     </tr>
     <tr class="row4">
      <td class="JJP">
-      –,punc,-,-,-,-,-
+      –,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -11912,11 +12008,11 @@
     </tr>
     <tr class="row10">
      <td class="JJP">
-      -
+      काम
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="199" id="2">
+   <table cellspacing="0" colid="13" id="28">
     <tr class="row1">
      <td class="JJP">
       ਠਾਕ
@@ -11934,7 +12030,7 @@
     </tr>
     <tr class="row4">
      <td class="JJP">
-      TAkaNA,v,any,sg,2,-,0
+      TAkaNA,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -11964,11 +12060,11 @@
     </tr>
     <tr class="row10">
      <td class="JJP">
-      13 14
+      करते हैं
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="200" id="2">
+   <table cellspacing="0" colid="14" id="28">
     <tr class="row1">
      <td class="VGF">
       ਹਨ
@@ -11986,7 +12082,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      है,v,any,pl,3,-,-
+      है,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12020,7 +12116,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="201" id="2">
+   <table cellspacing="0" colid="15" id="28">
     <tr class="row1">
      <td class="VGF">
       .
@@ -12038,7 +12134,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -12068,11 +12166,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      और
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="202" id="2">
+   <table cellspacing="0" colid="1" id="29">
     <tr class="row1">
      <td class="number">
       1.29.A
@@ -12107,7 +12205,7 @@
       1.29.D
      </td>
      <td class="NP">
-      कुछ,adj,-,-,-,-,-
+      कुछ,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12155,11 +12253,11 @@
       1.29.J
      </td>
      <td class="NP">
-      -
+      कुछ
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="203" id="2">
+   <table cellspacing="0" colid="2" id="29">
     <tr class="row1">
      <td class="NP">
       ਕਾਰਨਾਂ ਕਰਕੇ
@@ -12177,7 +12275,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कारण,n,m,pl,3,o,-
+      कारण,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12207,11 +12305,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कारणों के कारण
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="204" id="2">
+   <table cellspacing="0" colid="3" id="29">
     <tr class="row1">
      <td class="NP">
       ਪਿਛਲੇ
@@ -12234,7 +12332,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      पिछला,adj,m,sg,-,o,-
+      पिछला,&lt;पु०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12268,7 +12366,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="205" id="2">
+   <table cellspacing="0" colid="4" id="29">
     <tr class="row1">
      <td class="NP">
       ਮਹੀਨੇ
@@ -12291,7 +12389,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      महीना,n,m,pl,3,d,-
+      महीना,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12321,11 +12419,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कारण
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="206" id="2">
+   <table cellspacing="0" colid="5" id="29">
     <tr class="row1">
      <td class="NP">
       ਤੁਹਾਨੂੰ
@@ -12343,7 +12441,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      तू,pn,any,pl,2,o,nUM
+      तू,&lt;अन्य,बहु०,द्वितीय,nUM&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12373,11 +12471,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      पिछले
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="207" id="2">
+   <table cellspacing="0" colid="6" id="29">
     <tr class="row1">
      <td class="NP">
       ਖ਼ਰਚਾ
@@ -12400,7 +12498,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      खर्चा,n,m,sg,3,d,-
+      खर्चा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12430,11 +12528,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      महीने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="208" id="2">
+   <table cellspacing="0" colid="7" id="29">
     <tr class="row1">
      <td class="VGF">
       ਨਹੀਂ
@@ -12452,7 +12550,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12482,11 +12580,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      तुम्हें
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="209" id="2">
+   <table cellspacing="0" colid="8" id="29">
     <tr class="row1">
      <td class="VGF">
       ਭੇਜ ਸਕੇ ਸਨ
@@ -12504,7 +12602,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      भेजना,v,any,sg,2,-,0
+      भेजना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12534,11 +12632,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      खर्चा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="210" id="2">
+   <table cellspacing="0" colid="9" id="29">
     <tr class="row1">
      <td class="VGF">
       .
@@ -12561,7 +12659,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -12586,11 +12686,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      9 10 11 12 13
+      नहीं भेज पाया थे .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="211" id="2">
+   <table cellspacing="0" colid="1" id="30">
     <tr class="row1">
      <td class="number">
       1.30.A
@@ -12625,7 +12725,7 @@
       1.30.D
      </td>
      <td class="CCP">
-      para,adv,-,-,-,-,-
+      para,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12673,11 +12773,11 @@
       1.30.J
      </td>
      <td class="CCP">
-      -
+      पर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="212" id="2">
+   <table cellspacing="0" colid="2" id="30">
     <tr class="row1">
      <td class="NP">
       ਹੁਣ
@@ -12695,7 +12795,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      अब,adv,-,-,-,-,-
+      अब,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12725,11 +12825,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      अब
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="213" id="2">
+   <table cellspacing="0" colid="3" id="30">
     <tr class="row1">
      <td class="NP">
       ਫਿਕਰ ਵਾਲੀ
@@ -12752,7 +12852,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      फिक्र,n,m,sg,3,o,-
+      फिक्र,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12782,11 +12882,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      फिक्र वाला
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="214" id="2">
+   <table cellspacing="0" colid="4" id="30">
     <tr class="row1">
      <td class="NP">
       ਕੋਈ
@@ -12809,7 +12909,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कोई,pn,any,sg,3,d,-
+      कोई,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12843,7 +12943,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="215" id="2">
+   <table cellspacing="0" colid="5" id="30">
     <tr class="row1">
      <td class="NP">
       ਗਲ
@@ -12866,7 +12966,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बात,n,f,sg,3,d,-
+      बात,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12896,11 +12996,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कोई
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="216" id="2">
+   <table cellspacing="0" colid="6" id="30">
     <tr class="row1">
      <td class="NEGP">
       ਨਹੀਂ
@@ -12918,7 +13018,7 @@
     </tr>
     <tr class="row4">
      <td class="NEGP">
-      नहीं,avy,-,-,-,-,-
+      नहीं,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -12948,11 +13048,11 @@
     </tr>
     <tr class="row10">
      <td class="NEGP">
-      -
+      बात
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="217" id="2">
+   <table cellspacing="0" colid="7" id="30">
     <tr class="row1">
      <td class="NEGP">
       .
@@ -12970,7 +13070,9 @@
     </tr>
     <tr class="row4">
      <td class="NEGP">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -13000,11 +13102,11 @@
     </tr>
     <tr class="row10">
      <td class="NEGP">
-      -
+      नहीं
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="218" id="2">
+   <table cellspacing="0" colid="1" id="31">
     <tr class="row1">
      <td class="number">
       1.31.A
@@ -13034,7 +13136,9 @@
       1.31.D
      </td>
      <td class="VGNN">
-      dubaxe,unk,-,-,-,-,-
+      dubaxe,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -13082,11 +13186,11 @@
       1.31.J
      </td>
      <td class="VGNN">
-      -
+      डुबते को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="219" id="2">
+   <table cellspacing="0" colid="2" id="31">
     <tr class="row1">
      <td class="NP">
       ਤਿਨਕੇ ਦਾ
@@ -13104,7 +13208,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      winake,unk,-,-,-,-,-
+      winake,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -13138,7 +13244,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="220" id="2">
+   <table cellspacing="0" colid="3" id="31">
     <tr class="row1">
      <td class="NP">
       ਸਹਾਰਾ
@@ -13156,7 +13262,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      सहारा,n,m,sg,3,d,-
+      सहारा,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13186,11 +13292,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      तिनके का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="221" id="2">
+   <table cellspacing="0" colid="4" id="31">
     <tr class="row1">
      <td class="NP">
       .
@@ -13208,7 +13314,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -13242,7 +13350,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="222" id="2">
+   <table cellspacing="0" colid="1" id="32">
     <tr class="row1">
      <td class="number">
       1.32.A
@@ -13272,7 +13380,7 @@
       1.32.D
      </td>
      <td class="NP">
-      मैं,pn,any,pl,1,d,-
+      मैं,&lt;अन्य,बहु०,प्रथम,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13320,11 +13428,11 @@
       1.32.J
      </td>
      <td class="NP">
-      हम
+      हम ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="223" id="2">
+   <table cellspacing="0" colid="2" id="32">
     <tr class="row1">
      <td class="NP">
       ਉਸ
@@ -13342,7 +13450,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,sg,3,o,-
+      वह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13372,11 +13480,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      उस
+      -
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="224" id="2">
+   <table cellspacing="0" colid="3" id="32">
     <tr class="row1">
      <td class="NP">
       ਭਲੇ
@@ -13399,7 +13507,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      भला,adj,m,sg,-,o,-
+      भला,&lt;पु०,एक०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13429,11 +13537,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      भले
+      उस
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="225" id="2">
+   <table cellspacing="0" colid="4" id="32">
     <tr class="row1">
      <td class="NP">
       ਮਾਣਸ ਦਾ
@@ -13456,7 +13564,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      mANasa,n,m,sg,3,o,-
+      mANasa,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13486,11 +13594,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      आदमी का
+      भले
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="226" id="2">
+   <table cellspacing="0" colid="5" id="32">
     <tr class="row1">
      <td class="NP">
       ਬਹੁਤ
@@ -13508,7 +13616,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बहुत,adj,-,-,-,-,-
+      बहुत,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13538,11 +13646,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      आदमी का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="227" id="2">
+   <table cellspacing="0" colid="6" id="32">
     <tr class="row1">
      <td class="NP">
       ਸ਼ੁਕਰੀਆ
@@ -13560,7 +13668,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      शुक्रिया,n,m,sg,3,d,-
+      शुक्रिया,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13590,11 +13698,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      बहुत
+      -
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="228" id="2">
+   <table cellspacing="0" colid="7" id="32">
     <tr class="row1">
      <td class="VGF">
       ਕੀਤਾ
@@ -13612,7 +13720,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,m,sg,any,-,या
+      करना,&lt;पु०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13642,11 +13750,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      शुकरिया
+      बहुत
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="229" id="2">
+   <table cellspacing="0" colid="8" id="32">
     <tr class="row1">
      <td class="VGF">
       ,
@@ -13664,7 +13772,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -13694,11 +13804,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      किया, जिन्होंने
+      शुक्रिया किया
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="230" id="2">
+   <table cellspacing="0" colid="9" id="32">
     <tr class="row1">
      <td class="NP">
       ਜਿਨ੍ਹਾਂ ਨੇ
@@ -13721,7 +13831,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जो,pn,any,pl,3,o,-
+      जो,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13755,7 +13865,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="231" id="2">
+   <table cellspacing="0" colid="10" id="32">
     <tr class="row1">
      <td class="NP">
       ਸਾਡੀ
@@ -13778,7 +13888,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      हमारा,pn,f,sg,3,d,-
+      हमारा,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13808,11 +13918,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      हमारी
+      ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="232" id="2">
+   <table cellspacing="0" colid="11" id="32">
     <tr class="row1">
      <td class="NP">
       ਵੇਲੇ
@@ -13835,7 +13945,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      समय,n,m,pl,3,d,-
+      समय,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13865,11 +13975,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      समय पर
+      जिन ने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="233" id="2">
+   <table cellspacing="0" colid="12" id="32">
     <tr class="row1">
      <td class="NP">
       ਸਿਰ
@@ -13892,7 +14002,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      सिर,n,m,sg,3,d,-
+      सिर,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13926,7 +14036,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="234" id="2">
+   <table cellspacing="0" colid="13" id="32">
     <tr class="row1">
      <td class="NP">
       ਮਦਦ
@@ -13949,7 +14059,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      मदद,n,f,sg,3,d,-
+      मदद,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -13979,11 +14089,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      सिर
+      हमारा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="235" id="2">
+   <table cellspacing="0" colid="14" id="32">
     <tr class="row1">
      <td class="VGF">
       ਕੀਤੀ
@@ -14001,7 +14111,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      करना,v,f,sg,any,-,या
+      करना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14031,11 +14141,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      मदद की
+      समय
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="236" id="2">
+   <table cellspacing="0" colid="15" id="32">
     <tr class="row1">
      <td class="VGF">
       .
@@ -14053,7 +14163,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -14083,11 +14195,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      सिर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="237" id="2">
+   <table cellspacing="0" colid="1" id="33">
     <tr class="row1">
      <td class="number">
       1.33.A
@@ -14117,7 +14229,7 @@
       1.33.D
      </td>
      <td class="NP">
-      यह,pn,any,sg,3,o,-
+      यह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14165,11 +14277,11 @@
       1.33.J
      </td>
      <td class="NP">
-      -
+      इस
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="238" id="2">
+   <table cellspacing="0" colid="2" id="33">
     <tr class="row1">
      <td class="NP">
       ਗਲ ਨੂੰ
@@ -14192,7 +14304,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      बात,n,f,sg,3,o,-
+      बात,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14222,11 +14334,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      बात को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="239" id="2">
+   <table cellspacing="0" colid="3" id="33">
     <tr class="row1">
      <td class="NP">
       ਅਜ
@@ -14249,7 +14361,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      आज,n,m,sg,3,d,-
+      आज,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14283,7 +14395,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="240" id="2">
+   <table cellspacing="0" colid="4" id="33">
     <tr class="row1">
      <td class="NP">
       ਚਾਲੀ
@@ -14306,7 +14418,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      cAlI,num,any,pl,-,d,-
+      cAlI,
+      <nuपु०,अन्य,बहु०,>
+      </nuपु०,अन्य,बहु०,>
      </td>
     </tr>
     <tr class="row5">
@@ -14336,11 +14450,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      आज
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="241" id="2">
+   <table cellspacing="0" colid="5" id="33">
     <tr class="row1">
      <td class="NP">
       ਸਾਲ
@@ -14363,7 +14477,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वर्ष,n,m,sg,3,d,-
+      वर्ष,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14393,11 +14507,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      चालीस
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="242" id="2">
+   <table cellspacing="0" colid="6" id="33">
     <tr class="row1">
      <td class="VGF">
       ਹੋ ਗਏ ਹਨ
@@ -14420,7 +14534,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      होना,v,any,sg,2,-,0
+      होना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14450,11 +14564,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      वर्ष
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="243" id="2">
+   <table cellspacing="0" colid="7" id="33">
     <tr class="row1">
      <td class="VGF">
       .
@@ -14477,7 +14591,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -14502,11 +14618,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      7 8 9 10
+      हो गया हैं .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="244" id="2">
+   <table cellspacing="0" colid="1" id="34">
     <tr class="row1">
      <td class="number">
       1.34.A
@@ -14541,7 +14657,7 @@
       1.34.D
      </td>
      <td class="NP">
-      अपना,pn,m,sg,any,o,-
+      अपना,&lt;पु०,एक०,अन्य,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14589,11 +14705,11 @@
       1.34.J
      </td>
      <td class="NP">
-      -
+      अपना
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="245" id="2">
+   <table cellspacing="0" colid="2" id="34">
     <tr class="row1">
      <td class="NP">
       ਉਨ੍ਹਾਂ
@@ -14611,7 +14727,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,pl,3,o,-
+      वह,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14641,11 +14757,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      उन
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="246" id="2">
+   <table cellspacing="0" colid="3" id="34">
     <tr class="row1">
      <td class="NP">
       ਹਾਲਾਤ ਦੀ
@@ -14668,7 +14784,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      हालात,n,m,pl,3,o,-
+      हालात,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14698,11 +14814,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      हालातों का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="247" id="2">
+   <table cellspacing="0" colid="4" id="34">
     <tr class="row1">
      <td class="NP">
       ਜਦੋਂ
@@ -14720,7 +14836,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जब,adv,-,-,-,-,-
+      जब,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14754,7 +14870,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="248" id="2">
+   <table cellspacing="0" colid="5" id="34">
     <tr class="row1">
      <td class="NP">
       ਯਾਦ
@@ -14777,7 +14893,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      याद,n,f,sg,3,d,-
+      याद,&lt;स्त्री०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14807,11 +14923,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      जब
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="249" id="2">
+   <table cellspacing="0" colid="6" id="34">
     <tr class="row1">
      <td class="VGF">
       ਆਉਂਦੀ ਹੈ
@@ -14829,7 +14945,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      आना,v,f,sg,any,-,ता
+      आना,&lt;स्त्री०,एक०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14859,11 +14975,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      याद
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="250" id="2">
+   <table cellspacing="0" colid="7" id="34">
     <tr class="row1">
      <td class="CCP">
       ਅਤੇ
@@ -14881,7 +14997,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      और,avy,-,-,-,-,-
+      और,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14911,11 +15027,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      7 8
+      आती है
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="251" id="2">
+   <table cellspacing="0" colid="8" id="34">
     <tr class="row1">
      <td class="NP">
       ਹੁਣ
@@ -14933,7 +15049,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      अब,adv,-,-,-,-,-
+      अब,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -14967,7 +15083,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="252" id="2">
+   <table cellspacing="0" colid="9" id="34">
     <tr class="row1">
      <td class="NP">
       ਜਦ
@@ -14985,7 +15101,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      यदा,adv,-,-,-,-,-
+      यदा,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15015,11 +15131,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      और
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="253" id="2">
+   <table cellspacing="0" colid="10" id="34">
     <tr class="row1">
      <td class="NP">
       ਪਰਦੇਸ
@@ -15042,7 +15158,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      परदेश,n,m,sg,3,d,-
+      परदेश,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15072,11 +15188,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      अब
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="254" id="2">
+   <table cellspacing="0" colid="11" id="34">
     <tr class="row1">
      <td class="VGNF">
       ਗਏ
@@ -15094,7 +15210,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      जाना,v,m,pl,any,-,या
+      जाना,&lt;पु०,बहु०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15124,11 +15240,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNF">
-      -
+      जब
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="255" id="2">
+   <table cellspacing="0" colid="12" id="34">
     <tr class="row1">
      <td class="NP">
       ਗਭਰੂਆਂ ਦੇ
@@ -15146,7 +15262,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      युवा,n,m,pl,3,o,-
+      युवा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15176,11 +15292,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      परदेश
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="256" id="2">
+   <table cellspacing="0" colid="13" id="34">
     <tr class="row1">
      <td class="NP">
       ਕਿਸੇ
@@ -15203,7 +15319,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      किस्सा,n,m,pl,3,d,-
+      किस्सा,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15233,11 +15349,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      गये
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="257" id="2">
+   <table cellspacing="0" colid="14" id="34">
     <tr class="row1">
      <td class="VGF">
       ਪੜ੍ਹੀ
@@ -15255,7 +15371,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      पढ़ना,v,f,sg,any,-,या
+      पढ़ना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15285,11 +15401,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      युवों के
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="258" id="2">
+   <table cellspacing="0" colid="15" id="34">
     <tr class="row1">
      <td class="VGF">
       -
@@ -15307,7 +15423,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      –,punc,-,-,-,-,-
+      –,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -15341,7 +15459,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="259" id="2">
+   <table cellspacing="0" colid="16" id="34">
     <tr class="row1">
      <td class="VGF">
       ਸੁਣਈਦੇ ਹਨ
@@ -15359,7 +15477,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      suNaIxe,unk,-,-,-,-,-
+      suNaIxe,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -15389,11 +15509,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      किस्से
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="260" id="2">
+   <table cellspacing="0" colid="17" id="34">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -15411,7 +15531,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15441,11 +15561,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      17 18
+      पढ़ते -
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="261" id="2">
+   <table cellspacing="0" colid="18" id="34">
     <tr class="row1">
      <td class="NP">
       ਦਿਲ
@@ -15468,7 +15588,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      दिल,n,m,sg,3,d,-
+      दिल,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15502,7 +15622,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="262" id="2">
+   <table cellspacing="0" colid="19" id="34">
     <tr class="row1">
      <td class="VGF">
       ਰੋ ਪੈਂਦਾ ਹੈ
@@ -15525,7 +15645,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      रोना,v,any,sg,2,-,0
+      रोना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15555,11 +15675,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      19 20
+      सुनते हैं
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="263" id="2">
+   <table cellspacing="0" colid="20" id="34">
     <tr class="row1">
      <td class="VGF">
       .
@@ -15582,7 +15702,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -15611,7 +15733,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="264" id="2">
+   <table cellspacing="0" colid="1" id="35">
     <tr class="row1">
      <td class="number">
       1.35.A
@@ -15641,7 +15763,7 @@
       1.35.D
      </td>
      <td class="RBP">
-      कितना,adj,f,pl,-,d,-
+      कितना,&lt;स्त्री०,बहु०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15689,11 +15811,11 @@
       1.35.J
      </td>
      <td class="RBP">
-      -
+      कितनी
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="265" id="2">
+   <table cellspacing="0" colid="2" id="35">
     <tr class="row1">
      <td class="NP">
       ਔਕੜਾਂ ਦਾ
@@ -15716,7 +15838,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      कठिनाई,n,f,pl,3,o,-
+      कठिनाई,&lt;स्त्री०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15746,11 +15868,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कठिनाइयों का
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="266" id="2">
+   <table cellspacing="0" colid="3" id="35">
     <tr class="row1">
      <td class="NP">
       ਸਾਹਮਣਾ
@@ -15773,7 +15895,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      सामना,n,m,sg,3,d,-
+      सामना,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15807,7 +15929,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="267" id="2">
+   <table cellspacing="0" colid="4" id="35">
     <tr class="row1">
      <td class="VGNN">
       ਕਰਨਾ
@@ -15825,7 +15947,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNN">
-      करना,v,m,sg,any,-,ना
+      करना,&lt;पु०,एक०,अन्य,ना&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15855,11 +15977,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNN">
-      -
+      सामना
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="268" id="2">
+   <table cellspacing="0" colid="5" id="35">
     <tr class="row1">
      <td class="VGF">
       ਪੈਂਦਾ ਹੈ
@@ -15877,7 +15999,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      डलना,v,m,sg,any,-,ता
+      डलना,&lt;पु०,एक०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -15907,11 +16029,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      करना
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="269" id="2">
+   <table cellspacing="0" colid="6" id="35">
     <tr class="row1">
      <td class="VGF">
       .
@@ -15934,7 +16056,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -15959,11 +16083,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      6 7 8
+      पड़ता है .
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="270" id="2">
+   <table cellspacing="0" colid="1" id="36">
     <tr class="row1">
      <td class="number">
       1.36.A
@@ -15993,7 +16117,7 @@
       1.36.D
      </td>
      <td class="NP">
-      परदेश,n,m,pl,3,o,-
+      परदेश,&lt;पु०,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16041,11 +16165,11 @@
       1.36.J
      </td>
      <td class="NP">
-      -
+      परदेश में
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="271" id="2">
+   <table cellspacing="0" colid="2" id="36">
     <tr class="row1">
      <td class="VGNF">
       ਜਾ ਕੇ
@@ -16063,7 +16187,7 @@
     </tr>
     <tr class="row4">
      <td class="VGNF">
-      जाना,v,any,sg,2,-,0
+      जाना,&lt;अन्य,एक०,द्वितीय,0&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16097,7 +16221,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="272" id="2">
+   <table cellspacing="0" colid="3" id="36">
     <tr class="row1">
      <td class="VGNF">
       ,
@@ -16120,7 +16244,9 @@
     </tr>
     <tr class="row5">
      <td class="VGNF">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -16145,11 +16271,11 @@
     </tr>
     <tr class="row10">
      <td class="VGNF">
-      -
+      जा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="273" id="2">
+   <table cellspacing="0" colid="4" id="36">
     <tr class="row1">
      <td class="NP">
       ਇਹ ਤਾਂ
@@ -16172,7 +16298,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      यह,pn,any,sg,3,d,-
+      यह,&lt;अन्य,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16202,11 +16328,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      कर
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="274" id="2">
+   <table cellspacing="0" colid="5" id="36">
     <tr class="row1">
      <td class="NP">
       ਉਨ੍ਹਾਂ ਨੂੰ
@@ -16224,7 +16350,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      वह,pn,any,pl,3,o,-
+      वह,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16254,11 +16380,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="275" id="2">
+   <table cellspacing="0" colid="6" id="36">
     <tr class="row1">
      <td class="VGF">
       ਪੁਛੀ ਏ
@@ -16276,7 +16402,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      पूछना,v,f,sg,any,-,या
+      पूछना,&lt;स्त्री०,एक०,अन्य,या&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16306,11 +16432,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      यह
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="276" id="2">
+   <table cellspacing="0" colid="7" id="36">
     <tr class="row1">
      <td class="CCP">
       ਤਾਂ
@@ -16328,7 +16454,7 @@
     </tr>
     <tr class="row4">
      <td class="CCP">
-      तो,avy,-,-,-,-,-
+      तो,&lt;नपुंस०,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16358,11 +16484,11 @@
     </tr>
     <tr class="row10">
      <td class="CCP">
-      -
+      तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="277" id="2">
+   <table cellspacing="0" colid="8" id="36">
     <tr class="row1">
      <td class="VGF">
       ਜਾਣੀਏ
@@ -16380,7 +16506,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      जानना,v,any,pl,1,-,ए
+      जानना,&lt;अन्य,बहु०,प्रथम,ए&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16410,11 +16536,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      उन को
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="278" id="2">
+   <table cellspacing="0" colid="9" id="36">
     <tr class="row1">
      <td class="VGF">
       ,
@@ -16432,7 +16558,9 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -16466,7 +16594,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="279" id="2">
+   <table cellspacing="0" colid="10" id="36">
     <tr class="row1">
      <td class="NP">
       ਜਿਨ੍ਹਾਂ ਉਤੇ
@@ -16489,7 +16617,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जो,pn,any,pl,3,o,-
+      जो,&lt;अन्य,बहु०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16519,11 +16647,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      10 11
+      पूछो तो
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="280" id="2">
+   <table cellspacing="0" colid="11" id="36">
     <tr class="row1">
      <td class="VGF">
       ਬੀਤਦੀ ਹੈ
@@ -16541,7 +16669,7 @@
     </tr>
     <tr class="row4">
      <td class="VGF">
-      बीतना,v,f,sg,any,-,ता
+      बीतना,&lt;स्त्री०,एक०,अन्य,ता&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16575,7 +16703,7 @@
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="281" id="2">
+   <table cellspacing="0" colid="12" id="36">
     <tr class="row1">
      <td class="VGF">
       .
@@ -16598,7 +16726,9 @@
     </tr>
     <tr class="row5">
      <td class="VGF">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row6">
@@ -16623,11 +16753,11 @@
     </tr>
     <tr class="row10">
      <td class="VGF">
-      -
+      जाने
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="282" id="2">
+   <table cellspacing="0" colid="1" id="37">
     <tr class="row1">
      <td class="number">
       1.37.A
@@ -16657,7 +16787,7 @@
       1.37.D
      </td>
      <td class="NP">
-      sEMtarala,adj,-,-,-,-,-
+      sEMtarala,&lt;&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16705,11 +16835,11 @@
       1.37.J
      </td>
      <td class="NP">
-      -
+      -70
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="283" id="2">
+   <table cellspacing="0" colid="2" id="37">
     <tr class="row1">
      <td class="NP">
       ਟਾਊਨ
@@ -16732,7 +16862,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      tAUna,n,m,sg,3,d,-
+      tAUna,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16762,11 +16892,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      /8,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="284" id="2">
+   <table cellspacing="0" colid="3" id="37">
     <tr class="row1">
      <td class="NP">
       ,
@@ -16784,7 +16914,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      &amp;comma;,punc,-,-,-,-,-
+      &amp;comma;,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -16814,11 +16946,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      सैंटरल
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="285" id="2">
+   <table cellspacing="0" colid="4" id="37">
     <tr class="row1">
      <td class="NP">
       ਜਲਂਧਰ
@@ -16841,7 +16973,7 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      जालंधर,n,m,sg,3,d,-
+      जालंधर,&lt;पु०,एक०,तृतिय,&gt;
      </td>
     </tr>
     <tr class="row5">
@@ -16871,11 +17003,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      टाऊन
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="286" id="2">
+   <table cellspacing="0" colid="5" id="37">
     <tr class="row1">
      <td class="NP">
       .
@@ -16893,7 +17025,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      .,punc,-,-,-,-,-
+      .,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">
@@ -16923,11 +17057,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -
+      ,
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="287" id="2">
+   <table cellspacing="0" colid="1" id="38">
     <tr class="row1">
      <td class="number">
       1.38.A
@@ -16957,7 +17091,9 @@
       1.38.D
      </td>
      <td class="NP">
-      mobA,unk,-,-,-,-,-
+      mobA,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -17005,11 +17141,11 @@
       1.38.J
      </td>
      <td class="NP">
-      मोबा:
+      मोबा
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="288" id="2">
+   <table cellspacing="0" colid="2" id="38">
     <tr class="row1">
      <td class="NP">
       :
@@ -17027,7 +17163,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      EOF:,unk,-,-,-,-,-
+      EOF:,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -17057,11 +17195,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      98889
+      :
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="289" id="2">
+   <table cellspacing="0" colid="3" id="38">
     <tr class="row1">
      <td class="NP">
       98889-02448
@@ -17079,7 +17217,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      98889-02448,unk,-,-,-,-,-
+      98889-02448,
+      <unk>
+      </unk>
      </td>
     </tr>
     <tr class="row5">
@@ -17109,11 +17249,11 @@
     </tr>
     <tr class="row10">
      <td class="NP">
-      -2448.0
+      98889-02448
      </td>
     </tr>
    </table>
-   <table cellspacing="0" col="290" id="2">
+   <table cellspacing="0" colid="4" id="38">
     <tr class="row1">
      <td class="NP">
       .
@@ -17131,7 +17271,9 @@
     </tr>
     <tr class="row4">
      <td class="NP">
-      ⋅,punc,-,-,-,-,-
+      ⋅,
+      <punc>
+      </punc>
      </td>
     </tr>
     <tr class="row5">

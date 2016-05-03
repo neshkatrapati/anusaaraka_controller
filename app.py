@@ -226,7 +226,7 @@ def request_graph(group, file_num, sent_num, row_num, col_num):
 
     feat =  helpers.dict_to_feat(data)
     content = dispatch_functions.dispatch_functions(feat)
-    r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')
+    #r = requests.get('http://0.0.0.0:5010/ap/'+text+'/html')
     #print 'http://0.0.0.0:5010/pb/p2h/'+text+'/html'
     #return r.content
     return content

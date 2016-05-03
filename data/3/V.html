@@ -1,0 +1,909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link href="text.css" type="text/css" rel="stylesheet" />
+<script src="script.js" type="text/javascript"></script>
+<script src="text.js" type="text/javascript"></script>
+<script src="show.js" type="text/javascript"></script>
+</head>
+
+<body onload="register_keys()">
+
+<script type="text/javascript" src="wz_tooltip.js"></script>
+
+<div id="navigation" class="navigation">
+<form action="">
+<p><input type="hidden" name="no_of_rows" value="12" />
+<input type="button" value="Show/Hide Rows..." onclick="window.open('rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');">
+<input type="checkbox" name="numbers_value" checked="checked" onchange="toggle_numbers()">
+Numbers
+<input type="checkbox" name="border_value" onchange="toggle_borders()">
+Borders
+<span style="float:right;" ><a href=""> anvaya file&nbsp;&nbsp;&nbsp;</a><span></p>
+</form>
+</div>
+
+<div class="float_clear"></div>
+<div width=700px>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="1.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=1.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">1.A</a></td><td class="">महाशय</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">1.B</a></td><td class="">महाशय</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">1.C</a></td><td class="">महाशय}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">1.D</a></td><td class="">महाशय}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">1.E</a></td><td class="">-</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">1.F</a></td><td class="">महाशय</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">1.G</a></td><td class="">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">1.H</a></td><td class="">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">1.I</a></td><td class="">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">1.J</a></td><td class="">महाशय  { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">1.K</a></td><td class="">महाशय  { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">भवदीयः</td></tr>
+<tr class="row2"><td class="n1">भवदीयः</td></tr>
+<tr class="row3"><td class="n1">भवदीय{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">भवदीय{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">सम्बोध्यः,3</td></tr>
+<tr class="row6"><td class="n1">आपका</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">आप  { पु० / एक० / का / प्र० }</td></tr>
+<tr class="row11"><td class="n1">आप  { पु० / एक० / का / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">आत्मजः</td></tr>
+<tr class="row2"><td class="n1">आत्मजः</td></tr>
+<tr class="row3"><td class="n1">आत्मज{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">आत्मज{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">सम्बोध्यः,5</td></tr>
+<tr class="row6"><td class="n1">पुत्र</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">पुत्र  { पु० / एक० / ने / प्र० }</td></tr>
+<tr class="row11"><td class="n1">पुत्र  { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">क्रिकेटं</td></tr>
+<tr class="row2"><td class="n2">क्रिकेटं</td></tr>
+<tr class="row3"><td class="n2">क्रिकेट{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n2">क्रिकेट{नपुं;2;एक}</td></tr>
+<tr class="row5"><td class="n2">-</td></tr>
+<tr class="row6"><td class="n2">क्रिकेट_को</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">क्रिकेट  { पु० / एक० / को / प्र० }</td></tr>
+<tr class="row11"><td class="n2">क्रिकेट  { पु० / एक० / को / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">क्रीडन्</td></tr>
+<tr class="row2"><td class="n1">क्रीडन्</td></tr>
+<tr class="row3"><td class="n1">क्रीडत्{पुं;1;एक}/क्रीडत्{पुं;8;एक}</td></tr>
+<tr class="row4"><td class="n1">क्रीड्1{शतृ_लट्;क्रीडृँ;भ्वादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">समानकालः,11</td></tr>
+<tr class="row6"><td class="n1">खेल_रहा_है</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">खेल < रहा_है > { पु० / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n1">खेल < रहा_है > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n6">मम</td></tr>
+<tr class="row2"><td class="n6">मम</td></tr>
+<tr class="row3"><td class="n6">अस्मद्{6;एक}</td></tr>
+<tr class="row4"><td class="n6">अस्मद्{6;एक}</td></tr>
+<tr class="row5"><td class="n6">-</td></tr>
+<tr class="row6"><td class="n6">मेरा</td></tr>
+<tr class="row7"><td class="n6">-</td></tr>
+<tr class="row8"><td class="n6">-</td></tr>
+<tr class="row9"><td class="n6">-</td></tr>
+<tr class="row10"><td class="n6">मैं  { पु० / एक० / का / अ० }</td></tr>
+<tr class="row11"><td class="n6">मैं  { सर्व० / एक० / का / अ० } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n6">वातायनस्य</td></tr>
+<tr class="row2"><td class="n6">वातायनस्य</td></tr>
+<tr class="row3"><td class="n6">वातायन{पुं;6;एक}/वातायन{नपुं;6;एक}</td></tr>
+<tr class="row4"><td class="n6">वातायन{पुं;6;एक}/वातायननपुं;6;एक}</td></tr>
+<tr class="row5"><td class="n6">-</td></tr>
+<tr class="row6"><td class="n6">खिडकी_का</td></tr>
+<tr class="row7"><td class="n6">-</td></tr>
+<tr class="row8"><td class="n6">-</td></tr>
+<tr class="row9"><td class="n6">-</td></tr>
+<tr class="row10"><td class="n6">खिडकी  { न० / एक० / का / प्र०}</td></tr>
+<tr class="row11"><td class="n6">खिडकी  { स्त्री० / एक० / का / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">बहुमूल्यं</td></tr>
+<tr class="row2"><td class="n1">बहुमूल्यं</td></tr>
+<tr class="row3"><td class="n1">बहुमूल्य{नपुं;1;एक}/बहुमूल्य{नपुं;2;एक}/बहुमूल्य{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n1">बहुमूल्य{नपुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्ता,11</td></tr>
+<tr class="row6"><td class="n1">मूल्यवान</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">मूल्यवान  { न०  / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n1">मूल्यवान  { पु० / एक० /  0 / अ० } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">काचं</td></tr>
+<tr class="row2"><td class="n1">काचं</td></tr>
+<tr class="row3"><td class="n1">काच{नपुं;1;एक}/काच{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n1">काच{नपुं;1;एक}/काचनपुं;2;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">शीशा</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">शीशा { न० / एक० / को / प्र० }</td></tr>
+<tr class="row11"><td class="n1">शीशा { स्त्री० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">त्रोटितवान्</td></tr>
+<tr class="row2"><td class="n1">त्रोटितवान्</td></tr>
+<tr class="row3"><td class="n1">त्रोटितवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">त्रुट्2{क्तवतु;त्रुटँ;चुरादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्तृसमानाधिकरणम्,11</td></tr>
+<tr class="row6"><td class="n1">तोडा_है</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">तोडा < है_जिसने_वह > {  पु० / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n1">तोडा < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">अस्ति</td></tr>
+<tr class="row2"><td class="v">अस्ति</td></tr>
+<tr class="row3"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row4"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row5"><td class="v">अभिहित_कर्ता,8</td></tr>
+<tr class="row6"><td class="v">है</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">है {  / एक० /  / प्र० }</td></tr>
+<tr class="row11"><td class="v">है {  / एक० /  / अ०  }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="2.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=2.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">2.A</a></td><td class="v">अस्य</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">2.B</a></td><td class="v">अस्य</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">2.C</a></td><td class="v">इदम्{पुं;6;एक}/इदम्{नपुं;6;एक}/अस्3{कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">2.D</a></td><td class="v">इदम्{पुं;6;एक}/इदम्नपुं;6;एक}/अस्3कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">2.E</a></td><td class="v">-</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">2.F</a></td><td class="v">इसका</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">2.G</a></td><td class="v">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">2.H</a></td><td class="v">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">2.I</a></td><td class="v">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">2.J</a></td><td class="v">यह  { न० / एक० / का / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">2.K</a></td><td class="v">यह  { सर्व० / एक० / का / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="">क्षतिपूर्तिः</td></tr>
+<tr class="row2"><td class="">क्षतिपूर्तिः</td></tr>
+<tr class="row3"><td class="">क्षतिपूर्तिः}</td></tr>
+<tr class="row4"><td class="">क्षतिपूर्तिः}</td></tr>
+<tr class="row5"><td class="">-</td></tr>
+<tr class="row6"><td class="">क्षतिपूर्ति</td></tr>
+<tr class="row7"><td class="">-</td></tr>
+<tr class="row8"><td class="">-</td></tr>
+<tr class="row9"><td class="">-</td></tr>
+<tr class="row10"><td class="">क्षतिपूर्ति { स्त्री० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="">क्षतिपूर्ति { स्त्री० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n3">भवता</td></tr>
+<tr class="row2"><td class="n3">भवता</td></tr>
+<tr class="row3"><td class="n3">भवत्{पुं;3;एक}/भवत्{पुं;3;एक}/भवता{स्त्री;1;एक}</td></tr>
+<tr class="row4"><td class="n3">भवत्{पुं;3;एक}</td></tr>
+<tr class="row5"><td class="n3">कर्ता,4</td></tr>
+<tr class="row6"><td class="n3">आपके_द्वारा</td></tr>
+<tr class="row7"><td class="n3">-</td></tr>
+<tr class="row8"><td class="n3">-</td></tr>
+<tr class="row9"><td class="n3">-</td></tr>
+<tr class="row10"><td class="n3">आप { पु० / एक० / के_द्वारा / प्र० }</td></tr>
+<tr class="row11"><td class="n3">आप { सर्व० / एक० / के_द्वारा / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">करणीया</td></tr>
+<tr class="row2"><td class="n1">करणीया</td></tr>
+<tr class="row3"><td class="n1">करणीया{स्त्री;1;एक}</td></tr>
+<tr class="row4"><td class="n1">कृ1{अनीयर्;कृञ्;भ्वादिः;स्त्री;1;एक}</td></tr>
+<tr class="row5"><td class="n1">अभिहित_कर्ता,3</td></tr>
+<tr class="row6"><td class="n1">करना_चाहिए</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">कर < ना_चाहिए > { स्त्र  /  /  /  }</td></tr>
+<tr class="row11"><td class="n1">कर < ना_चाहिए > {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">प्रतिवेशी</td></tr>
+<tr class="row2"><td class="n1">प्रतिवेशी</td></tr>
+<tr class="row3"><td class="n1">प्रतिवेशिन्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">प्रतिवेशिन्{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्ता,7</td></tr>
+<tr class="row6"><td class="n1">पडौसी</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">पडौसी  {  पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">पडौसी  { पु० / एक० / 0 / अ० } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">श्यामसुन्दरं</td></tr>
+<tr class="row2"><td class="n2">श्यामसुन्दरं</td></tr>
+<tr class="row3"><td class="n2">श्यामसुन्दर{पुं;2;एक}</td></tr>
+<tr class="row4"><td class="n2">श्यामसुन्दर{पुं;2;एक}</td></tr>
+<tr class="row5"><td class="n2">-</td></tr>
+<tr class="row6"><td class="n2">श्यामसुन्दर_को</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">श्यामसुन्दर { पु० / एक० / को / प्र० }</td></tr>
+<tr class="row11"><td class="n2">श्यामसुन्दर { पु० / एक० / को / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">कथितवान्</td></tr>
+<tr class="row2"><td class="n1">कथितवान्</td></tr>
+<tr class="row3"><td class="n1">कथितवत्{पुं;1;एक}/कथितवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">कथ1{क्तवतु;कथ;चुरादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">अभिहित_कर्ता,5</td></tr>
+<tr class="row6"><td class="n1">कहा</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">कहा < है_जिसने_वह > { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">कहा < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="3.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=3.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">3.A</a></td><td class="n1">बालकः</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">3.B</a></td><td class="n1">बालकः</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">3.C</a></td><td class="n1">बालक{पुं;1;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">3.D</a></td><td class="n1">बालक{पुं;1;एक}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">3.E</a></td><td class="n1">कर्ता,4</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">3.F</a></td><td class="n1">बालक</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">3.G</a></td><td class="n1">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">3.H</a></td><td class="n1">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">3.I</a></td><td class="n1">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">3.J</a></td><td class="n1">बालक { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">3.K</a></td><td class="n1">बालक { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">एव</td></tr>
+<tr class="row2"><td class="NA">एव</td></tr>
+<tr class="row3"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row4"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,1</td></tr>
+<tr class="row6"><td class="NA">ही</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">ही  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">ही  {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">तु</td></tr>
+<tr class="row2"><td class="NA">तु</td></tr>
+<tr class="row3"><td class="NA">तु{अव्य}</td></tr>
+<tr class="row4"><td class="NA">तु{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,2</td></tr>
+<tr class="row6"><td class="NA">तो</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">तो  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">तो  {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">अस्ति</td></tr>
+<tr class="row2"><td class="v">अस्ति</td></tr>
+<tr class="row3"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row4"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row5"><td class="v">अभिहित_कर्ता,1</td></tr>
+<tr class="row6"><td class="v">है</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">है {  /  एक० /  / प्र०  }</td></tr>
+<tr class="row11"><td class="v">है {  / एक० /  / अ०  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">सः</td></tr>
+<tr class="row2"><td class="n1">सः</td></tr>
+<tr class="row3"><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्तृसमानाधिकरणम्,4</td></tr>
+<tr class="row6"><td class="n1">वह</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">वह  { पु० / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n1">वह  { सर्व० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="4.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=4.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">4.A</a></td><td class="n3">भवता</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">4.B</a></td><td class="n3">भवता</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">4.C</a></td><td class="n3">भवत्{पुं;3;एक}/भवत्{पुं;3;एक}/भवता{स्त्री;1;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">4.D</a></td><td class="n3">भवत्{पुं;3;एक}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">4.E</a></td><td class="n3">कर्ता,6</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">4.F</a></td><td class="n3">आपके_द्वारा</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">4.G</a></td><td class="n3">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">4.H</a></td><td class="n3">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">4.I</a></td><td class="n3">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">4.J</a></td><td class="n3">आप  { पु० / एक० / के_द्वारा / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">4.K</a></td><td class="n3">आप  { सर्व० / एक० / के_द्वारा / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">अपि</td></tr>
+<tr class="row2"><td class="NA">अपि</td></tr>
+<tr class="row3"><td class="NA">अपि{अव्य}</td></tr>
+<tr class="row4"><td class="NA">अपि{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,1</td></tr>
+<tr class="row6"><td class="NA">भी</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">भी  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">भी  {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">बाल्ये</td></tr>
+<tr class="row2"><td class="n1">बाल्ये</td></tr>
+<tr class="row3"><td class="n1">बाल्य{नपुं;1;द्वि}/बाल्य{नपुं;2;द्वि}/बाल्य{नपुं;8;द्वि}/बाल्य{नपुं;7;एक}</td></tr>
+<tr class="row4"><td class="n1">बाल्य{नपुं;1;द्वि}/बाल्यनपुं;2;द्वि}/बाल्यनपुं;8;द्वि}/बाल्यनपुं;7;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">बचपन</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">बचपन  { पु० / एक० / में / प्र० }</td></tr>
+<tr class="row11"><td class="n1">बचपन  { पु० / एक० / में / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n6">बहूनां</td></tr>
+<tr class="row2"><td class="n6">बहूनां</td></tr>
+<tr class="row3"><td class="n6">बहु{पुं;6;बहु}/बहु{स्त्री;6;बहु}/बहु{नपुं;6;बहु}</td></tr>
+<tr class="row4"><td class="n6">बहु{पुं;6;बहु}</td></tr>
+<tr class="row5"><td class="n6">विशेषणम्,5</td></tr>
+<tr class="row6"><td class="n6">बहुत</td></tr>
+<tr class="row7"><td class="n6">-</td></tr>
+<tr class="row8"><td class="n6">-</td></tr>
+<tr class="row9"><td class="n6">-</td></tr>
+<tr class="row10"><td class="n6">बहुत  {  पु० / बहु० / का / प्र० }</td></tr>
+<tr class="row11"><td class="n6">बहुत  { पु० / बहु० / का / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">हानिः</td></tr>
+<tr class="row2"><td class="n1">हानिः</td></tr>
+<tr class="row3"><td class="n1">हानि{स्त्री;1;एक}</td></tr>
+<tr class="row4"><td class="n1">हानि{स्त्री;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्म,6</td></tr>
+<tr class="row6"><td class="n1">हानि</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">हानि  { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">हानि  { स्त्री० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">कृता</td></tr>
+<tr class="row2"><td class="n1">कृता</td></tr>
+<tr class="row3"><td class="n1">कृत्{पुं;3;एक}/कृता{स्त्री;1;एक}</td></tr>
+<tr class="row4"><td class="n1">कृ2{क्त;कृञ्;स्वादिः;स्त्री;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्ता,7</td></tr>
+<tr class="row6"><td class="n1">किया</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">कर < या  > { स्त्री० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">कर < या  > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">स्यात्</td></tr>
+<tr class="row2"><td class="v">स्यात्</td></tr>
+<tr class="row3"><td class="v">अस्2{कर्तरि;विधिलिङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row4"><td class="v">अस्2{कर्तरि;विधिलिङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row5"><td class="v">अभिहित_कर्ता,6</td></tr>
+<tr class="row6"><td class="v">हो</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">हो {  / एक० /  / प्र० }</td></tr>
+<tr class="row11"><td class="v">हो {  / एक० /  / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="5.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=5.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">5.A</a></td><td class="NA">इह</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">5.B</a></td><td class="NA">इह</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">5.C</a></td><td class="NA">इह{अव्य}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">5.D</a></td><td class="NA">इह{अव्य}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">5.E</a></td><td class="NA">-</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">5.F</a></td><td class="NA">यहाँ</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">5.G</a></td><td class="NA">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">5.H</a></td><td class="NA">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">5.I</a></td><td class="NA">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">5.J</a></td><td class="NA">यहाँ  {  /  /  / }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">5.K</a></td><td class="NA">यहाँ  {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">ध्यानं</td></tr>
+<tr class="row2"><td class="n1">ध्यानं</td></tr>
+<tr class="row3"><td class="n1">ध्यान{नपुं;1;एक}/ध्यान{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n1">ध्यै1{ल्युट्;ध्यै;भ्वादिः;नपुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्म,4</td></tr>
+<tr class="row6"><td class="n1">ध्यान</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">ध्यान  { न० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">ध्यान  {  पु० / एक० / 0 / अ०  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">न</td></tr>
+<tr class="row2"><td class="NA">न</td></tr>
+<tr class="row3"><td class="NA">न{अव्य}</td></tr>
+<tr class="row4"><td class="NA">न{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,4</td></tr>
+<tr class="row6"><td class="NA">नहीं</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">नहीं {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">नहीं {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">देयं</td></tr>
+<tr class="row2"><td class="n2">देयं</td></tr>
+<tr class="row3"><td class="n2">देय{पुं;2;एक}/देय{नपुं;1;एक}/देय{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n2">दा1{यत्;दाण्;भ्वादिः;पुं;2;एक}</td></tr>
+<tr class="row5"><td class="n2">-</td></tr>
+<tr class="row6"><td class="n2">दो</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">दे < जाने_के_लिये_को > {  /  /  / }</td></tr>
+<tr class="row11"><td class="n2">दे < जाने_के_लिये_को > {  /   /   /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n8">बहु</td></tr>
+<tr class="row2"><td class="n8">बहु</td></tr>
+<tr class="row3"><td class="n8">बहु{स्त्री;8;एक}/बहु{नपुं;1;एक}/बहु{नपुं;2;एक}/बहु{नपुं;8;एक}</td></tr>
+<tr class="row4"><td class="n8">बहु{स्त्री;8;एक}/बहुनपुं;1;एक}/बहुनपुं;2;एक}/बहुनपुं;8;एक}</td></tr>
+<tr class="row5"><td class="n8">-</td></tr>
+<tr class="row6"><td class="n8">अधिक</td></tr>
+<tr class="row7"><td class="n8">-</td></tr>
+<tr class="row8"><td class="n8">-</td></tr>
+<tr class="row9"><td class="n8">-</td></tr>
+<tr class="row10"><td class="n8">अधिक {  /  /  /  }</td></tr>
+<tr class="row11"><td class="n8">अधिक {  /  /  / }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="6.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=6.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">6.A</a></td><td class="NA">किं</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">6.B</a></td><td class="NA">किं</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">6.C</a></td><td class="NA">किम्{अव्य}/किम्{नपुं;1;एक}/किम्{नपुं;2;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">6.D</a></td><td class="NA">किम्{अव्य}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">6.E</a></td><td class="NA">सम्बन्धः,4</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">6.F</a></td><td class="NA">क्या</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">6.G</a></td><td class="NA">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">6.H</a></td><td class="NA">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">6.I</a></td><td class="NA">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">6.J</a></td><td class="NA">क्या {  /  /  /  }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">6.K</a></td><td class="NA">क्या {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">प्रतिवेशितः</td></tr>
+<tr class="row2"><td class="NA">प्रतिवेशितः</td></tr>
+<tr class="row3"><td class="NA">प्रतिवेशि{अव्य;तसिल्}</td></tr>
+<tr class="row4"><td class="NA">प्रतिवेशि{अव्य;तसिल्}</td></tr>
+<tr class="row5"><td class="NA">-</td></tr>
+<tr class="row6"><td class="NA">प्रतिवेशि_से</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">पडोसी < से' > {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">पडोसी < से' > {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="">क्षतिमूल्यं</td></tr>
+<tr class="row2"><td class="">क्षतिमूल्यं</td></tr>
+<tr class="row3"><td class="">क्षतिमूल्यम्}</td></tr>
+<tr class="row4"><td class="">क्षतिमूल्यम्}</td></tr>
+<tr class="row5"><td class="">-</td></tr>
+<tr class="row6"><td class="">क्षतिमूल्यम्</td></tr>
+<tr class="row7"><td class="">-</td></tr>
+<tr class="row8"><td class="">-</td></tr>
+<tr class="row9"><td class="">-</td></tr>
+<tr class="row10"><td class="">क्षतिमूल्य { न० / एक०  / को  / प्र० }</td></tr>
+<tr class="row11"><td class="">क्षतिमूल्य { पु० / एक०  /  / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">याच्यते</td></tr>
+<tr class="row2"><td class="v">याच्यते</td></tr>
+<tr class="row3"><td class="v">याच्1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;टुयाचृँ;भ्वादिः}</td></tr>
+<tr class="row4"><td class="v">याच्1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;टुयाचृँ;भ्वादिः}</td></tr>
+<tr class="row5"><td class="v">-</td></tr>
+<tr class="row6"><td class="v">याचना_की_जाती_है</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">याचना_की_जाती_है  {  / एक० /  / प्र० }</td></tr>
+<tr class="row11"><td class="v">याचना_की_जाती_है  {  / एक० /  / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="7.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=7.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">7.A</a></td><td class="n1">श्यामसुन्दरः</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">7.B</a></td><td class="n1">श्यामसुन्दरः</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">7.C</a></td><td class="n1">श्यामसुन्दर{पुं;1;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">7.D</a></td><td class="n1">श्यामसुन्दर{पुं;1;एक}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">7.E</a></td><td class="n1">कर्ता,3</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">7.F</a></td><td class="n1">श्यामसुन्दर_ने</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">7.G</a></td><td class="n1">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">7.H</a></td><td class="n1">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">7.I</a></td><td class="n1">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">7.J</a></td><td class="n1">श्यामसुन्दर { पु० / एक० / ने / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">7.K</a></td><td class="n1">श्यामसुन्दर { पु० / एक० / ने / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">प्रतिवेशिनं</td></tr>
+<tr class="row2"><td class="n2">प्रतिवेशिनं</td></tr>
+<tr class="row3"><td class="n2">प्रतिवेशिन्{पुं;2;एक}</td></tr>
+<tr class="row4"><td class="n2">प्रतिवेशिन्{पुं;2;एक}</td></tr>
+<tr class="row5"><td class="n2">कर्म,3</td></tr>
+<tr class="row6"><td class="n2">पडौसी_से</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">पडौसी { पु० / एक० / को  -> से / प्र० }</td></tr>
+<tr class="row11"><td class="n2">पडोसी { पु० / एक० / से / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">पृष्टवान्</td></tr>
+<tr class="row2"><td class="n1">पृष्टवान्</td></tr>
+<tr class="row3"><td class="n1">पृष्टवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">प्रछ्1{क्तवतु;प्रछँ;तुदादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">पूछा</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">पूछा < है_जिसने_वह > { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">पूछा < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="8.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=8.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">8.A</a></td><td class="NA">यदि</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">8.B</a></td><td class="NA">यदि</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">8.C</a></td><td class="NA">यदि{अव्य}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">8.D</a></td><td class="NA">यदि{अव्य}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">8.E</a></td><td class="NA">नित्य_सम्बन्धः,6</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">8.F</a></td><td class="NA">यदि</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">8.G</a></td><td class="NA">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">8.H</a></td><td class="NA">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">8.I</a></td><td class="NA">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">8.J</a></td><td class="NA">यदि {  /  /  /  }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">8.K</a></td><td class="NA">यदि {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">सः</td></tr>
+<tr class="row2"><td class="n1">सः</td></tr>
+<tr class="row3"><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्ता,13</td></tr>
+<tr class="row6"><td class="n1">वह</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">वह  { पु० / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n1">वह  { सर्व० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">बालकः</td></tr>
+<tr class="row2"><td class="n1">बालकः</td></tr>
+<tr class="row3"><td class="n1">बालक{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">बालक{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्ता,5</td></tr>
+<tr class="row6"><td class="n1">बालक</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">बालक {  पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">बालक { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">एव</td></tr>
+<tr class="row2"><td class="NA">एव</td></tr>
+<tr class="row3"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row4"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,3</td></tr>
+<tr class="row6"><td class="NA">ही</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">ही  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">ही  {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">अस्ति</td></tr>
+<tr class="row2"><td class="v">अस्ति</td></tr>
+<tr class="row3"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row4"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row5"><td class="v">अभिहित_कर्ता,3</td></tr>
+<tr class="row6"><td class="v">है</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">है {  / एक० /  / प्र०  }</td></tr>
+<tr class="row11"><td class="v">है {  / एक० /  / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">तर्हि</td></tr>
+<tr class="row2"><td class="NA">तर्हि</td></tr>
+<tr class="row3"><td class="NA">तर्हि{अव्य}</td></tr>
+<tr class="row4"><td class="NA">तर्हि{अव्य}</td></tr>
+<tr class="row5"><td class="NA">-</td></tr>
+<tr class="row6"><td class="NA">तो</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">तो  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">तो  {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">आत्मनः</td></tr>
+<tr class="row2"><td class="n2">आत्मनः</td></tr>
+<tr class="row3"><td class="n2">आत्मन्{पुं;2;बहु}/आत्मन्{पुं;5;एक}/आत्मन्{पुं;6;एक}</td></tr>
+<tr class="row4"><td class="n2">आत्मन्{पुं;2;बहु}</td></tr>
+<tr class="row5"><td class="n2">-</td></tr>
+<tr class="row6"><td class="n2">अपने</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">अपना  { पुु० / एक० / का / प्र० }</td></tr>
+<tr class="row11"><td class="n2">अपने  { सर्व० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">एव</td></tr>
+<tr class="row2"><td class="NA">एव</td></tr>
+<tr class="row3"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row4"><td class="NA">एव{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,7</td></tr>
+<tr class="row6"><td class="NA">ही</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">ही  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">ही  {  /  /  /  } </td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n6">वातायनस्य</td></tr>
+<tr class="row2"><td class="n6">वातायनस्य</td></tr>
+<tr class="row3"><td class="n6">वातायन{पुं;6;एक}/वातायन{नपुं;6;एक}</td></tr>
+<tr class="row4"><td class="n6">वातायन{पुं;6;एक}/वातायननपुं;6;एक}</td></tr>
+<tr class="row5"><td class="n6">-</td></tr>
+<tr class="row6"><td class="n6">खिडकी_का</td></tr>
+<tr class="row7"><td class="n6">-</td></tr>
+<tr class="row8"><td class="n6">-</td></tr>
+<tr class="row9"><td class="n6">-</td></tr>
+<tr class="row10"><td class="n6">खिडकी { पु० / एक० / के / प्र० }</td></tr>
+<tr class="row11"><td class="n6">खिडकी  { स्त्री० / एक० / का / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">काचं</td></tr>
+<tr class="row2"><td class="n1">काचं</td></tr>
+<tr class="row3"><td class="n1">काच{नपुं;1;एक}/काच{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n1">काच{नपुं;1;एक}/काचनपुं;2;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">शीशा</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">शीशा { न० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">शीशा { स्त्री० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">किं</td></tr>
+<tr class="row2"><td class="NA">किं</td></tr>
+<tr class="row3"><td class="NA">किम्{अव्य}/किम्{नपुं;1;एक}/किम्{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="NA">किम्{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,13</td></tr>
+<tr class="row6"><td class="NA">क्यों</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">क्यों {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">क्यों {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">न</td></tr>
+<tr class="row2"><td class="NA">न</td></tr>
+<tr class="row3"><td class="NA">न{अव्य}</td></tr>
+<tr class="row4"><td class="NA">न{अव्य}</td></tr>
+<tr class="row5"><td class="NA">सम्बन्धः,13</td></tr>
+<tr class="row6"><td class="NA">नहीं</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">नहीं {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">नहीं {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">त्रोटितवान्</td></tr>
+<tr class="row2"><td class="n1">त्रोटितवान्</td></tr>
+<tr class="row3"><td class="n1">त्रोटितवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">त्रुट्2{क्तवतु;त्रुटँ;चुरादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">कर्तृसमानाधिकरणम्,11</td></tr>
+<tr class="row6"><td class="n1">तोडा</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">तोडा < है_जिसने_वह > { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">तोडा < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="9.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=9.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">9.A</a></td><td class="n1">प्रतिवेशी</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">9.B</a></td><td class="n1">प्रतिवेशी</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">9.C</a></td><td class="n1">प्रतिवेशिन्{पुं;1;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">9.D</a></td><td class="n1">प्रतिवेशिन्{पुं;1;एक}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">9.E</a></td><td class="n1">कर्ता,3</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">9.F</a></td><td class="n1">पडौसी_ने</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">9.G</a></td><td class="n1">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">9.H</a></td><td class="n1">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">9.I</a></td><td class="n1">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">9.J</a></td><td class="n1">पडौसी { पु० / एक० / ने / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">9.K</a></td><td class="n1">पडोसी { पु० / एक० / ने / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">जिज्ञासां</td></tr>
+<tr class="row2"><td class="n2">जिज्ञासां</td></tr>
+<tr class="row3"><td class="n2">जिज्ञासा{स्त्री;2;एक}</td></tr>
+<tr class="row4"><td class="n2">जिज्ञासा{स्त्री;2;एक}</td></tr>
+<tr class="row5"><td class="n2">कर्म,3</td></tr>
+<tr class="row6"><td class="n2">जानने_की_इच्छा</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">जानने_की_इच्छा { स्त्री० / एक० / 0 / प्र०  }</td></tr>
+<tr class="row11"><td class="n2">जानने_की_इच्छा { स्त्री० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">कृतवान्</td></tr>
+<tr class="row2"><td class="n1">कृतवान्</td></tr>
+<tr class="row3"><td class="n1">कृतवत्{पुं;1;एक}/कृतवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">कृ2{क्तवतु;कृञ्;स्वादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">किया</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">किया  < है_जिसने_वह > { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">किया  < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1" style="border-right:dashed;"><td class="number"><a href="10.jpg"  onmouseout="UnTip()" onmouseover="Tip('<center><img src=10.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">10.A</a></td><td class="n1">सः</td></tr>
+<tr class="row2" style="border-right:dashed;"><td class="number">10.B</a></td><td class="n1">सः</td></tr>
+<tr class="row3" style="border-right:dashed;"><td class="number">10.C</a></td><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row4" style="border-right:dashed;"><td class="number">10.D</a></td><td class="n1">तद्{पुं;1;एक}</td></tr>
+<tr class="row5" style="border-right:dashed;"><td class="number">10.E</a></td><td class="n1">-</td></tr>
+<tr class="row6" style="border-right:dashed;"><td class="number">10.F</a></td><td class="n1">वह</td></tr>
+<tr class="row7" style="border-right:dashed;"><td class="number">10.G</a></td><td class="n1">-</td></tr>
+<tr class="row8" style="border-right:dashed;"><td class="number">10.H</a></td><td class="n1">-</td></tr>
+<tr class="row9" style="border-right:dashed;"><td class="number">10.I</a></td><td class="n1">-</td></tr>
+<tr class="row10" style="border-right:dashed;"><td class="number">10.J</a></td><td class="n1">वह  { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11" style="border-right:dashed;"><td class="number">10.K</a></td><td class="n1">वह  { सर्व० / एक० / 0 / अ०  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">न</td></tr>
+<tr class="row2"><td class="NA">न</td></tr>
+<tr class="row3"><td class="NA">न{अव्य}</td></tr>
+<tr class="row4"><td class="NA">न{अव्य}</td></tr>
+<tr class="row5"><td class="NA">-</td></tr>
+<tr class="row6"><td class="NA">नहीं</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">नहीं {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">नहीं {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="v">अस्ति</td></tr>
+<tr class="row2"><td class="v">अस्ति</td></tr>
+<tr class="row3"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row4"><td class="v">अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}</td></tr>
+<tr class="row5"><td class="v">-</td></tr>
+<tr class="row6"><td class="v">है</td></tr>
+<tr class="row7"><td class="v">-</td></tr>
+<tr class="row8"><td class="v">-</td></tr>
+<tr class="row9"><td class="v">-</td></tr>
+<tr class="row10"><td class="v">है {  / एक० /  / प्र० }</td></tr>
+<tr class="row11"><td class="v">है {  / एक० /  / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">इयान्</td></tr>
+<tr class="row2"><td class="n1">इयान्</td></tr>
+<tr class="row3"><td class="n1">इयत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">इयत्{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">इतना</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">इतना  {  /  /  /  }</td></tr>
+<tr class="row11"><td class="n1">इतना {  /  /  /  }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">मूर्खः</td></tr>
+<tr class="row2"><td class="n1">मूर्खः</td></tr>
+<tr class="row3"><td class="n1">मूर्ख{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">मूर्ख{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">मूर्ख</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">मूर्ख {  पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">मूर्ख { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">श्यामसुन्दरः</td></tr>
+<tr class="row2"><td class="n1">श्यामसुन्दरः</td></tr>
+<tr class="row3"><td class="n1">श्यामसुन्दर{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">श्यामसुन्दर{पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">श्यामसुन्दर_ने</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">श्यामसुन्दर { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">श्यामसुन्दर { पु० / एक० / ने / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n2">उत्तरं</td></tr>
+<tr class="row2"><td class="n2">उत्तरं</td></tr>
+<tr class="row3"><td class="n2">उत्तर{पुं;2;एक}/उत्तर{नपुं;1;एक}/उत्तर{नपुं;2;एक}/उत्तर{पुं;2;एक}/उत्तर{नपुं;1;एक}/उत्तर{नपुं;2;एक}</td></tr>
+<tr class="row4"><td class="n2">उत्तर{पुं;2;एक}/उत्तरनपुं;1;एक}/उत्तरनपुं;2;एक}/उत्तरपुं;2;एक}/उत्तरनपुं;1;एक}/उत्तरनपुं;2;एक}</td></tr>
+<tr class="row5"><td class="n2">-</td></tr>
+<tr class="row6"><td class="n2">उत्तर</td></tr>
+<tr class="row7"><td class="n2">-</td></tr>
+<tr class="row8"><td class="n2">-</td></tr>
+<tr class="row9"><td class="n2">-</td></tr>
+<tr class="row10"><td class="n2">उत्तर {  न० / एक० / को / प्र० }</td></tr>
+<tr class="row11"><td class="n2">उत्तर { न० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="n1">दत्तवान्</td></tr>
+<tr class="row2"><td class="n1">दत्तवान्</td></tr>
+<tr class="row3"><td class="n1">दत्तवत्{पुं;1;एक}/दत्तवत्{पुं;1;एक}</td></tr>
+<tr class="row4"><td class="n1">दा1{क्तवतु;दाण्;भ्वादिः;पुं;1;एक}/दा3क्तवतु;डुदाञ्;जुहोत्यादिः;पुं;1;एक}/दे1क्तवतु;देङ्;भ्वादिः;पुं;1;एक}/दो1क्तवतु;दो;दिवादिः;पुं;1;एक}/दा1क्तवतु;दाण्;भ्वादिः;पुं;1;एक}/दा3क्तवतु;डुदाञ्;जुहोत्यादिः;पुं;1;एक}/दे1क्तवतु;देङ्;भ्वादिः;पुं;1;एक}/दो1क्तवतु;दो;दिवादिः;पुं;1;एक}</td></tr>
+<tr class="row5"><td class="n1">-</td></tr>
+<tr class="row6"><td class="n1">दिया</td></tr>
+<tr class="row7"><td class="n1">-</td></tr>
+<tr class="row8"><td class="n1">-</td></tr>
+<tr class="row9"><td class="n1">-</td></tr>
+<tr class="row10"><td class="n1">दे < है_जिसने_वह > { पु० / एक० / 0 / प्र० }</td></tr>
+<tr class="row11"><td class="n1">दे < है_जिसने_वह > { पु० / एक० / 0 / अ० }</td></tr>
+</table>
+<table border="">
+<tr class="row1"><td class="NA">इति</td></tr>
+<tr class="row2"><td class="NA">इति</td></tr>
+<tr class="row3"><td class="NA">इति{अव्य}</td></tr>
+<tr class="row4"><td class="NA">इति{अव्य}</td></tr>
+<tr class="row5"><td class="NA">-</td></tr>
+<tr class="row6"><td class="NA">इति</td></tr>
+<tr class="row7"><td class="NA">-</td></tr>
+<tr class="row8"><td class="NA">-</td></tr>
+<tr class="row9"><td class="NA">-</td></tr>
+<tr class="row10"><td class="NA">इति {  /  /  /  }</td></tr>
+<tr class="row11"><td class="NA">इति {  /  /  /  }</td></tr>
+</table>
+</div>
+
+<div class="float_clear"></div>
+<div class="bottom"></div>
+<br/>
+</body>
+</html>

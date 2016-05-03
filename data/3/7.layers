@@ -1,0 +1,5174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <link href="/assets/sanstyle.css" rel="stylesheet" type="text/css"/>
+  <link href="/assets/text.css" rel="stylesheet" type="text/css"/>
+  <script src="/assets/script.js" type="text/javascript">
+  </script>
+  <script src="/assets/text.js" type="text/javascript">
+  </script>
+  <script src="/assets/show.js" type="text/javascript">
+  </script>
+  <link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div class="container" id="center" onload="register_keys()">
+   <div class="modal fade" id="modal" role="modal">
+<div class="modal-dialog">
+ <!-- Modal content-->
+ <div class="modal-content">
+  <div class="modal-header">
+   <button class="close" data-dismiss="modal" onclick="closeModal()" type="button">
+    ×
+   </button>
+   <h4 class="modal-title">
+    Modal Header
+   </h4>
+  </div>
+  <div class="modal-body" id="reqbody">
+   <p>
+    Some text in the modal.
+   </p>
+  </div>
+  <div class="modal-footer">
+   <button class="btn btn-default" data-dismiss="modal" type="button">
+    Close
+   </button>
+  </div>
+ </div>
+</div>
+   </div>
+   <script src="/assets/wz_tooltip.js" type="text/javascript">
+   </script>
+   <div class="navigation" id="navigation">
+    <form action="">
+     <p>
+      <input name="no_of_rows" type="hidden" value="12"/>
+      <input onclick="window.open('/assets/anurows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');" type="button" value="Show/Hide Rows..."/>
+      <input checked="checked" name="numbers_value" onchange="toggle_numbers()" type="checkbox"/>
+      Numbers
+      <input name="border_value" onchange="toggle_borders()" type="checkbox"/>
+      Borders
+      <span style="float:right;">
+       <a href="">
+        anvaya file
+       </a>
+       <span>
+       </span>
+      </span>
+     </p>
+    </form>
+   </div>
+   <div class="float_clear">
+   </div>
+   <div width="700px">
+    <table border="" col="1" id="1">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="1.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=1.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        1.A
+       </a>
+      </td>
+      <td class="n1">
+       एकः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       1.B
+      </td>
+      <td class="n1">
+       एकः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       1.C
+      </td>
+      <td class="n1">
+       एक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       1.D
+      </td>
+      <td class="n1">
+       एक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       1.E
+      </td>
+      <td class="n1">
+       सम्बोध्यः,2
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       1.F
+      </td>
+      <td class="n1">
+       एक
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       1.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       1.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       1.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       1.J
+      </td>
+      <td class="n1">
+       एक { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       1.K
+      </td>
+      <td class="n1">
+       एक {  /  / 0 /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="1">
+     <tr class="row1">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्ता,3
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       राजा { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       राजा { पु० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="1">
+     <tr class="row1">
+      <td class="v">
+       आसीत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       आसीत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       अस्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       अस्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       अभिहित_कर्ता,2
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       था
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       था {  / एक० /  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       था {  / एक० /  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="2">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="2.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=2.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        2.A
+       </a>
+      </td>
+      <td class="NA">
+       कदाचित्
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       2.B
+      </td>
+      <td class="NA">
+       कदाचित्
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       2.C
+      </td>
+      <td class="NA">
+       कदाचित्{अव्य}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       2.D
+      </td>
+      <td class="NA">
+       कदाचित्{अव्य}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       2.E
+      </td>
+      <td class="NA">
+       कालाधिकरणम्,4
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       2.F
+      </td>
+      <td class="NA">
+       कभी
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       2.G
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       2.H
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       2.I
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       2.J
+      </td>
+      <td class="NA">
+       कभी {  /  /  / }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       2.K
+      </td>
+      <td class="NA">
+       कभी { /  /  / }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="2">
+     <tr class="row1">
+      <td class="n1">
+       सः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       सः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       तद्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       तद्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्म,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       वह
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       वह { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       वह { सर्व० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="2">
+     <tr class="row1">
+      <td class="n3">
+       महाव्याधिना
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       महाव्याधिना
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       महाव्याधि{पुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       महाव्याधि{पुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       कर्ता,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       महाव्याधि_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       महाव्याधि { स्त्री० / एक० / से / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       महाव्याधि { स्त्री० / एक० / से / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="2">
+     <tr class="row1">
+      <td class="n1">
+       ग्रस्तः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       ग्रस्तः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       ग्रस्त{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       ग्रस्1{क्त;ग्रसुँ;भ्वादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्ता,5
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       पीडित
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       पीडित { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       पीडित  { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="2">
+     <tr class="row1">
+      <td class="v">
+       अभूत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       अभूत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       अस्2{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}/भू1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       अस्2{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       अभिहित_कर्ता,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       था
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       था {  / एक०  /  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       था {  /  एक० /  / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="3">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="3.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=3.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        3.A
+       </a>
+      </td>
+      <td class="n1">
+       चिकित्सकः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       3.B
+      </td>
+      <td class="n1">
+       चिकित्सकः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       3.C
+      </td>
+      <td class="n1">
+       चिकित्सक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       3.D
+      </td>
+      <td class="n1">
+       चिकित्सक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       3.E
+      </td>
+      <td class="n1">
+       कर्ता,8
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       3.F
+      </td>
+      <td class="n1">
+       चिकित्सक
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       3.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       3.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       3.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       3.J
+      </td>
+      <td class="n1">
+       चिकित्सक { पु० / एक० / ने / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       3.K
+      </td>
+      <td class="n1">
+       चिकित्सक { पु० / एक० / ने / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="3">
+     <tr class="row1">
+      <td class="n2">
+       तं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       तं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       तद्{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       तद्{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       उसको
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       वह  { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       वह { सर्व० / एक० / को / प्र० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="3">
+     <tr class="row1">
+      <td class="n6">
+       मृगस्य
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n6">
+       मृगस्य
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n6">
+       मृग{पुं;6;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n6">
+       मृग{पुं;6;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n6">
+       विशेषणम्,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n6">
+       हिरन_के
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n6">
+       हिरन { पु०/ एक० / के / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n6">
+       हिरन { पु० / एक० / के / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="3">
+     <tr class="row1">
+      <td class="n3">
+       मांसेन
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       मांसेन
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       मांस{नपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       मांस{नपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       करणम्,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       मांस_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       मांस { पु० / एक० / से / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       मांस { पु०  / एक० / से / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="3">
+     <tr class="row1">
+      <td class="">
+       निर्मितं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="">
+       निर्मितं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="">
+       निर्मितम्}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="">
+       निर्मितम्}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="">
+       निर्मित
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="">
+       निर्मित { न० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="">
+       बनाई_गई { स्त्री० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="3">
+     <tr class="row1">
+      <td class="n2">
+       औषधं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       औषधं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       औषध{पुं;2;एक}/औषध{नपुं;1;एक}/औषध{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       औषध{पुं;2;एक}/औषधनपुं;1;एक}/औषधनपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       औषधि_की
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       औषधि { न० / एक० / को  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       औषधि { स्त्री० / एक० / की / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="3">
+     <tr class="row1">
+      <td class="NA">
+       सेवितुं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       सेवितुं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       सिव्1{अव्य;तुमुन्;षिवुँ;दिवादिः}/सेव्1{अव्य;तुमुन्;षेवृँ;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       सेव्1{अव्य;तुमुन्;षेवृँ;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       प्रयोजनम्,8
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       सेवा_करने~के_लिये
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       सेवा_कर &lt; ने~के_लिये &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       सेवा_कर  {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="8" id="3">
+     <tr class="row1">
+      <td class="n1">
+       कथितवान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       कथितवान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       कथितवत्{पुं;1;एक}/कथितवत्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       कथ1{क्तवतु;कथ;चुरादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       कहा
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       कहा &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       कहा &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="4">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="4.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=4.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        4.A
+       </a>
+      </td>
+      <td class="n1">
+       मन्त्री
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       4.B
+      </td>
+      <td class="n1">
+       मन्त्री
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       4.C
+      </td>
+      <td class="n1">
+       मन्त्रिन्{पुं;1;एक}/मन्त्री{स्त्री;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       4.D
+      </td>
+      <td class="n1">
+       मन्त्रिन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       4.E
+      </td>
+      <td class="n1">
+       कर्ता,7
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       4.F
+      </td>
+      <td class="n1">
+       मन्त्री_ने
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       4.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       4.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       4.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       4.J
+      </td>
+      <td class="n1">
+       मन्त्री { पु० / एक० / ने / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       4.K
+      </td>
+      <td class="n1">
+       मन्त्री { पु० / एक० / ने  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="4">
+     <tr class="row1">
+      <td class="n2">
+       तत्-कालं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       तत्-कालं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       तत्-काल{पुं;2;एक}/काल{नपुं;1;एक}/काल{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       तत्-काल{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       गौणकर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       उसी समय
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       उसी-समय { पु० / एक० / को / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       उसी-समय { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="4">
+     <tr class="row1">
+      <td class="n2">
+       व्याधम्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       व्याधम्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       व्याध{पुं;2;एक}/व्याध{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       व्याध{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       मुख्यकर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       शिकारी_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       शिकारी { पु० / एक० / को / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       शिकारी { पु० / एक० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="4">
+     <tr class="row1">
+      <td class="n2">
+       मृगान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       मृगान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       मृग{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       मृग{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,5
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       हिरनों_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       हिरन { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       हिरन { स्त्री० / एक० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="4">
+     <tr class="row1">
+      <td class="NA">
+       गृहीत्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       गृहीत्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       गृह्1{अव्य;क्त्वा;गृहू;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       गृह्1{अव्य;क्त्वा;गृहू;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       पकड_कर
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       पकड &lt; कर &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       पकड &lt; कर &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="4">
+     <tr class="row1">
+      <td class="NA">
+       आनेतुम्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       आनेतुम्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       आङ्_नी1{अव्य;तुमुन्;णीञ्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       आङ्_नी1{अव्य;तुमुन्;णीञ्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       प्रयोजनम्,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       लाने~के_लिये
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       ला &lt; ने~के_लिये &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       ला &lt; ने~के_लिये &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="4">
+     <tr class="row1">
+      <td class="v">
+       आदिशत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       आदिशत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       आङ्_दिश्1{कर्तरि;लङ्;प्र;एक;उभयपदी;दिशँ;तुदादिः}/आदिशत्{नपुं;1;एक}/आदिशत्{नपुं;2;एक}/आदिशत्{नपुं;8;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       आङ्_दिश्1{कर्तरि;लङ्;प्र;एक;उभयपदी;दिशँ;तुदादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       अभिहित_कर्ता,1
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       आदेश_दिया
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       आदेश_दिया {  / एक० /  / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       आदेश_दिया { पु० / एक० /  / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="5">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="5.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=5.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        5.A
+       </a>
+      </td>
+      <td class="n2">
+       व्याधं
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       5.B
+      </td>
+      <td class="n2">
+       व्याधं
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       5.C
+      </td>
+      <td class="n2">
+       व्याध{पुं;2;एक}/व्याध{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       5.D
+      </td>
+      <td class="n2">
+       व्याध{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       5.E
+      </td>
+      <td class="n2">
+       कर्म,2
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       5.F
+      </td>
+      <td class="n2">
+       शिकारी_को
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       5.G
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       5.H
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       5.I
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       5.J
+      </td>
+      <td class="n2">
+       शिकारी { पु० / एक० / को  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       5.K
+      </td>
+      <td class="n2">
+       शिकारी { पु० / एक० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="5">
+     <tr class="row1">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       देख_कर
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       देख &lt; कर  &gt; {   /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       देख &lt; कर  &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="5">
+     <tr class="row1">
+      <td class="n2">
+       सर्वे
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       सर्वे
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       सर्व{पुं;1;बहु}/सर्व{नपुं;1;द्वि}/सर्व{नपुं;2;द्वि}/सर्वा{स्त्री;1;द्वि}/सर्वा{स्त्री;2;द्वि}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       सर्व{नपुं;2;द्वि}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       सब
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       सब { पु० / बहु० / 0  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       सब { सर्व० / बहु०  / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="5">
+     <tr class="row1">
+      <td class="NA">
+       अपि
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       अपि
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       अपि{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       अपि{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       सम्बन्धः,3
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       भी
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       भी {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       भी {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="5">
+     <tr class="row1">
+      <td class="n1">
+       मृगाः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       मृगाः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       मृग{पुं;1;बहु}/मृग{पुं;8;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       मृग{पुं;1;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्ता,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       हिरन
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       हिरन { पु० / बहु० / 0 / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       हिरन { पु ० / बहु० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="5">
+     <tr class="row1">
+      <td class="n1">
+       पलायिताः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       पलायिताः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       पलायित{पुं;1;बहु}/पलायित{पुं;8;बहु}/पलायिता{स्त्री;1;बहु}/पलायिता{स्त्री;2;बहु}/पलायिता{स्त्री;8;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       पला_अय्1{क्त;अयँ;भ्वादिः;पुं;1;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       भागे
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       भाग {  / बहु० /  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       भाग {  / बहु० /  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="6">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="6.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=6.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        6.A
+       </a>
+      </td>
+      <td class="n2">
+       इदं
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       6.B
+      </td>
+      <td class="n2">
+       इदं
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       6.C
+      </td>
+      <td class="n2">
+       इदम्{नपुं;1;एक}/इदम्{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       6.D
+      </td>
+      <td class="n2">
+       इदम्{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       6.E
+      </td>
+      <td class="n2">
+       कर्म,2
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       6.F
+      </td>
+      <td class="n2">
+       इसको
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       6.G
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       6.H
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       6.I
+      </td>
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       6.J
+      </td>
+      <td class="n2">
+       यह { न० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       6.K
+      </td>
+      <td class="n2">
+       यह { सर्व० / एक० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="6">
+     <tr class="row1">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       देख_कर
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       देख &lt; कर  &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       देख &lt; कर  &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="6">
+     <tr class="row1">
+      <td class="n1">
+       वञ्चकः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       वञ्चकः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       वञ्चक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       वञ्चक{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्ता,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       धोखेबाज
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       धोखेबाज { पु० / एक० / 0 / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       धोखेबाज { पु० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="6">
+     <tr class="row1">
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       व्याध{पुं;1;एक}/व्याध{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       व्याध{पुं;1;एक}/व्याधपुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       शिकारी
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       शिकारी { पु० / एक० / 0 / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       शिकारी { पु० / एक० / 0  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="6">
+     <tr class="row1">
+      <td class="n2">
+       साधु-वेषं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       साधु-वेषं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       साधु-वेष{पुं;2;एक}/वेष{नपुं;1;एक}/वेष{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       साधु-वेष{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       साधु-वेष_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       साधु-वेष { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       साधु-वेष { पु० / एक० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="6">
+     <tr class="row1">
+      <td class="n1">
+       धृतवान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       धृतवान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       धृतवत्{पुं;1;एक}/धृतवत्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       धृ2{क्तवतु;धृङ्;भ्वादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       धारण_किया
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       धारण_कि &lt; है_जिसने_वह &gt; { पु० / एक० / 0  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       धारण_कि &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="7">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="7.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=7.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        7.A
+       </a>
+      </td>
+      <td class="NA">
+       तदा
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       7.B
+      </td>
+      <td class="NA">
+       तदा
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       7.C
+      </td>
+      <td class="NA">
+       तदा{अव्य}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       7.D
+      </td>
+      <td class="NA">
+       तदा{अव्य}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       7.E
+      </td>
+      <td class="NA">
+       कालाधिकरणम्,7
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       7.F
+      </td>
+      <td class="NA">
+       तब
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       7.G
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       7.H
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       7.I
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       7.J
+      </td>
+      <td class="NA">
+       तब {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       7.K
+      </td>
+      <td class="NA">
+       तब {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="7">
+     <tr class="row1">
+      <td class="n1">
+       मृगाः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       मृगाः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       मृग{पुं;1;बहु}/मृग{पुं;8;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       मृग{पुं;1;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्म,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       हिरन
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       हिरन { पु० / बहु० / 0 / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       हिरन { स्त्री० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="7">
+     <tr class="row1">
+      <td class="n7">
+       तस्मिन्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n7">
+       तस्मिन्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n7">
+       तद्{पुं;7;एक}/तद्{नपुं;7;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n7">
+       तद्{पुं;7;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n7">
+       अधिकरणम्,5
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n7">
+       उसमें
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n7">
+       उस { पु० / एक० / में  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n7">
+       उस { सर्व० / एक० / में / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="7">
+     <tr class="row1">
+      <td class="n2">
+       विश्वासं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       विश्वासं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       विश्वास{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       विश्वास{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,5
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       विश्वास_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       विश्वास  { न० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       विश्वास  { पु० / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="7">
+     <tr class="row1">
+      <td class="NA">
+       कृत्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       कृत्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       कृ1{अव्य;क्त्वा;कृञ्;भ्वादिः}/कृ2{अव्य;क्त्वा;कृञ्;स्वादिः}/कृ3{अव्य;क्त्वा;डुकृञ्;तनादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       कृ1{अव्य;क्त्वा;कृञ्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       करके
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       कर &lt; के &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       कर &lt; के &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="7">
+     <tr class="row1">
+      <td class="n2">
+       समीपं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       समीपं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       समीप{पुं;2;एक}/समीप{नपुं;1;एक}/समीप{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       समीप{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       क्रियाविशेषणम्,7
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       निकट
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       निकट {  /  / /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       निकट {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="7">
+     <tr class="row1">
+      <td class="n1">
+       आगताः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       आगताः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       आगता{स्त्री;1;बहु}/आगता{स्त्री;2;बहु}/आगत{पुं;1;बहु}/आगत{पुं;8;बहु}/आगता{स्त्री;8;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       आङ्_गम्1{क्त;गमॢ;भ्वादिः;पुं;1;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       कर्म,8
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       आयें
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       आ &lt; या  &gt; {  / बहु० /  / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       आ &lt; या &gt; {  / बहु० /  / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="8" id="7">
+     <tr class="row1">
+      <td class="n1">
+       गृहीताः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       गृहीताः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       गृहीत{पुं;1;बहु}/गृहीत{पुं;8;बहु}/गृहीता{स्त्री;1;बहु}/गृहीता{स्त्री;2;बहु}/गृहीता{स्त्री;8;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       ग्रह्1{क्त;ग्रहँ;क्र्यादिः;पुं;1;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       लिये_गये
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       लिये &lt; गया &gt; {  / बहु०  /  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       लिये &lt; गया  &gt; {  / बहु० /  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="9" id="7">
+     <tr class="row1">
+      <td class="NA">
+       च
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       च
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       च{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       च{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       और  &lt;=
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       और {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       और {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="10" id="7">
+     <tr class="row1">
+      <td class="n3">
+       व्याधेन
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       व्याधेन
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       व्याध{पुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       व्याध{पुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       शिकारी_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       शिकारी { पु० / एक० / से / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       शिकारी { पु० / एक० / से / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="8">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="8.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=8.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        8.A
+       </a>
+      </td>
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       8.B
+      </td>
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       8.C
+      </td>
+      <td class="n1">
+       व्याध{पुं;1;एक}/व्याध{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       8.D
+      </td>
+      <td class="n1">
+       व्याध{पुं;1;एक}/व्याधपुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       8.E
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       8.F
+      </td>
+      <td class="n1">
+       शिकारी_ने
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       8.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       8.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       8.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       8.J
+      </td>
+      <td class="n1">
+       शिकारी { पु० / एक० / ने  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       8.K
+      </td>
+      <td class="n1">
+       शिकारी { पु० / एक० /  ने  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="8">
+     <tr class="row1">
+      <td class="n2">
+       मृगान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       मृगान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       मृग{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       मृग{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       हिरनों_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       हिरन { पु० / बहु० / को  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       हिरन { स्त्री० / बहु० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="8">
+     <tr class="row1">
+      <td class="n2">
+       राज-अन्तिकं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       राज-अन्तिकं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       राज-अन्तिक{पुं;2;एक}/अन्तिक{नपुं;1;एक}/अन्तिक{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       राज-अन्तिक{पुं;2;एक}/अन्तिकनपुं;1;एक}/अन्तिकनपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       राजा-समीप
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       राजा-समीप {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       राजा-समीप {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="8">
+     <tr class="row1">
+      <td class="NA">
+       नीत्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       नीत्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       नी1{अव्य;क्त्वा;णीञ्;भ्वादिः}/नी1{अव्य;क्त्वा;णिञ्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       नी1{अव्य;क्त्वा;णीञ्;भ्वादिः}/नी1अव्य;क्त्वा;णिञ्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       ले_जा_कर
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       ले_जा &lt; कर &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       ले_जा &lt; कर &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="8">
+     <tr class="row1">
+      <td class="n6">
+       तेषां
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n6">
+       तेषां
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n6">
+       तद्{पुं;6;बहु}/तद्{नपुं;6;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n6">
+       तद्{पुं;6;बहु}/तद्नपुं;6;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n6">
+       उनके
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n6">
+       वह  { पु० / बहु०  / का / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n6">
+       वह  { पु० / बहु० / का  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="8">
+     <tr class="row1">
+      <td class="n2">
+       निग्रहण-प्रकारं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       निग्रहण-प्रकारं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       निग्रहण-प्रकार{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       निग्रहण-प्रकार{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       निग्रहण-प्रकार_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       निग्रहण-प्रकार { पु० / एक०  / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       निग्रहण-प्रकार { पु० / एक० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="8">
+     <tr class="row1">
+      <td class="n2">
+       राजानं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       राजानं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       राजन्{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       राजन्{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       राजा_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       राज { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       राज { पु० / एक० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="8" id="8">
+     <tr class="row1">
+      <td class="n1">
+       श्रावितवान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       श्रावितवान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       श्रावितवत्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       श्रु1_णिच्{क्तवतु;श्रु;भ्वादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       सुनाया
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       सुनाया &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       सुनाया &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="9">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="9.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=9.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        9.A
+       </a>
+      </td>
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       9.B
+      </td>
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       9.C
+      </td>
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       9.D
+      </td>
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       9.E
+      </td>
+      <td class="n1">
+       कर्ता,6
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       9.F
+      </td>
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       9.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       9.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       9.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       9.J
+      </td>
+      <td class="n1">
+       राजा { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       9.K
+      </td>
+      <td class="n1">
+       राजा { पु०  / एक० / 0 / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="9">
+     <tr class="row1">
+      <td class="n6">
+       मृगाणां
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n6">
+       मृगाणां
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n6">
+       मृग{पुं;6;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n6">
+       मृग{पुं;6;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n6">
+       विशेषणम्,3
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n6">
+       हिरनों_के
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n6">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n6">
+       हिरन { पु० / बहु० / का  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n6">
+       हिरन { स्त्री० / बहु० / के / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="9">
+     <tr class="row1">
+      <td class="n2">
+       सारल्यं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       सारल्यं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       सारल्य{नपुं;1;एक}/सारल्य{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       सारल्य{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       सरलता_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       सरलता { स्त्री० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       सरलता { स्त्री ० / एक० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="9">
+     <tr class="row1">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       दृष्ट्वा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       दृश्1{अव्य;क्त्वा;दृशिँर्;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       देख_कर
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       देख &lt; कर  &gt; {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       देख &lt; कर  &gt; {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="9">
+     <tr class="row1">
+      <td class="n2">
+       तान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       तान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       तद्{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       तद्{पुं;2;बहु}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       उनको
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       वह  { पु० / बहु० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       वह { सर्व० / बहु० / को / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="9">
+     <tr class="row1">
+      <td class="v">
+       अमोचयत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       अमोचयत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       मुच्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;मुचँ;चुरादिः}/मुच्1_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;मुचॢँ;तुदादिः}/मुच्2_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;मुचँ;चुरादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       मुच्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;मुचँ;चुरादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       अभिहित_कर्ता,1
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       छोडा
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       छोडा {  / एक० /  / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       छोडा {  पु० / एक० /  / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="10">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="10.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=10.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        10.A
+       </a>
+      </td>
+      <td class="NA">
+       पुनः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       10.B
+      </td>
+      <td class="NA">
+       पुनः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       10.C
+      </td>
+      <td class="NA">
+       पुनः{अव्य}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       10.D
+      </td>
+      <td class="NA">
+       पुनः{अव्य}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       10.E
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       10.F
+      </td>
+      <td class="NA">
+       फिर
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       10.G
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       10.H
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       10.I
+      </td>
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       10.J
+      </td>
+      <td class="NA">
+       फिर {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       10.K
+      </td>
+      <td class="NA">
+       फिर {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="10">
+     <tr class="row1">
+      <td class="n3">
+       ईश्वर-कृपया
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       ईश्वर-कृपया
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       ईश्वर-कृपा{स्त्री;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       ईश्वर-कृपा{स्त्री;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       ईश्वर-कृपा_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       ईश्वर-कृपा { स्त्री० / एक० / से / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       ईश्वर-कृपा { स्त्री० / एक० / से / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="10">
+     <tr class="row1">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       राजन्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       राजा
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       राजा { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       राजा { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="10">
+     <tr class="row1">
+      <td class="n3">
+       साधारणेन
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       साधारणेन
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       साधारण{पुं;3;एक}/साधारण{नपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       साधारण{पुं;3;एक}/साधारणनपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       साधारण_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       साधारण { न० / एक० / से / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       साधारण { पु० / एक० / से / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="10">
+     <tr class="row1">
+      <td class="NA">
+       एव
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       एव
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       एव{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       एव{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       ही
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       ही {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       ही {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="10">
+     <tr class="row1">
+      <td class="n3">
+       औषधेन
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n3">
+       औषधेन
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n3">
+       औषध{पुं;3;एक}/औषध{नपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n3">
+       औषध{पुं;3;एक}/औषधनपुं;3;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n3">
+       औषधि_से
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n3">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n3">
+       औषधि { न० / एक० / से / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n3">
+       औषधि { स्त्री० / एक० / से / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="10">
+     <tr class="row1">
+      <td class="NA">
+       पूर्व-वत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       पूर्व-वत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       पूर्व-वत्{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       पूर्व-वत्{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       पूर्व-वत्
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       पूर्व-वत् {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       पूर्व-वत् {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="8" id="10">
+     <tr class="row1">
+      <td class="n1">
+       स्वस्थः
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       स्वस्थः
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       स्वस्थ{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       स्वस्थ{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       स्वस्थ
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       स्वस्थ { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       स्वस्थ { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="9" id="10">
+     <tr class="row1">
+      <td class="v">
+       समजायत
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       समजायत
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       सम_जि1_णिच्{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;जि1;भ्वादिः}/सम्_जन्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;जन्;दिवादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       सम_जि1_णिच्{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;जि1;भ्वादिः}/सम्_जन्2कर्तरि;लङ्;प्र;एक;परस्मैपदी;जन्;दिवादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       हुआ
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       हुआ {  / एक० /  / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       हआ' { पु० / एक० /  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="11">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="11.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=11.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        11.A
+       </a>
+      </td>
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       11.B
+      </td>
+      <td class="n1">
+       व्याधः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       11.C
+      </td>
+      <td class="n1">
+       व्याध{पुं;1;एक}/व्याध{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       11.D
+      </td>
+      <td class="n1">
+       व्याध{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       11.E
+      </td>
+      <td class="n1">
+       कर्ता,10
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       11.F
+      </td>
+      <td class="n1">
+       शिकारी
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       11.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       11.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       11.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       11.J
+      </td>
+      <td class="n1">
+       शिकारी { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       11.K
+      </td>
+      <td class="n1">
+       शिकारी { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="11">
+     <tr class="row1">
+      <td class="NA">
+       अपि
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       अपि
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       अपि{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       अपि{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       सम्बन्धः,1
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       भी
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       भी {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       भी {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="11">
+     <tr class="row1">
+      <td class="NA">
+       स्वस्य
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       स्वस्य
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       स्व{पुं;6;एक}/स्व{नपुं;6;एक}/स्व{पुं;6;एक}/स्व{नपुं;6;एक}/सु_अस्1{अव्य;ल्यप्;असँ;भ्वादिः}/सु_अस्2{अव्य;ल्यप्;असँ;अदादिः}/सु_अस्3{अव्य;ल्यप्;असुँ;दिवादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       सु_अस्1{अव्य;ल्यप्;असँ;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       पूर्वकालः,4
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       अपने
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       अपना { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       अपना { पु० / एक० / में / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="11">
+     <tr class="row1">
+      <td class="n7">
+       आचरणे
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n7">
+       आचरणे
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n7">
+       आचरण{नपुं;1;द्वि}/आचरण{नपुं;2;द्वि}/आचरण{नपुं;8;द्वि}/आचरण{नपुं;7;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n7">
+       आङ्_चर्1{ल्युट्;चरँ;भ्वादिः;नपुं;7;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n7">
+       अधिकरणम्,5
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n7">
+       आचरण_में
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n7">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n7">
+       आचरण { न० / एक० / में / प्र०  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n7">
+       आचरण { पु० / एक० / में  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="5" id="11">
+     <tr class="row1">
+      <td class="n2">
+       पश्चात्तापं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       पश्चात्तापं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       पश्चात्ताप{पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       पश्चात्_तप्1{घञ्;तपँ;भ्वादिः;पुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,6
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       पश्चात्ताप
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       पश्चात्ताप { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       पश्चात्ताप { पु० / एक० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="6" id="11">
+     <tr class="row1">
+      <td class="n1">
+       कुर्वन्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       कुर्वन्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       कुर्वत्{पुं;8;एक}/कुर्वत्{पुं;1;एक}/कुर्वत्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       कृ3{शतृ_लट्;डुकृञ्;तनादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       समानकालः,10
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       किया
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       कि &lt; या_है_जिसने_वह &gt; { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       कि &lt; या_है_जिसने_वह &gt; { पु० / स्त्री० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="7" id="11">
+     <tr class="row1">
+      <td class="n2">
+       आत्मीयं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       आत्मीयं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       आत्मीय{पुं;2;एक}/आत्मीय{नपुं;1;एक}/आत्मीय{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       आत्मीय{पुं;2;एक}/आत्मीयनपुं;1;एक}/आत्मीयनपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       अपने_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       अपना { पु० / एक० / को -&gt; के_लिए  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       अपना  { पु० / एक० / के_लिए / अ०  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="8" id="11">
+     <tr class="row1">
+      <td class="n2">
+       पाप-जनकं
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       पाप-जनकं
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       पाप-जनक{पुं;2;एक}/जनक{नपुं;1;एक}/जनक{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       पाप-जनक{पुं;2;एक}/जनकनपुं;1;एक}/जनकनपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       पाप-जनक_करने_वाले
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       पाप-जनक_करने_वाले  { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       पाप-जनक_करने_वाले  { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="9" id="11">
+     <tr class="row1">
+      <td class="n2">
+       वध-कर्म
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n2">
+       वध-कर्म
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n2">
+       वध-कर्मन्{नपुं;1;एक}/कर्मन्{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n2">
+       वध-कर्मन्{नपुं;2;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n2">
+       कर्म,10
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n2">
+       वध-कर्म_को
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n2">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n2">
+       वध-कर्म { पु० / एक० / को / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n2">
+       वध-कर्म { पु० / एक० / को / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="10" id="11">
+     <tr class="row1">
+      <td class="n1">
+       त्यक्तवान्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="n1">
+       त्यक्तवान्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="n1">
+       त्यक्तवत्{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="n1">
+       त्यज्1{क्तवतु;त्यजँ;भ्वादिः;पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="n1">
+       छोडा
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="n1">
+       छोडा &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="n1">
+       छोडा &lt; है_जिसने_वह &gt; { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="1" id="12">
+     <tr class="row1" style="border-right:dashed;">
+      <td class="number">
+       <a href="12.jpg" onmouseout="UnTip()" onmouseover="Tip('&lt;center&gt;&lt;img src=12.jpg&gt;&lt;/center&gt;',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">
+        12.A
+       </a>
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुखः
+      </td>
+     </tr>
+     <tr class="row2" style="border-right:dashed;">
+      <td class="number">
+       12.B
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुखः
+      </td>
+     </tr>
+     <tr class="row3" style="border-right:dashed;">
+      <td class="number">
+       12.C
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुख{पुं;1;एक}/उन्मुख{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row4" style="border-right:dashed;">
+      <td class="number">
+       12.D
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुख{पुं;1;एक}
+      </td>
+     </tr>
+     <tr class="row5" style="border-right:dashed;">
+      <td class="number">
+       12.E
+      </td>
+      <td class="n1">
+       कर्ता,3
+      </td>
+     </tr>
+     <tr class="row6" style="border-right:dashed;">
+      <td class="number">
+       12.F
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुख
+      </td>
+     </tr>
+     <tr class="row7" style="border-right:dashed;">
+      <td class="number">
+       12.G
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row8" style="border-right:dashed;">
+      <td class="number">
+       12.H
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row9" style="border-right:dashed;">
+      <td class="number">
+       12.I
+      </td>
+      <td class="n1">
+       -
+      </td>
+     </tr>
+     <tr class="row10" style="border-right:dashed;">
+      <td class="number">
+       12.J
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुख { पु० / एक० / 0 / प्र० }
+      </td>
+     </tr>
+     <tr class="row11" style="border-right:dashed;">
+      <td class="number">
+       12.K
+      </td>
+      <td class="n1">
+       ईश्वरसेव-उन्मुख { पु० / एक० / 0 / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="2" id="12">
+     <tr class="row1">
+      <td class="NA">
+       च
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       च
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       च{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       च{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       और  &lt;=
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       और {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       और {  /  /  /  }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="3" id="12">
+     <tr class="row1">
+      <td class="v">
+       अभवत्
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="v">
+       अभवत्
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="v">
+       भू1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="v">
+       भू1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="v">
+       अभिहित_कर्ता,1
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="v">
+       हुआ
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="v">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="v">
+       हुआ {  / एक० /  / प्र० }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="v">
+       हुआ' { पु० / एक० /  / अ० }
+      </td>
+     </tr>
+    </table>
+    <table border="" col="4" id="12">
+     <tr class="row1">
+      <td class="NA">
+       इति
+      </td>
+     </tr>
+     <tr class="row2">
+      <td class="NA">
+       इति
+      </td>
+     </tr>
+     <tr class="row3">
+      <td class="NA">
+       इति{अव्य}
+      </td>
+     </tr>
+     <tr class="row4">
+      <td class="NA">
+       इति{अव्य}
+      </td>
+     </tr>
+     <tr class="row5">
+      <td class="NA">
+       सम्बन्धः,3
+      </td>
+     </tr>
+     <tr class="row6">
+      <td class="NA">
+       इति
+      </td>
+     </tr>
+     <tr class="row7">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row8">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row9">
+      <td class="NA">
+       -
+      </td>
+     </tr>
+     <tr class="row10">
+      <td class="NA">
+       इति {  /  /  /  }
+      </td>
+     </tr>
+     <tr class="row11">
+      <td class="NA">
+       इति  {  /  /  / }
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="float_clear">
+   </div>
+   <div class="bottom">
+   </div>
+   <br/>
+   <script src="/assets/jquery_11.min.js">
+   </script>
+   <script src="/assets/bootstrap/js/bootstrap.js">
+   </script>
+   <script src="/assets/events.js">
+   </script>
+  </div>
+ </body>
+</html>

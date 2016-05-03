@@ -5,11 +5,11 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
    <link href="/assets/style.css" rel="stylesheet" type="text/css">
     <link href="/assets/anusaaraka_tran.css" rel="stylesheet" type="text/css">
-     <script src="/assets/script.css" type="text/javascript">
+     <script src="/assets/script.js" type="text/javascript">
      </script>
-     <script src="/assets/open.css" type="text/javascript">
+     <script src="/assets/open.js" type="text/javascript">
      </script>
-     <script src="/assets/anusaaraka_tran.css" type="text/javascript">
+     <script src="/assets/pun_anusaaraka_tran.js" type="text/javascript">
      </script>
      <title>
       ANUSAARAKA
@@ -55,7 +55,7 @@
       <input name="goto_section_value" size="5" type="text">
        <input onclick="goto_section()" type="button" value="Goto">
         <input name="no_of_rows" type="hidden" value="9">
-         <input onclick="window.open('rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');" type="button" value="Show/Hide Rows...">
+         <input onclick="window.open('/assets/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');" type="button" value="Show/Hide Rows...">
          </input>
         </input>
        </input>
