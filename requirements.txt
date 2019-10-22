@@ -85,7 +85,7 @@ pbr==1.8.0
 pep8==1.6.2
 pexpect==4.0.1
 pickleshare==0.5
-Pillow==3.0.0
+Pillow==6.2.0
 ply==3.7
 ptyprocess==0.5
 py2neo==2.0.7
