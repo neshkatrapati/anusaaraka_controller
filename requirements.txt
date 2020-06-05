@@ -20,7 +20,7 @@ Cython==0.22.1
 decorator==4.0.6
 demjson==2.2.3
 distlib==0.2.1
-Django==1.11.28
+Django==1.11.29
 dnspython==1.12.0
 docutils==0.12
 ecdsa==0.13
