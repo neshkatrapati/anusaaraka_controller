@@ -133,7 +133,7 @@ unification==0.2.1
 UNKNOWN==0.0.0
 urllib3==1.12
 virtualenv==13.1.0
-Werkzeug==0.11.3
+Werkzeug==0.15.3
 wheel==0.26.0
 wxPython==3.0.2.0
 wxPython-common==3.0.2.0
