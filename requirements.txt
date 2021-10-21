@@ -3,7 +3,7 @@ appnope==0.1.0
 apt-xapian-index==0.47
 arandr==0.1.8
 autopep8==1.1.1
-Babel==2.1.1
+Babel==2.9.1
 backports.ssl-match-hostname==3.4.0.2
 beautifulsoup4==4.4.0
 blessings==1.6
