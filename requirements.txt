@@ -78,7 +78,7 @@ numexpr==2.4.4
 numpy==1.9.2
 numpydoc==0.5
 pandas==0.17.0
-paramiko==1.15.3
+paramiko==2.10.1
 path.py==8.1.2
 Pattern==2.6
 pbr==1.8.0
